@@ -317,10 +317,11 @@ describe("phase12 fetch workflow safety", () => {
     assert.match(workflow, /blocked != 'true'/);
   });
 
-  test("fetch workflow schedule is commented out", () => {
+  test("fetch workflow schedule runs every 30 minutes", () => {
     const workflow = readText(".github/workflows/fetch-x-posts.yml");
-    assert.match(workflow, /# schedule:/);
-    assert.doesNotMatch(workflow, /^\s+schedule:/m);
+    assert.match(workflow, /schedule:/);
+    assert.match(workflow, /\*\/30 \* \* \* \*/);
+    assert.match(workflow, /UTC/);
   });
 
   test("fetch workflow uses concurrency guard", () => {

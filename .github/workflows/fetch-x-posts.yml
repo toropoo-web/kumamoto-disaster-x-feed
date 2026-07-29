@@ -2,8 +2,9 @@ name: Fetch X Posts
 
 on:
   workflow_dispatch:
-  # schedule:
-  #   - cron: "*/30 * * * *"
+  schedule:
+    # UTC基準: 毎時 :00 / :30。JSTは+9時間（例: UTC 00:00 = JST 09:00）
+    - cron: "*/30 * * * *"
 
 concurrency:
   group: kumamoto-x-fetch

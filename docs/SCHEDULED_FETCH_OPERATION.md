@@ -17,9 +17,26 @@
 
 ## 初期状態
 
-- schedule は **無効**（コメントアウト）
-- 手動 `workflow_dispatch` のみ
-- X API HTTP 402 発生中のため、実取得成功は前提にしない
+- schedule は **有効**（30分間隔）
+- 手動 `workflow_dispatch` も利用可能
+- X API 実取得成功済み
+
+## schedule とタイムゾーン
+
+GitHub Actions の `cron` は **UTC** 基準です。
+
+| cron | UTC | JST（UTC+9） |
+|------|-----|--------------|
+| `*/30 * * * *` | 毎時 :00 / :30 | 毎時 :00+9h / :30+9h |
+
+例:
+
+- UTC 00:00 → JST 09:00
+- UTC 00:30 → JST 09:30
+- UTC 15:00 → JST 次日 00:00
+
+公開サイトの「公式X最終取得」表示は `lastSuccessfulFetchAt`（ISO 8601）を JST 表示します。
+schedule の実行時刻と表示時刻は別概念です。
 
 ## 同時実行防止
 
