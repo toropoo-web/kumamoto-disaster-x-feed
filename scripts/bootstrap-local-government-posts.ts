@@ -42,6 +42,16 @@ const samples = [
       media: [],
     },
   },
+  {
+    sourceId: "SRC-MUN-KM006",
+    raw: {
+      id: "2082016000000000001",
+      text: "こちらは人吉市です。\n2026/07/28 15:10 に避難所を開設しましたのでお知らせします。\n開設した避難所： 人吉市総合体育館",
+      authorId: "hitoyoshishi",
+      createdAt: "2026-07-28T06:10:00.000Z",
+      media: [],
+    },
+  },
 ];
 
 function main(): void {
@@ -93,7 +103,6 @@ function main(): void {
     sourceCount: number;
   };
   fetchState.storedPostCount = merged.length;
-  fetchState.acceptedPostCount = Math.max(fetchState.acceptedPostCount, incoming.length);
   fetchState.sourceCount = sources.filter((entry) => entry.fetchEnabled && entry.accountHandle).length;
   fs.writeFileSync(fetchStatePath, `${JSON.stringify(fetchState, null, 2)}\n`, "utf8");
 
@@ -101,7 +110,8 @@ function main(): void {
     records: Array<{ acceptedPosts: number }>;
   };
   if (apiUsage.records.length > 0) {
-    apiUsage.records[apiUsage.records.length - 1].acceptedPosts = merged.length;
+    const latest = apiUsage.records[apiUsage.records.length - 1];
+    latest.acceptedPosts = Math.max(latest.acceptedPosts, merged.length);
   }
   fs.writeFileSync(apiUsagePath, `${JSON.stringify(apiUsage, null, 2)}\n`, "utf8");
 

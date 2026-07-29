@@ -64,6 +64,7 @@ export const REGION_OPTIONS = [
   "宇城市",
   "宇土市",
   "八代市",
+  "人吉市",
   "氷川町",
   "全国",
 ] as const;

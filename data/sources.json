@@ -110,6 +110,17 @@
     "contentFilter": "DISASTER_RELATED"
   },
   {
+    "sourceId": "SRC-MUN-KM006",
+    "displayName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "sourceType": "LOCAL_GOVERNMENT",
+    "region": "熊本県人吉市",
+    "priority": "HIGH",
+    "verificationStatus": "VERIFIED",
+    "fetchEnabled": true,
+    "contentFilter": "DISASTER_RELATED"
+  },
+  {
     "sourceId": "SRC-PER-002",
     "displayName": "高市早苗",
     "accountHandle": null,

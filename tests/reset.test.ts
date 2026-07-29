@@ -142,6 +142,14 @@ describe("reset scope", () => {
       ),
       false
     );
+    assert.equal(
+      isEligibleForPublication(
+        "こちらは人吉市です。避難所を開設しました。",
+        "hitoyoshishi",
+        { sourceType: "LOCAL_GOVERNMENT", contentFilter: "DISASTER_RELATED" }
+      ),
+      true
+    );
   });
 
   test("rawPostToOfficialPost assigns category and regions", () => {

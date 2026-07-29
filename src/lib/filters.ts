@@ -9,6 +9,7 @@ export const PUBLICATION_KEYWORDS = [
   "宇城市",
   "宇土市",
   "八代市",
+  "人吉市",
   "氷川町",
   "被災地",
   "災害派遣",

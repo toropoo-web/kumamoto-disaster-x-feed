@@ -89,6 +89,15 @@
       "lastSuccessfulFetchAt": "2026-07-29T22:43:44.906Z",
       "lastResultCount": 58,
       "status": "SUCCESS"
+    },
+    "SRC-MUN-KM006": {
+      "sourceId": "SRC-MUN-KM006",
+      "xUserId": null,
+      "lastSeenPostId": "2082016000000000001",
+      "lastAttemptAt": "2026-07-29T22:53:21.837Z",
+      "lastSuccessfulFetchAt": "2026-07-29T22:53:21.837Z",
+      "lastResultCount": 1,
+      "status": "SUCCESS"
     }
   }
 }
