@@ -1,5 +1,24 @@
 [
   {
+    "postId": "POST-SRC-MUN-KM006-2082598480045031466",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082598480045031466",
+    "postedAt": "2026-07-29T22:45:45.000Z",
+    "fetchedAt": "2026-07-29T22:59:33.425Z",
+    "title": "【防災無線放送内容】生活用水提供のお知らせ",
+    "summary": "【防災無線放送内容】生活用水提供のお知らせ\n環境課からのお知らせです。\n地震の影響により市内各地で断水または水圧低下が発生しています。\n本日（３０日）、生活用水として、下原田町荒毛の熊本フクスケ株式会社にて井戸水を提供いたします...\nhttps://t.co/HV7ij7xM79",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-KUM-001-2082594232414753207",
     "sourceId": "SRC-KUM-001",
     "sourceName": "防災くまもと",
@@ -250,6 +269,25 @@
     "hasVideo": false
   },
   {
+    "postId": "POST-SRC-MUN-KM006-2082456239569826171",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082456239569826171",
+    "postedAt": "2026-07-29T13:20:32.000Z",
+    "fetchedAt": "2026-07-29T22:59:33.425Z",
+    "title": "【防災無線放送内容】【緊急地震速報】",
+    "summary": "【防災無線放送内容】【緊急地震速報】\n緊急地震速報。大地震です。大地震です。こちらは、防災人吉です。",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "EMERGENCY",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-NAT-001-2082456044681429082",
     "sourceId": "SRC-NAT-001",
     "sourceName": "首相官邸 災害・危機管理情報",
@@ -323,6 +361,44 @@
     "priority": "HIGH",
     "status": "ACTIVE",
     "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM006-2082446223722876985",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082446223722876985",
+    "postedAt": "2026-07-29T12:40:44.000Z",
+    "fetchedAt": "2026-07-29T22:59:33.425Z",
+    "title": "【防災無線放送内容】給水車のお知らせ",
+    "summary": "【防災無線放送内容】給水車のお知らせ\n水道局からのお知らせです。\n地震の影響により、市内各地で水圧低下や、地域によっては断水が発生しています。\n明日（３０日）午前５時から東間コミュニティセンター、蓑野町公民館、中原団地、一二三が...\nhttps://t.co/Iv2KG1Kyrl",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM006-2082443702681935918",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082443702681935918",
+    "postedAt": "2026-07-29T12:30:43.000Z",
+    "fetchedAt": "2026-07-29T22:59:33.425Z",
+    "title": "【防災無線放送内容】給水車のお知らせ",
+    "summary": "【防災無線放送内容】給水車のお知らせ\n水道局からのお知らせです。\n地震の影響により、市内各地で水圧低下や、地域によっては断水が発生しています。\n本日（２９日）午後１１時まで給水車を一二三が迫団地に配置していますので、必要な方は取...\nhttps://t.co/W0wGwXp3ff",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
     "hasVideo": false
   },
   {
@@ -548,6 +624,25 @@
       "全国"
     ],
     "category": "RESCUE_JSDF",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM006-2082399658559910092",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082399658559910092",
+    "postedAt": "2026-07-29T09:35:42.000Z",
+    "fetchedAt": "2026-07-29T22:59:33.425Z",
+    "title": "【防災無線放送内容】給水車のお知らせ",
+    "summary": "【防災無線放送内容】給水車のお知らせ\n水道局からのお知らせです。\n地震の影響により市内各地で、断水または水圧低下が発生しています。\n給水車を東間コミセン、蓑野町公民館、中原団地、おこばコミセンに設置しています。本日（２９日）午後...\nhttps://t.co/6SsBmaegWH",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
     "priority": "HIGH",
     "status": "ACTIVE",
     "hasImage": false,
@@ -1200,6 +1295,25 @@
     "hasVideo": false
   },
   {
+    "postId": "POST-SRC-MUN-KM006-2082323839820947676",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082323839820947676",
+    "postedAt": "2026-07-29T04:34:25.000Z",
+    "fetchedAt": "2026-07-29T22:59:33.425Z",
+    "title": "【市ホームページの表示が不安定な状態です】",
+    "summary": "【市ホームページの表示が不安定な状態です】\n\n　7月28日に発生した地震の影響で、市ホームページがつながりにくいなど、不安定な状態が続いています。ご不便をおかけし申し訳ございません。\n\n　引き続き緊急情報は、市公式X、市役所Facebookで発信しますので、そちらもご確認ください。",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "EMERGENCY",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-NAT-001-2082323384910909580",
     "sourceId": "SRC-NAT-001",
     "sourceName": "首相官邸 災害・危機管理情報",
@@ -1429,6 +1543,25 @@
     "hasVideo": false
   },
   {
+    "postId": "POST-SRC-MUN-KM006-2082300559747580261",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082300559747580261",
+    "postedAt": "2026-07-29T03:01:55.000Z",
+    "fetchedAt": "2026-07-29T22:59:33.425Z",
+    "title": "【熱中症にご注意ください⚠】",
+    "summary": "【熱中症にご注意ください⚠】\n\n７月28日に発生した地震に伴い、熊本県内では停電などが発生しています。連日暑い日が続いていますので、復旧作業などをするときは熱中症に注意してください。\n\n▼詳しくはこちらをご覧ください\nhttps://t.co/j3dmBTg3lN https://t.co/6JrOdtjWpW",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-NAT-004-2082296939568390447",
     "sourceId": "SRC-NAT-004",
     "sourceName": "総務省消防庁",
@@ -1543,6 +1676,25 @@
     "hasVideo": true
   },
   {
+    "postId": "POST-SRC-MUN-KM006-2082280127631868092",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082280127631868092",
+    "postedAt": "2026-07-29T01:40:43.000Z",
+    "fetchedAt": "2026-07-29T22:59:33.425Z",
+    "title": "【防災無線放送内容】給水車のお知らせ",
+    "summary": "【防災無線放送内容】給水車のお知らせ\n水道局からのお知らせです。\n地震の影響により市内各地で、断水または水圧低下が発生しています。\n本日（２９日）午前１１時に、中原団地に、給水車を、増設しますので、必要な方は取りに行かれてください。\n皆様の節水のご協力をお願いします。",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-MUN-KM005-2082279317527240739",
     "sourceId": "SRC-MUN-KM005",
     "sourceName": "八代市公式X",
@@ -1595,6 +1747,25 @@
     ],
     "category": "OTHER",
     "priority": "NORMAL",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM006-2082272279027912964",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082272279027912964",
+    "postedAt": "2026-07-29T01:09:32.000Z",
+    "fetchedAt": "2026-07-29T22:59:33.425Z",
+    "title": "【市ホームページが閲覧できるようになりました】",
+    "summary": "【市ホームページが閲覧できるようになりました】\n\n７月28日に発生した地震の影響で、市ホームページが閲覧できない状態となっていましたが、復旧しました。ご不便をおかけしましたことをお詫び申し上げます。\n\n緊急情報は、市ホームページ、X、Facebookで発信します。\n\nhttps://t.co/KF0x2HxCZU",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "EMERGENCY",
     "status": "ACTIVE",
     "hasImage": false,
     "hasVideo": false
@@ -1736,6 +1907,25 @@
     "hasVideo": false
   },
   {
+    "postId": "POST-SRC-MUN-KM006-2082246153714979087",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082246153714979087",
+    "postedAt": "2026-07-28T23:25:43.000Z",
+    "fetchedAt": "2026-07-29T22:59:33.425Z",
+    "title": "【防災無線放送内容】断水、水圧低下のお知らせについて",
+    "summary": "【防災無線放送内容】断水、水圧低下のお知らせについて\n水道局からのお知らせです。\n地震の影響により市内各地で、断水または水圧低下が発生しています。\n本日（２９日）午前８時３０分に、蓑野町公民館に、給水車を、増設しますので、必要な...\nhttps://t.co/bzs5y30gVS",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-MUN-KM001-2082239685120729488",
     "sourceId": "SRC-MUN-KM001",
     "sourceName": "熊本市公式X",
@@ -1747,6 +1937,25 @@
     "summary": "【令和8年熊本地震に伴う区役所窓口対応について】\n災害対応を優先するため、区役所では窓口数および対応職員数を減らしております。\nご来庁いただく際は手続き等に時間がかかりますのでご了承ください。\nお急ぎでない場合は、後日来庁いただきますようお願いいたします。",
     "regions": [
       "熊本県熊本市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM006-2082237342119797017",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082237342119797017",
+    "postedAt": "2026-07-28T22:50:43.000Z",
+    "fetchedAt": "2026-07-29T22:59:33.425Z",
+    "title": "【防災無線放送内容】断水、水圧低下のお知らせについて",
+    "summary": "【防災無線放送内容】断水、水圧低下のお知らせについて\n水道局からのお知らせです。\n地震の影響により市内各地で、断水または水圧低下が発生しています。\n皆様の節水のご協力をお願いします。\n東間コミュニティセンターに給水車を準備していますので、必要な方は取りに行かれてください。",
+    "regions": [
+      "熊本県人吉市"
     ],
     "category": "EARTHQUAKE_TSUNAMI",
     "priority": "HIGH",
@@ -1787,6 +1996,25 @@
       "八代市"
     ],
     "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM006-2082228538560884740",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082228538560884740",
+    "postedAt": "2026-07-28T22:15:44.000Z",
+    "fetchedAt": "2026-07-29T22:59:33.425Z",
+    "title": "【防災無線放送内容】断水、水圧低下のお知らせについて",
+    "summary": "【防災無線放送内容】断水、水圧低下のお知らせについて\n水道局からのお知らせです。\n地震の影響により市内各地で、断水または水圧低下が発生しています。\n皆様の節水のご協力をお願いします。",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
     "priority": "HIGH",
     "status": "ACTIVE",
     "hasImage": false,
@@ -2382,6 +2610,44 @@
     "hasVideo": true
   },
   {
+    "postId": "POST-SRC-MUN-KM006-2082075023838449690",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082075023838449690",
+    "postedAt": "2026-07-28T12:05:43.000Z",
+    "fetchedAt": "2026-07-29T22:59:33.425Z",
+    "title": "【防災無線放送内容】断水、水圧低下のお知らせについて",
+    "summary": "【防災無線放送内容】断水、水圧低下のお知らせについて\n水道局からのお知らせです。\n上原町、原城町、東間下町、浪床町、七地町、蟹作町、赤池原、水無、外園町において、断水または水圧低下の恐れがあります。明日（２９日）、午前０時に給...\nhttps://t.co/IXAN1EFFVC",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM006-2082074988476252326",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082074988476252326",
+    "postedAt": "2026-07-28T12:05:34.000Z",
+    "fetchedAt": "2026-07-29T22:59:33.425Z",
+    "title": "【断水の恐れがあります】",
+    "summary": "【断水の恐れがあります】\n\n　本日（7月28日）発生した地震の影響で、次の地域で断水や水圧低下の恐れがあります。明日（7月29日）午前０時、東間コミセンに給水車を準備しますので、必要な人はお越しください。",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-NAT-004-2082072332710170727",
     "sourceId": "SRC-NAT-004",
     "sourceName": "総務省消防庁",
@@ -2458,6 +2724,25 @@
     "hasVideo": false
   },
   {
+    "postId": "POST-SRC-MUN-KM006-2082066213900067193",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082066213900067193",
+    "postedAt": "2026-07-28T11:30:42.000Z",
+    "fetchedAt": "2026-07-29T22:59:33.425Z",
+    "title": "【防災無線放送内容】断水、水圧低下のお知らせについて",
+    "summary": "【防災無線放送内容】断水、水圧低下のお知らせについて\n水道局からのお知らせです。\n地震により水源地の水が濁ったため、断水または水圧低下の恐れがあります。\n節水のご協力をお願いします。",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-NAT-005-2082066180068831255",
     "sourceId": "SRC-NAT-005",
     "sourceName": "防衛省 災害対策",
@@ -2469,6 +2754,25 @@
     "summary": "本日（２８日）、熊本県熊本地方で発生した最大震度７の地震について、同日１７３０、熊本県知事から第８師団長（北熊本・熊本）に対し、人命救助等に係る災害派遣要請がありました。",
     "regions": [
       "熊本県"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM006-2082066035533062421",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082066035533062421",
+    "postedAt": "2026-07-28T11:30:00.000Z",
+    "fetchedAt": "2026-07-29T22:59:33.425Z",
+    "title": "【節水にご協力ください】",
+    "summary": "【節水にご協力ください】\n\n　本日（7月28日）発生した地震の影響で、水源地の水が濁ったため、断水や水圧低下の恐れがあります。節水のご協力をお願いします。",
+    "regions": [
+      "熊本県人吉市"
     ],
     "category": "EARTHQUAKE_TSUNAMI",
     "priority": "HIGH",
@@ -2795,6 +3099,63 @@
     ],
     "category": "EARTHQUAKE_TSUNAMI",
     "priority": "EMERGENCY",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM006-2082029272538259543",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082029272538259543",
+    "postedAt": "2026-07-28T09:03:55.000Z",
+    "fetchedAt": "2026-07-29T22:59:33.425Z",
+    "title": "【市ホームページが閲覧できません】",
+    "summary": "【市ホームページが閲覧できません】\n\n　本日（7月28日）に発生した地震の影響で、市ホームページが閲覧できない状態となっています。ご不便をおかけしますが、ご理解のほどよろしくお願いします。緊急情報につきましては、X（旧ツイッター）、市役所Facebookで発信します。",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "EMERGENCY",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM006-2082025998481260795",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082025998481260795",
+    "postedAt": "2026-07-28T08:50:54.000Z",
+    "fetchedAt": "2026-07-29T22:59:33.425Z",
+    "title": "【警戒レベル３「高齢者等避難」地震発生のため避難所を開設します 】",
+    "summary": "【警戒レベル３「高齢者等避難」地震発生のため避難所を開設します 】\n\n　本日（7月28日）午後４時27分に、市内で最大震度５弱の地震が発生しました。全域に警戒レベル３「高齢者等避難」を発令し、指定避難所８カ所を午後６時に開設します。",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM006-2082025952398479752",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082025952398479752",
+    "postedAt": "2026-07-28T08:50:43.000Z",
+    "fetchedAt": "2026-07-29T22:59:33.425Z",
+    "title": "【防災無線放送内容】本日午後６時に、市内全域に高齢者等避難を発令します",
+    "summary": "【防災無線放送内容】本日午後６時に、市内全域に高齢者等避難を発令します\nこちらは防災人吉市です。\n本日（２８日）発生した地震により、午後６時に、市内全域に対し、「高齢者等避難」を発令し、指定避難所８か所を開設します。\n余震が続い...\nhttps://t.co/nTw232nEug",
+    "regions": [
+      "人吉市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
     "status": "ACTIVE",
     "hasImage": false,
     "hasVideo": false
@@ -3707,6 +4068,25 @@
       "八代市"
     ],
     "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM006-2082016184627847449",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082016184627847449",
+    "postedAt": "2026-07-28T08:11:55.000Z",
+    "fetchedAt": "2026-07-29T22:59:33.425Z",
+    "title": "【防災無線放送内容】【地震情報】",
+    "summary": "【防災無線放送内容】【地震情報】\nこちらは、防災人吉です。震度４の地震が発生しました。火の始末をしてください。テレビ、ラジオをつけ、落ち着いて行動して下さい。",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
     "priority": "HIGH",
     "status": "ACTIVE",
     "hasImage": false,

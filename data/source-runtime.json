@@ -4,8 +4,8 @@
       "sourceId": "SRC-NAT-001",
       "xUserId": "265205959",
       "lastSeenPostId": "2082456044681429082",
-      "lastAttemptAt": "2026-07-29T22:43:44.906Z",
-      "lastSuccessfulFetchAt": "2026-07-29T22:43:44.906Z",
+      "lastAttemptAt": "2026-07-29T22:59:33.425Z",
+      "lastSuccessfulFetchAt": "2026-07-29T22:59:33.425Z",
       "lastResultCount": 0,
       "status": "NO_NEW_POSTS"
     },
@@ -13,8 +13,8 @@
       "sourceId": "SRC-NAT-002",
       "xUserId": "1147231333",
       "lastSeenPostId": "2082458638099378360",
-      "lastAttemptAt": "2026-07-29T22:43:44.906Z",
-      "lastSuccessfulFetchAt": "2026-07-29T22:43:44.906Z",
+      "lastAttemptAt": "2026-07-29T22:59:33.425Z",
+      "lastSuccessfulFetchAt": "2026-07-29T22:59:33.425Z",
       "lastResultCount": 0,
       "status": "NO_NEW_POSTS"
     },
@@ -22,8 +22,8 @@
       "sourceId": "SRC-NAT-003",
       "xUserId": "1176359873497317376",
       "lastSeenPostId": "2082256488874312033",
-      "lastAttemptAt": "2026-07-29T22:43:44.906Z",
-      "lastSuccessfulFetchAt": "2026-07-29T22:43:44.906Z",
+      "lastAttemptAt": "2026-07-29T22:59:33.425Z",
+      "lastSuccessfulFetchAt": "2026-07-29T22:59:33.425Z",
       "lastResultCount": 0,
       "status": "NO_NEW_POSTS"
     },
@@ -31,8 +31,8 @@
       "sourceId": "SRC-NAT-004",
       "xUserId": "137272821",
       "lastSeenPostId": "2082591966047662498",
-      "lastAttemptAt": "2026-07-29T22:43:44.906Z",
-      "lastSuccessfulFetchAt": "2026-07-29T22:43:44.906Z",
+      "lastAttemptAt": "2026-07-29T22:59:33.425Z",
+      "lastSuccessfulFetchAt": "2026-07-29T22:59:33.425Z",
       "lastResultCount": 0,
       "status": "NO_NEW_POSTS"
     },
@@ -40,8 +40,8 @@
       "sourceId": "SRC-NAT-005",
       "xUserId": "1182556649120075776",
       "lastSeenPostId": "2082561867793530905",
-      "lastAttemptAt": "2026-07-29T22:43:44.906Z",
-      "lastSuccessfulFetchAt": "2026-07-29T22:43:44.906Z",
+      "lastAttemptAt": "2026-07-29T22:59:33.425Z",
+      "lastSuccessfulFetchAt": "2026-07-29T22:59:33.425Z",
       "lastResultCount": 0,
       "status": "NO_NEW_POSTS"
     },
@@ -49,8 +49,8 @@
       "sourceId": "SRC-NAT-006",
       "xUserId": "268732024",
       "lastSeenPostId": "2082304776013005160",
-      "lastAttemptAt": "2026-07-29T22:43:44.906Z",
-      "lastSuccessfulFetchAt": "2026-07-29T22:43:44.906Z",
+      "lastAttemptAt": "2026-07-29T22:59:33.425Z",
+      "lastSuccessfulFetchAt": "2026-07-29T22:59:33.425Z",
       "lastResultCount": 0,
       "status": "NO_NEW_POSTS"
     },
@@ -58,10 +58,10 @@
       "sourceId": "SRC-KUM-001",
       "xUserId": "1206393902367797248",
       "lastSeenPostId": "2082594232414753207",
-      "lastAttemptAt": "2026-07-29T22:43:44.906Z",
-      "lastSuccessfulFetchAt": "2026-07-29T22:43:44.906Z",
-      "lastResultCount": 2,
-      "status": "SUCCESS"
+      "lastAttemptAt": "2026-07-29T22:59:33.425Z",
+      "lastSuccessfulFetchAt": "2026-07-29T22:59:33.425Z",
+      "lastResultCount": 0,
+      "status": "NO_NEW_POSTS"
     },
     "SRC-PER-001": {
       "sourceId": "SRC-PER-001",
@@ -76,27 +76,27 @@
       "sourceId": "SRC-MUN-KM001",
       "xUserId": "925173432471379968",
       "lastSeenPostId": "2082586976499441809",
-      "lastAttemptAt": "2026-07-29T22:43:44.906Z",
-      "lastSuccessfulFetchAt": "2026-07-29T22:43:44.906Z",
-      "lastResultCount": 21,
-      "status": "SUCCESS"
+      "lastAttemptAt": "2026-07-29T22:59:33.425Z",
+      "lastSuccessfulFetchAt": "2026-07-29T22:59:33.425Z",
+      "lastResultCount": 0,
+      "status": "NO_NEW_POSTS"
     },
     "SRC-MUN-KM005": {
       "sourceId": "SRC-MUN-KM005",
       "xUserId": "4862022554",
       "lastSeenPostId": "2082580257488691289",
-      "lastAttemptAt": "2026-07-29T22:43:44.906Z",
-      "lastSuccessfulFetchAt": "2026-07-29T22:43:44.906Z",
-      "lastResultCount": 58,
-      "status": "SUCCESS"
+      "lastAttemptAt": "2026-07-29T22:59:33.425Z",
+      "lastSuccessfulFetchAt": "2026-07-29T22:59:33.425Z",
+      "lastResultCount": 0,
+      "status": "NO_NEW_POSTS"
     },
     "SRC-MUN-KM006": {
       "sourceId": "SRC-MUN-KM006",
-      "xUserId": null,
-      "lastSeenPostId": "2082016000000000001",
-      "lastAttemptAt": "2026-07-29T22:53:21.837Z",
-      "lastSuccessfulFetchAt": "2026-07-29T22:53:21.837Z",
-      "lastResultCount": 1,
+      "xUserId": "1279910131405164546",
+      "lastSeenPostId": "2082598480045031466",
+      "lastAttemptAt": "2026-07-29T22:59:33.425Z",
+      "lastSuccessfulFetchAt": "2026-07-29T22:59:33.425Z",
+      "lastResultCount": 23,
       "status": "SUCCESS"
     }
   }
