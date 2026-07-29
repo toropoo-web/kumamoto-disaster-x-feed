@@ -4,8 +4,8 @@
       "sourceId": "SRC-NAT-001",
       "xUserId": "265205959",
       "lastSeenPostId": "2082456044681429082",
-      "lastAttemptAt": "2026-07-29T16:36:07.097Z",
-      "lastSuccessfulFetchAt": "2026-07-29T16:36:07.097Z",
+      "lastAttemptAt": "2026-07-29T17:45:28.381Z",
+      "lastSuccessfulFetchAt": "2026-07-29T17:45:28.381Z",
       "lastResultCount": 0,
       "status": "NO_NEW_POSTS"
     },
@@ -13,8 +13,8 @@
       "sourceId": "SRC-NAT-002",
       "xUserId": "1147231333",
       "lastSeenPostId": "2082458638099378360",
-      "lastAttemptAt": "2026-07-29T16:36:07.097Z",
-      "lastSuccessfulFetchAt": "2026-07-29T16:36:07.097Z",
+      "lastAttemptAt": "2026-07-29T17:45:28.381Z",
+      "lastSuccessfulFetchAt": "2026-07-29T17:45:28.381Z",
       "lastResultCount": 0,
       "status": "NO_NEW_POSTS"
     },
@@ -22,8 +22,8 @@
       "sourceId": "SRC-NAT-003",
       "xUserId": "1176359873497317376",
       "lastSeenPostId": "2082256488874312033",
-      "lastAttemptAt": "2026-07-29T16:36:07.097Z",
-      "lastSuccessfulFetchAt": "2026-07-29T16:36:07.097Z",
+      "lastAttemptAt": "2026-07-29T17:45:28.381Z",
+      "lastSuccessfulFetchAt": "2026-07-29T17:45:28.381Z",
       "lastResultCount": 0,
       "status": "NO_NEW_POSTS"
     },
@@ -31,26 +31,26 @@
       "sourceId": "SRC-NAT-004",
       "xUserId": "137272821",
       "lastSeenPostId": "2082403247655108877",
-      "lastAttemptAt": "2026-07-29T16:36:07.097Z",
-      "lastSuccessfulFetchAt": "2026-07-29T16:36:07.097Z",
+      "lastAttemptAt": "2026-07-29T17:45:28.381Z",
+      "lastSuccessfulFetchAt": "2026-07-29T17:45:28.381Z",
       "lastResultCount": 0,
       "status": "NO_NEW_POSTS"
     },
     "SRC-NAT-005": {
       "sourceId": "SRC-NAT-005",
       "xUserId": "1182556649120075776",
-      "lastSeenPostId": "2082492845613781420",
-      "lastAttemptAt": "2026-07-29T16:36:07.097Z",
-      "lastSuccessfulFetchAt": "2026-07-29T16:36:07.097Z",
-      "lastResultCount": 3,
+      "lastSeenPostId": "2082512906944721340",
+      "lastAttemptAt": "2026-07-29T17:45:28.381Z",
+      "lastSuccessfulFetchAt": "2026-07-29T17:45:28.381Z",
+      "lastResultCount": 1,
       "status": "SUCCESS"
     },
     "SRC-NAT-006": {
       "sourceId": "SRC-NAT-006",
       "xUserId": "268732024",
       "lastSeenPostId": "2082304776013005160",
-      "lastAttemptAt": "2026-07-29T16:36:07.097Z",
-      "lastSuccessfulFetchAt": "2026-07-29T16:36:07.097Z",
+      "lastAttemptAt": "2026-07-29T17:45:28.381Z",
+      "lastSuccessfulFetchAt": "2026-07-29T17:45:28.381Z",
       "lastResultCount": 0,
       "status": "NO_NEW_POSTS"
     },
@@ -58,18 +58,18 @@
       "sourceId": "SRC-KUM-001",
       "xUserId": "1206393902367797248",
       "lastSeenPostId": "2082412824010301517",
-      "lastAttemptAt": "2026-07-29T16:36:07.097Z",
-      "lastSuccessfulFetchAt": "2026-07-29T16:36:07.097Z",
+      "lastAttemptAt": "2026-07-29T17:45:28.381Z",
+      "lastSuccessfulFetchAt": "2026-07-29T17:45:28.381Z",
       "lastResultCount": 0,
       "status": "NO_NEW_POSTS"
     },
     "SRC-PER-001": {
       "sourceId": "SRC-PER-001",
       "xUserId": "1319812309431119872",
-      "lastSeenPostId": "2082467620150984757",
-      "lastAttemptAt": "2026-07-29T16:36:07.097Z",
-      "lastSuccessfulFetchAt": "2026-07-29T16:36:07.097Z",
-      "lastResultCount": 2,
+      "lastSeenPostId": "2082506066722791815",
+      "lastAttemptAt": "2026-07-29T17:45:28.381Z",
+      "lastSuccessfulFetchAt": "2026-07-29T17:45:28.381Z",
+      "lastResultCount": 1,
       "status": "SUCCESS"
     }
   }

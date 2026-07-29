@@ -1,5 +1,24 @@
 [
   {
+    "postId": "POST-SRC-PER-001-2082506066722791815",
+    "sourceId": "SRC-PER-001",
+    "sourceName": "小泉進次郎",
+    "accountHandle": "shinjirokoiz",
+    "postUrl": "https://x.com/shinjirokoiz/status/2082506066722791815",
+    "postedAt": "2026-07-29T16:38:32.000Z",
+    "fetchedAt": "2026-07-29T17:45:28.381Z",
+    "title": "自衛隊がクーラーを避難所まで運び、自治体職員の皆さんが設置する。自衛隊と自治体の連携の姿を見て頂き、自治体職員の皆さんへの感謝と敬意を多くの方々と共有できれば嬉",
+    "summary": "自衛隊がクーラーを避難所まで運び、自治体職員の皆さんが設置する。自衛隊と自治体の連携の姿を見て頂き、自治体職員の皆さんへの感謝と敬意を多くの方々と共有できれば嬉しいです。地元自治体職員の皆さんも被災した立場なのに、自分のことより誰かのために献身的に働いています。自衛隊の迅速で強力 https://t.co/kXqbcXuiz8",
+    "regions": [
+      "全国"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-PER-001-2082467620150984757",
     "sourceId": "SRC-PER-001",
     "sourceName": "小泉進次郎",
