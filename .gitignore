@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+coverage/
+*.log
+
+.env
+.env.*
+!.env.example
+.env.local
+
+.tmp/
+
+data/posts.json.tmp

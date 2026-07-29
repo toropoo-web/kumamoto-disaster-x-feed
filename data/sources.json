@@ -1,0 +1,101 @@
+[
+  {
+    "sourceId": "SRC-NAT-001",
+    "displayName": "首相官邸 災害・危機管理情報",
+    "accountHandle": "Kantei_Saigai",
+    "sourceType": "GOVERNMENT",
+    "region": "全国",
+    "priority": "HIGH",
+    "verificationStatus": "VERIFIED",
+    "fetchEnabled": true,
+    "contentFilter": "DISASTER_RELATED"
+  },
+  {
+    "sourceId": "SRC-NAT-002",
+    "displayName": "内閣府防災",
+    "accountHandle": "CAO_BOUSAI",
+    "sourceType": "GOVERNMENT",
+    "region": "全国",
+    "priority": "HIGH",
+    "verificationStatus": "VERIFIED",
+    "fetchEnabled": true,
+    "contentFilter": "DISASTER_RELATED"
+  },
+  {
+    "sourceId": "SRC-NAT-003",
+    "displayName": "気象庁防災情報",
+    "accountHandle": "JMA_bousai",
+    "sourceType": "GOVERNMENT",
+    "region": "全国",
+    "priority": "HIGH",
+    "verificationStatus": "VERIFIED",
+    "fetchEnabled": true,
+    "contentFilter": "DISASTER_RELATED"
+  },
+  {
+    "sourceId": "SRC-NAT-004",
+    "displayName": "総務省消防庁",
+    "accountHandle": "FDMA_JAPAN",
+    "sourceType": "GOVERNMENT",
+    "region": "全国",
+    "priority": "HIGH",
+    "verificationStatus": "VERIFIED",
+    "fetchEnabled": true,
+    "contentFilter": "DISASTER_RELATED"
+  },
+  {
+    "sourceId": "SRC-NAT-005",
+    "displayName": "防衛省 災害対策",
+    "accountHandle": "ModJapan_saigai",
+    "sourceType": "DEFENSE",
+    "region": "全国",
+    "priority": "HIGH",
+    "verificationStatus": "VERIFIED",
+    "fetchEnabled": true,
+    "contentFilter": "DISASTER_RELATED"
+  },
+  {
+    "sourceId": "SRC-NAT-006",
+    "displayName": "防衛省",
+    "accountHandle": "ModJapan_jp",
+    "sourceType": "DEFENSE",
+    "region": "全国",
+    "priority": "NORMAL",
+    "verificationStatus": "VERIFIED",
+    "fetchEnabled": true,
+    "contentFilter": "KUMAMOTO_DISASTER_ONLY"
+  },
+  {
+    "sourceId": "SRC-KUM-001",
+    "displayName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "sourceType": "PREFECTURE",
+    "region": "熊本県",
+    "priority": "HIGH",
+    "verificationStatus": "VERIFIED",
+    "fetchEnabled": true,
+    "contentFilter": "ALL"
+  },
+  {
+    "sourceId": "SRC-PER-001",
+    "displayName": "小泉進次郎",
+    "accountHandle": "shinjirokoiz",
+    "sourceType": "PUBLIC_OFFICIAL",
+    "region": "全国",
+    "priority": "HIGH",
+    "verificationStatus": "VERIFIED",
+    "fetchEnabled": true,
+    "contentFilter": "KUMAMOTO_DISASTER_OR_DEFENSE_RESPONSE_ONLY"
+  },
+  {
+    "sourceId": "SRC-PER-002",
+    "displayName": "高市早苗",
+    "accountHandle": null,
+    "sourceType": "PUBLIC_OFFICIAL",
+    "region": "全国",
+    "priority": "HIGH",
+    "verificationStatus": "VERIFYING",
+    "fetchEnabled": false,
+    "contentFilter": "KUMAMOTO_DISASTER_ONLY"
+  }
+]

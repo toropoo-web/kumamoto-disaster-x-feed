@@ -1,0 +1,9 @@
+{
+  "errors": [
+    {
+      "title": "Not Found Error",
+      "detail": "User not found",
+      "type": "https://api.twitter.com/2/problems/resource-not-found"
+    }
+  ]
+}

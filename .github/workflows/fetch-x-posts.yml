@@ -1,0 +1,95 @@
+name: Fetch X Posts
+
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: "*/30 * * * *"
+
+concurrency:
+  group: kumamoto-x-fetch
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run tests
+        run: npm test
+
+      - name: Verify API token is configured
+        env:
+          X_API_BEARER_TOKEN: ${{ secrets.X_API_BEARER_TOKEN }}
+        run: |
+          if [ -z "$X_API_BEARER_TOKEN" ]; then
+            echo "X_API_TOKEN_CONFIGURED=false"
+            exit 1
+          fi
+          echo "X_API_TOKEN_CONFIGURED=true"
+
+      - name: Fetch X posts
+        id: fetch
+        env:
+          X_API_BEARER_TOKEN: ${{ secrets.X_API_BEARER_TOKEN }}
+        run: |
+          set +e
+          npm run fetch:x
+          FETCH_EXIT=$?
+          echo "fetch_exit=$FETCH_EXIT" >> "$GITHUB_OUTPUT"
+          if [ "$FETCH_EXIT" -eq 2 ]; then
+            echo "FETCH_STATUS=X_API_PAYMENT_REQUIRED"
+            echo "DATA_MODIFIED=false"
+            echo "COMMIT_SKIPPED=true"
+            echo "blocked=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          if [ "$FETCH_EXIT" -ne 0 ]; then
+            exit "$FETCH_EXIT"
+          fi
+
+      - name: Build site
+        run: npm run build
+
+      - name: Commit data changes
+        if: steps.fetch.outputs.blocked != 'true'
+        env:
+          DATA_FILES: data/posts.json data/fetch-state.json data/source-runtime.json data/api-usage.json
+        run: |
+          if git diff --quiet -- $DATA_FILES 2>/dev/null && \
+             [ -z "$(git status --porcelain -- $DATA_FILES)" ]; then
+            echo "NO_DATA_CHANGES"
+            echo "COMMIT_SKIPPED=true"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add $DATA_FILES
+          if git diff --cached --quiet; then
+            echo "NO_DATA_CHANGES"
+            echo "COMMIT_SKIPPED=true"
+            exit 0
+          fi
+          git commit -m "chore(data): update official X posts"
+          git push
+
+      - name: Report blocked fetch
+        if: steps.fetch.outputs.blocked == 'true'
+        run: |
+          echo "FETCH_STATUS=X_API_PAYMENT_REQUIRED"
+          echo "DATA_MODIFIED=false"
+          echo "COMMIT_SKIPPED=true"
