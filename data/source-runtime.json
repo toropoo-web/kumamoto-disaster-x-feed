@@ -3,73 +3,73 @@
     "SRC-NAT-001": {
       "sourceId": "SRC-NAT-001",
       "xUserId": "265205959",
-      "lastSeenPostId": "2082331383620669500",
-      "lastAttemptAt": "2026-07-29T06:31:33.516Z",
-      "lastSuccessfulFetchAt": "2026-07-29T06:31:33.516Z",
-      "lastResultCount": 14,
+      "lastSeenPostId": "2082456044681429082",
+      "lastAttemptAt": "2026-07-29T13:33:08.335Z",
+      "lastSuccessfulFetchAt": "2026-07-29T13:33:08.335Z",
+      "lastResultCount": 4,
       "status": "SUCCESS"
     },
     "SRC-NAT-002": {
       "sourceId": "SRC-NAT-002",
       "xUserId": "1147231333",
-      "lastSeenPostId": "2082065507726094425",
-      "lastAttemptAt": "2026-07-29T06:31:33.516Z",
-      "lastSuccessfulFetchAt": "2026-07-29T06:31:33.516Z",
-      "lastResultCount": 12,
+      "lastSeenPostId": "2082458638099378360",
+      "lastAttemptAt": "2026-07-29T13:33:08.335Z",
+      "lastSuccessfulFetchAt": "2026-07-29T13:33:08.335Z",
+      "lastResultCount": 5,
       "status": "SUCCESS"
     },
     "SRC-NAT-003": {
       "sourceId": "SRC-NAT-003",
       "xUserId": "1176359873497317376",
       "lastSeenPostId": "2082256488874312033",
-      "lastAttemptAt": "2026-07-29T06:31:33.516Z",
-      "lastSuccessfulFetchAt": "2026-07-29T06:31:33.516Z",
-      "lastResultCount": 3,
-      "status": "SUCCESS"
+      "lastAttemptAt": "2026-07-29T13:33:08.335Z",
+      "lastSuccessfulFetchAt": "2026-07-29T13:33:08.335Z",
+      "lastResultCount": 0,
+      "status": "NO_NEW_POSTS"
     },
     "SRC-NAT-004": {
       "sourceId": "SRC-NAT-004",
       "xUserId": "137272821",
-      "lastSeenPostId": "2082339511686815843",
-      "lastAttemptAt": "2026-07-29T06:31:33.516Z",
-      "lastSuccessfulFetchAt": "2026-07-29T06:31:33.516Z",
-      "lastResultCount": 22,
+      "lastSeenPostId": "2082403247655108877",
+      "lastAttemptAt": "2026-07-29T13:33:08.335Z",
+      "lastSuccessfulFetchAt": "2026-07-29T13:33:08.335Z",
+      "lastResultCount": 4,
       "status": "SUCCESS"
     },
     "SRC-NAT-005": {
       "sourceId": "SRC-NAT-005",
       "xUserId": "1182556649120075776",
-      "lastSeenPostId": "2082285906850160748",
-      "lastAttemptAt": "2026-07-29T06:31:33.516Z",
-      "lastSuccessfulFetchAt": "2026-07-29T06:31:33.516Z",
-      "lastResultCount": 9,
+      "lastSeenPostId": "2082450180692209923",
+      "lastAttemptAt": "2026-07-29T13:33:08.335Z",
+      "lastSuccessfulFetchAt": "2026-07-29T13:33:08.335Z",
+      "lastResultCount": 4,
       "status": "SUCCESS"
     },
     "SRC-NAT-006": {
       "sourceId": "SRC-NAT-006",
       "xUserId": "268732024",
       "lastSeenPostId": "2082304776013005160",
-      "lastAttemptAt": "2026-07-29T06:31:33.516Z",
-      "lastSuccessfulFetchAt": "2026-07-29T06:31:33.516Z",
-      "lastResultCount": 9,
-      "status": "SUCCESS"
+      "lastAttemptAt": "2026-07-29T13:33:08.335Z",
+      "lastSuccessfulFetchAt": "2026-07-29T13:33:08.335Z",
+      "lastResultCount": 0,
+      "status": "NO_NEW_POSTS"
     },
     "SRC-KUM-001": {
       "sourceId": "SRC-KUM-001",
       "xUserId": "1206393902367797248",
-      "lastSeenPostId": "2082022732196458525",
-      "lastAttemptAt": "2026-07-29T06:31:33.516Z",
-      "lastSuccessfulFetchAt": "2026-07-29T06:31:33.516Z",
-      "lastResultCount": 51,
+      "lastSeenPostId": "2082412824010301517",
+      "lastAttemptAt": "2026-07-29T13:33:08.335Z",
+      "lastSuccessfulFetchAt": "2026-07-29T13:33:08.335Z",
+      "lastResultCount": 10,
       "status": "SUCCESS"
     },
     "SRC-PER-001": {
       "sourceId": "SRC-PER-001",
       "xUserId": "1319812309431119872",
-      "lastSeenPostId": "2082308691957842110",
-      "lastAttemptAt": "2026-07-29T06:31:33.516Z",
-      "lastSuccessfulFetchAt": "2026-07-29T06:31:33.516Z",
-      "lastResultCount": 8,
+      "lastSeenPostId": "2082450274803945496",
+      "lastAttemptAt": "2026-07-29T13:33:08.335Z",
+      "lastSuccessfulFetchAt": "2026-07-29T13:33:08.335Z",
+      "lastResultCount": 7,
       "status": "SUCCESS"
     }
   }
