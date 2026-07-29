@@ -1,5 +1,65 @@
 [
   {
+    "postId": "POST-SRC-PER-001-2082467620150984757",
+    "sourceId": "SRC-PER-001",
+    "sourceName": "小泉進次郎",
+    "accountHandle": "shinjirokoiz",
+    "postUrl": "https://x.com/shinjirokoiz/status/2082467620150984757",
+    "postedAt": "2026-07-29T14:05:45.000Z",
+    "fetchedAt": "2026-07-29T16:36:07.097Z",
+    "title": "続報。熊本に自衛隊輸送機で到着したクーラー、既に避難所で設置が進んでいます。人命救助も酷暑対策も並行して全力で取り組んでいます。 https://t.co/KV",
+    "summary": "続報。熊本に自衛隊輸送機で到着したクーラー、既に避難所で設置が進んでいます。人命救助も酷暑対策も並行して全力で取り組んでいます。 https://t.co/KV2Ue6XXll",
+    "regions": [
+      "全国"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-005-2082465537192575002",
+    "sourceId": "SRC-NAT-005",
+    "sourceName": "防衛省 災害対策",
+    "accountHandle": "ModJapan_saigai",
+    "postUrl": "https://x.com/ModJapan_saigai/status/2082465537192575002",
+    "postedAt": "2026-07-29T13:57:29.000Z",
+    "fetchedAt": "2026-07-29T16:36:07.097Z",
+    "title": "本日、航空自衛隊と陸上自衛隊が輸送したクーラーが熊本県の避難所（小川防災拠点センター６１台（宇城市）、美里町総合体育館１９台（美里町）、県南広域本部３２台（八代",
+    "summary": "本日、航空自衛隊と陸上自衛隊が輸送したクーラーが熊本県の避難所（小川防災拠点センター６１台（宇城市）、美里町総合体育館１９台（美里町）、県南広域本部３２台（八代市）、住宅型老人ホームまるもり２０台（御船町）、宇土市役所１６台（宇土市）の計１４８台）と、一時集積場所であるグランメッ https://t.co/tckN6upmZT",
+    "regions": [
+      "熊本県",
+      "宇城市",
+      "宇土市",
+      "八代市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-PER-001-2082462699275849891",
+    "sourceId": "SRC-PER-001",
+    "sourceName": "小泉進次郎",
+    "accountHandle": "shinjirokoiz",
+    "postUrl": "https://x.com/shinjirokoiz/status/2082462699275849891",
+    "postedAt": "2026-07-29T13:46:12.000Z",
+    "fetchedAt": "2026-07-29T16:36:07.097Z",
+    "title": "今も強い地震が九州地方で発生しました。防衛省・自衛隊は、人命救助を最優先に生活支援も並行して先手先手で打ち続けます。防衛大臣室での統幕長、陸・海・空の幕僚長、事",
+    "summary": "今も強い地震が九州地方で発生しました。防衛省・自衛隊は、人命救助を最優先に生活支援も並行して先手先手で打ち続けます。防衛大臣室での統幕長、陸・海・空の幕僚長、事務次官ら防衛省・自衛隊幹部全員の一丸となった努力のおかげで、着実に、迅速に、支援を積み重ねています。現場部隊の情報も持ち https://t.co/zK7aFgSit2",
+    "regions": [
+      "全国"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-NAT-002-2082458636295790866",
     "sourceId": "SRC-NAT-002",
     "sourceName": "内閣府防災",
