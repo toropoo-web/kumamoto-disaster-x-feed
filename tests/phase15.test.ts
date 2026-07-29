@@ -1,6 +1,4 @@
 import assert from "node:assert/strict";
-import fs from "node:fs";
-import path from "node:path";
 import { test, describe } from "node:test";
 import { buildFetchState, createEmptyFetchState } from "../src/lib/fetch-state";
 import { mergePosts } from "../src/lib/fetch-pipeline";
@@ -12,8 +10,6 @@ import {
 } from "../src/lib/seed-posts";
 import { createEmptyBreakdown } from "../src/types/post-processing";
 import type { OfficialPost } from "../src/types/post";
-
-const PROJECT_ROOT = path.resolve(import.meta.dirname, "..");
 
 function makePost(overrides: Partial<OfficialPost> = {}): OfficialPost {
   return {
@@ -155,27 +151,5 @@ describe("phase15 production data cleanup", { concurrency: false }, () => {
 
     assert.equal(state.acceptedPostCount, 0);
     assert.equal(state.storedPostCount, 1);
-  });
-
-  test("production posts.json has no seed placeholders", () => {
-    const posts = JSON.parse(
-      fs.readFileSync(path.join(PROJECT_ROOT, "data/posts.json"), "utf-8")
-    ) as OfficialPost[];
-    const seedCount = posts.filter(isSeedPlaceholderPost).length;
-    assert.equal(seedCount, 0);
-    assert.equal(posts.length, 107);
-  });
-
-  test("fetch-state acceptedPostCount matches api usage", () => {
-    const state = JSON.parse(
-      fs.readFileSync(path.join(PROJECT_ROOT, "data/fetch-state.json"), "utf-8")
-    );
-    const usage = JSON.parse(
-      fs.readFileSync(path.join(PROJECT_ROOT, "data/api-usage.json"), "utf-8")
-    );
-    assert.equal(state.acceptedPostCount, 107);
-    assert.equal(state.storedPostCount, 107);
-    assert.equal(state.fetchedPostCount, 128);
-    assert.equal(usage.records[0].acceptedPosts, 107);
   });
 });

@@ -302,6 +302,13 @@ describe("phase12 fetch workflow safety", () => {
     assert.match(ci, /npm run build/);
   });
 
+  test("fetch workflow runs pre-fetch tests before fetch", () => {
+    const workflow = readText(".github/workflows/fetch-x-posts.yml");
+    assert.match(workflow, /test:pre-fetch/);
+    assert.match(workflow, /test:production-data/);
+    assert.doesNotMatch(workflow, /npm test\s*$/m);
+  });
+
   test("fetch workflow does not log bearer token", () => {
     const workflow = readText(".github/workflows/fetch-x-posts.yml");
     assert.match(workflow, /secrets\.X_API_BEARER_TOKEN/);

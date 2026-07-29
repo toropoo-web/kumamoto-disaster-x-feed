@@ -29,8 +29,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run tests
-        run: npm test
+      - name: Run pre-fetch tests
+        run: npm run test:pre-fetch
 
       - name: Verify API token is configured
         env:
@@ -64,6 +64,9 @@ jobs:
 
       - name: Build site
         run: npm run build
+
+      - name: Validate production data
+        run: npm run test:production-data
 
       - name: Commit data changes
         if: steps.fetch.outputs.blocked != 'true'
