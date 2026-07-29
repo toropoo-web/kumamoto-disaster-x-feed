@@ -1,5 +1,24 @@
 [
   {
+    "postId": "POST-SRC-NAT-004-2082591966047662498",
+    "sourceId": "SRC-NAT-004",
+    "sourceName": "総務省消防庁",
+    "accountHandle": "FDMA_JAPAN",
+    "postUrl": "https://x.com/FDMA_JAPAN/status/2082591966047662498",
+    "postedAt": "2026-07-29T22:19:52.000Z",
+    "fetchedAt": "2026-07-29T22:27:12.549Z",
+    "title": "【消防庁とりまとめ第18報】令和８年熊本地震による被害及び消防機関等の対応状況について、7月30日（木）6時30分現在の被害状況等を取りまとめました。",
+    "summary": "【消防庁とりまとめ第18報】令和８年熊本地震による被害及び消防機関等の対応状況について、7月30日（木）6時30分現在の被害状況等を取りまとめました。\n詳細はこちら→https://t.co/ya3d8x1YxX\n #総務省消防庁 #災害情報 #地震",
+    "regions": [
+      "全国"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-PER-001-2082506066722791815",
     "sourceId": "SRC-PER-001",
     "sourceName": "小泉進次郎",
