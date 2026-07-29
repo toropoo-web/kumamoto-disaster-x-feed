@@ -71,6 +71,24 @@
       "lastSuccessfulFetchAt": "2026-07-29T22:27:12.549Z",
       "lastResultCount": 0,
       "status": "NO_NEW_POSTS"
+    },
+    "SRC-MUN-KM001": {
+      "sourceId": "SRC-MUN-KM001",
+      "xUserId": null,
+      "lastSeenPostId": "2082022732196458525",
+      "lastAttemptAt": "2026-07-29T22:37:07.525Z",
+      "lastSuccessfulFetchAt": "2026-07-29T22:37:07.525Z",
+      "lastResultCount": 1,
+      "status": "SUCCESS"
+    },
+    "SRC-MUN-KM005": {
+      "sourceId": "SRC-MUN-KM005",
+      "xUserId": null,
+      "lastSeenPostId": "2082015000000000001",
+      "lastAttemptAt": "2026-07-29T22:37:07.525Z",
+      "lastSuccessfulFetchAt": "2026-07-29T22:37:07.525Z",
+      "lastResultCount": 2,
+      "status": "SUCCESS"
     }
   }
 }

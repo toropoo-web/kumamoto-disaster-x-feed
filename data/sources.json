@@ -84,8 +84,30 @@
     "region": "全国",
     "priority": "HIGH",
     "verificationStatus": "VERIFIED",
-    "fetchEnabled": true,
+    "fetchEnabled": false,
     "contentFilter": "KUMAMOTO_DISASTER_OR_DEFENSE_RESPONSE_ONLY"
+  },
+  {
+    "sourceId": "SRC-MUN-KM001",
+    "displayName": "熊本市公式X",
+    "accountHandle": "kumamotocity_",
+    "sourceType": "LOCAL_GOVERNMENT",
+    "region": "熊本県熊本市",
+    "priority": "HIGH",
+    "verificationStatus": "VERIFIED",
+    "fetchEnabled": true,
+    "contentFilter": "DISASTER_RELATED"
+  },
+  {
+    "sourceId": "SRC-MUN-KM005",
+    "displayName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "sourceType": "LOCAL_GOVERNMENT",
+    "region": "熊本県八代市",
+    "priority": "HIGH",
+    "verificationStatus": "VERIFIED",
+    "fetchEnabled": true,
+    "contentFilter": "DISASTER_RELATED"
   },
   {
     "sourceId": "SRC-PER-002",

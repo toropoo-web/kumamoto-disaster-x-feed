@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "tsx --test tests/reset.test.ts tests/phase11.test.ts tests/phase11a.test.ts tests/phase12.test.ts tests/phase15.test.ts tests/phase15-production.test.ts",
+    "test": "tsx --test tests/reset.test.ts tests/phase11.test.ts tests/phase11a.test.ts tests/phase12.test.ts tests/phase15.test.ts tests/phase15-production.test.ts tests/phase16-automation.test.ts",
     "test:pre-fetch": "tsx --test tests/reset.test.ts tests/phase11.test.ts tests/phase11a.test.ts tests/phase12.test.ts tests/phase15.test.ts",
     "test:production-data": "tsx --test tests/phase15-production.test.ts",
     "fetch:x": "tsx scripts/fetch-x.ts",

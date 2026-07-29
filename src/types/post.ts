@@ -60,6 +60,7 @@ export const ALL_CATEGORIES: PostCategory[] = [
 
 export const REGION_OPTIONS = [
   "熊本県",
+  "熊本市",
   "宇城市",
   "宇土市",
   "八代市",

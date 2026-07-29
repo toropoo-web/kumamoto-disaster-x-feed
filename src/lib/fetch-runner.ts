@@ -28,6 +28,11 @@ import {
   replaceSourceRuntimeStore,
 } from "@/lib/source-runtime";
 import { recordApiUsage } from "@/lib/api-usage";
+import {
+  feedStatusFromFetchResult,
+  readFeedStatus,
+  writeFeedStatus,
+} from "@/lib/feed-status";
 
 const DATA_DIR = () => path.join(process.cwd(), "data");
 const POSTS_FILE = () => path.join(DATA_DIR(), "posts.json");
@@ -277,22 +282,33 @@ export async function runFetch(
   }
 
   if (failedSourceCount > 0 && successfulSourceCount === 0) {
+    const fetchState = buildFetchState({
+      now,
+      sourceCount: sources.length,
+      successfulSourceCount: 0,
+      failedSourceCount,
+      status: "FAILED",
+      totals: { ...totals, accepted: 0, apiPostCount: 0 },
+      mergedPosts: existing,
+      previousState,
+    });
+    if (!dryRun) {
+      writeFeedStatus(
+        feedStatusFromFetchResult({
+          persisted: false,
+          fetchState,
+          totals,
+          now,
+        })
+      );
+    }
     return {
       status: "FAILED",
       dryRun,
       tokenConfigured: true,
       sourceSummaries,
       totals,
-      fetchState: buildFetchState({
-        now,
-        sourceCount: sources.length,
-        successfulSourceCount: 0,
-        failedSourceCount,
-        status: "FAILED",
-        totals: { ...totals, accepted: 0, apiPostCount: 0 },
-        mergedPosts: existing,
-        previousState,
-      }),
+      fetchState,
     };
   }
 
@@ -333,8 +349,31 @@ export async function runFetch(
       postsRead: totals.apiPostCount,
       acceptedPosts: totals.accepted,
     });
+    writeFeedStatus(
+      feedStatusFromFetchResult({
+        persisted: true,
+        fetchState,
+        totals,
+        now,
+      })
+    );
   } catch (error) {
     console.error("Failed to persist fetch results:", error);
+    writeFeedStatus(
+      feedStatusFromFetchResult({
+        persisted: false,
+        fetchState: {
+          ...previousState,
+          lastAttemptAt: now,
+          sourceCount: sources.length,
+          successfulSourceCount,
+          failedSourceCount,
+          status: "FAILED",
+        },
+        totals,
+        now,
+      })
+    );
     return {
       status: "FAILED",
       dryRun: false,

@@ -1546,6 +1546,25 @@
     "hasVideo": false
   },
   {
+    "postId": "POST-SRC-MUN-KM001-2082022732196458525",
+    "sourceId": "SRC-MUN-KM001",
+    "sourceName": "熊本市公式X",
+    "accountHandle": "kumamotocity_",
+    "postUrl": "https://x.com/kumamotocity_/status/2082022732196458525",
+    "postedAt": "2026-07-28T08:37:56.000Z",
+    "fetchedAt": "2026-07-29T22:37:07.525Z",
+    "title": "こちらは熊本市です。",
+    "summary": "こちらは熊本市です。\n2026/07/28 17:36 に避難所を開設しましたのでお知らせします。\n開設した避難所： 龍田まちづくりセンター・公民館",
+    "regions": [
+      "熊本市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-KUM-001-2082022083056574767",
     "sourceId": "SRC-KUM-001",
     "sourceName": "防災くまもと",
@@ -1576,6 +1595,25 @@
     "summary": "こちらは熊本市です。\n2026/07/28 17:32 に避難所を開設しましたのでお知らせします。\n開設した避難所： 西里小学校",
     "regions": [
       "熊本県"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2082022083056574767",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2082022083056574767",
+    "postedAt": "2026-07-28T08:35:21.000Z",
+    "fetchedAt": "2026-07-29T22:37:07.525Z",
+    "title": "こちらは八代市です。",
+    "summary": "こちらは八代市です。\n2026/07/28 16:27 に避難所を開設しましたのでお知らせします。\n開設した避難所： 宮地東コミュニティセンター、代陽コミュニティセンター",
+    "regions": [
+      "八代市"
     ],
     "category": "EVACUATION_SHELTER",
     "priority": "HIGH",
@@ -2681,6 +2719,25 @@
     ],
     "category": "EARTHQUAKE_TSUNAMI",
     "priority": "EMERGENCY",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2082015000000000001",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2082015000000000001",
+    "postedAt": "2026-07-28T07:30:00.000Z",
+    "fetchedAt": "2026-07-29T22:37:07.525Z",
+    "title": "【給水所情報】八代市では応急給水活動を実施しています。詳細は市公式サイトをご確認ください。",
+    "summary": "【給水所情報】八代市では応急給水活動を実施しています。詳細は市公式サイトをご確認ください。",
+    "regions": [
+      "八代市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
     "status": "ACTIVE",
     "hasImage": false,
     "hasVideo": false

@@ -2,6 +2,7 @@ export type SourceType =
   | "GOVERNMENT"
   | "PREFECTURE"
   | "MUNICIPALITY"
+  | "LOCAL_GOVERNMENT"
   | "DEFENSE"
   | "PUBLIC_OFFICIAL";
 

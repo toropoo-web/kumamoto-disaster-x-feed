@@ -12,6 +12,7 @@ concurrency:
 
 permissions:
   contents: write
+  actions: read
 
 jobs:
   fetch:
@@ -70,8 +71,9 @@ jobs:
 
       - name: Commit data changes
         if: steps.fetch.outputs.blocked != 'true'
+        id: commit
         env:
-          DATA_FILES: data/posts.json data/fetch-state.json data/source-runtime.json data/api-usage.json
+          DATA_FILES: data/posts.json data/fetch-state.json data/source-runtime.json data/api-usage.json data/feed-status.json
         run: |
           if git diff --quiet -- $DATA_FILES 2>/dev/null && \
              [ -z "$(git status --porcelain -- $DATA_FILES)" ]; then
@@ -89,6 +91,11 @@ jobs:
             exit 0
           fi
           git commit -m "chore(data): update official X posts"
+          COMMIT_SHA=$(git rev-parse HEAD)
+          npx --yes tsx scripts/stamp-feed-status-commit.ts "$COMMIT_SHA"
+          git add data/feed-status.json
+          git commit --amend --no-edit
+          echo "commit_sha=$COMMIT_SHA" >> "$GITHUB_OUTPUT"
           git push
 
       - name: Report blocked fetch

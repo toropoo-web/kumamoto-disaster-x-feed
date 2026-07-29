@@ -11,6 +11,7 @@ const SOURCE_TYPE_LABELS: Record<string, string> = {
   GOVERNMENT: "政府機関",
   PREFECTURE: "都道府県",
   MUNICIPALITY: "市区町村",
+  LOCAL_GOVERNMENT: "自治体公式",
   DEFENSE: "防衛",
   PUBLIC_OFFICIAL: "公人",
 };

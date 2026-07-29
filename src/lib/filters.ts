@@ -1,8 +1,10 @@
 import { BOUSAI_KUMAMOTO_HANDLE } from "@/types/source";
+import type { Source } from "@/types/source";
 
 export const PUBLICATION_KEYWORDS = [
   "熊本",
   "熊本県",
+  "熊本市",
   "熊本地震",
   "宇城市",
   "宇土市",
@@ -19,6 +21,24 @@ export const PUBLICATION_KEYWORDS = [
   "停電",
   "地震",
   "津波",
+] as const;
+
+export const LOCAL_GOVERNMENT_DISASTER_PATTERNS = [
+  /避難所/,
+  /避難指示/,
+  /避難勧告/,
+  /避難/,
+  /給水/,
+  /断水/,
+  /地震/,
+  /津波/,
+  /震度/,
+  /防災/,
+  /災害/,
+  /警戒/,
+  /応急/,
+  /こちらは.+市です/,
+  /こちらは.+町です/,
 ] as const;
 
 export const EXCLUSION_KEYWORDS = [
@@ -47,19 +67,39 @@ export function isBousaiKumamotoAccount(accountHandle: string): boolean {
   return accountHandle === BOUSAI_KUMAMOTO_HANDLE;
 }
 
+export function isLocalGovernmentDisasterPost(text: string): boolean {
+  return LOCAL_GOVERNMENT_DISASTER_PATTERNS.some((pattern) => pattern.test(text));
+}
+
+type PublicationSourceContext = Pick<Source, "sourceType" | "contentFilter">;
+
 export function isEligibleForPublication(
   text: string,
-  accountHandle: string
+  accountHandle: string,
+  source?: PublicationSourceContext
 ): boolean {
-  if (isBousaiKumamotoAccount(accountHandle)) {
-    return !containsKeyword(text, EXCLUSION_KEYWORDS);
-  }
-
-  if (!containsKeyword(text, PUBLICATION_KEYWORDS)) {
+  if (containsKeyword(text, EXCLUSION_KEYWORDS)) {
     return false;
   }
 
-  if (containsKeyword(text, EXCLUSION_KEYWORDS)) {
+  if (isBousaiKumamotoAccount(accountHandle)) {
+    return true;
+  }
+
+  if (source?.sourceType === "LOCAL_GOVERNMENT") {
+    if (source.contentFilter === "ALL") {
+      return true;
+    }
+
+    if (source.contentFilter === "DISASTER_RELATED") {
+      if (containsKeyword(text, PUBLICATION_KEYWORDS)) {
+        return true;
+      }
+      return isLocalGovernmentDisasterPost(text);
+    }
+  }
+
+  if (!containsKeyword(text, PUBLICATION_KEYWORDS)) {
     return false;
   }
 

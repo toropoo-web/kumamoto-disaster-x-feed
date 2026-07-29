@@ -83,7 +83,7 @@ export function classifyRawPost(
   if (!text || isUrlOnlyPost(text)) {
     return { post: null, reason: "REJECTED_INVALID_POST" };
   }
-  if (!isEligibleForPublication(text, accountHandle)) {
+  if (!isEligibleForPublication(text, accountHandle, source)) {
     return { post: null, reason: "REJECTED_BY_CONTENT_FILTER" };
   }
 

@@ -5,6 +5,7 @@ export const FETCH_DATA_FILES = [
   "data/fetch-state.json",
   "data/source-runtime.json",
   "data/api-usage.json",
+  "data/feed-status.json",
 ] as const;
 
 export function isXApiPaymentRequired(result: FetchRunResult): boolean {

@@ -118,6 +118,30 @@ describe("reset scope", () => {
       isEligibleForPublication("熊本県の避難情報", "Bousai_Kumamoto"),
       true
     );
+    assert.equal(
+      isEligibleForPublication(
+        "こちらは熊本市です。避難所を開設しました。",
+        "kumamotocity_",
+        { sourceType: "LOCAL_GOVERNMENT", contentFilter: "DISASTER_RELATED" }
+      ),
+      true
+    );
+    assert.equal(
+      isEligibleForPublication(
+        "【応急給水活動について】給水所を設置します。",
+        "yatsushiro0801",
+        { sourceType: "LOCAL_GOVERNMENT", contentFilter: "DISASTER_RELATED" }
+      ),
+      true
+    );
+    assert.equal(
+      isEligibleForPublication(
+        "春のイベント開催のお知らせ",
+        "kumamotocity_",
+        { sourceType: "LOCAL_GOVERNMENT", contentFilter: "DISASTER_RELATED" }
+      ),
+      false
+    );
   });
 
   test("rawPostToOfficialPost assigns category and regions", () => {

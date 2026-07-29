@@ -142,4 +142,17 @@ describe("phase15 production data integrity", { concurrency: false }, () => {
       "cumulative acceptedPosts should cover stored posts"
     );
   });
+
+  test("feed-status.json has valid automation schema", () => {
+    const feedStatus = readJson<{
+      last_success_at: string;
+      last_fetch_count: string;
+      last_commit: string;
+      status: "SUCCESS" | "ERROR";
+    }>("data/feed-status.json");
+    assert.equal(typeof feedStatus.last_success_at, "string");
+    assert.equal(typeof feedStatus.last_fetch_count, "string");
+    assert.equal(typeof feedStatus.last_commit, "string");
+    assert.ok(feedStatus.status === "SUCCESS" || feedStatus.status === "ERROR");
+  });
 });

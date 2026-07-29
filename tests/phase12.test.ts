@@ -292,6 +292,7 @@ describe("phase12 fetch workflow safety", () => {
       "data/fetch-state.json",
       "data/source-runtime.json",
       "data/api-usage.json",
+      "data/feed-status.json",
     ]);
   });
 
