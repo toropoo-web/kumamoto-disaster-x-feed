@@ -1,5 +1,100 @@
 [
   {
+    "postId": "POST-SRC-KUM-001-2082972862240133369",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2082972862240133369",
+    "postedAt": "2026-07-30T23:33:24.000Z",
+    "fetchedAt": "2026-07-30T23:56:13.218Z",
+    "title": "(続き)",
+    "summary": "(続き) \nこちらは多良木町です。\n現在(2026/07/31 08:33)発令中の避難情報については、以下をクリックして確認してください。\n 防災情報くまもと URL: https://t.co/OmOLef7ZZ9 #避難情報",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2082972719487033440",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2082972719487033440",
+    "postedAt": "2026-07-30T23:32:50.000Z",
+    "fetchedAt": "2026-07-30T23:56:13.218Z",
+    "title": "(続き)",
+    "summary": "(続き) \nこちらは多良木町です。\n現在(2026/07/31 08:32)発令中の避難情報については、以下をクリックして確認してください。\n 防災情報くまもと URL: https://t.co/OmOLef7ZZ9 #避難情報",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2082972718052626740",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2082972718052626740",
+    "postedAt": "2026-07-30T23:32:50.000Z",
+    "fetchedAt": "2026-07-30T23:56:13.218Z",
+    "title": "こちらは多良木町です。",
+    "summary": "こちらは多良木町です。\n2026/07/31 08:30に高齢者等避難を解除しました。\n\n解除地区：\n多良木町全域",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2082972004890603566",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2082972004890603566",
+    "postedAt": "2026-07-30T23:30:00.000Z",
+    "fetchedAt": "2026-07-30T23:56:13.218Z",
+    "title": "支援物資などの受入窓口　問合せ先一覧",
+    "summary": "支援物資などの受入窓口　問合せ先一覧\n\n　令和8年熊本地震における支援物資などの受入窓口を設置しました。詳しくはホームページを確認ください。\nhttps://t.co/x5MnWENxyU",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM001-2082966956555239458",
+    "sourceId": "SRC-MUN-KM001",
+    "sourceName": "熊本市公式X",
+    "accountHandle": "kumamotocity_",
+    "postUrl": "https://x.com/kumamotocity_/status/2082966956555239458",
+    "postedAt": "2026-07-30T23:09:56.000Z",
+    "fetchedAt": "2026-07-30T23:56:13.218Z",
+    "title": "【応急給水活動について（7月31日07：00時点）】",
+    "summary": "【応急給水活動について（7月31日07：00時点）】\n7月31日（金）の応急給水活動について下記のとおり実施します。\n\n詳しくは↓\nhttps://t.co/aiYZ2BxUQi",
+    "regions": [
+      "熊本県熊本市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-NAT-004-2082963245334401264",
     "sourceId": "SRC-NAT-004",
     "sourceName": "総務省消防庁",
