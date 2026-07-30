@@ -1,5 +1,385 @@
 [
   {
+    "postId": "POST-SRC-MUN-KM006-2082673973696012359",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082673973696012359",
+    "postedAt": "2026-07-30T03:45:44.000Z",
+    "fetchedAt": "2026-07-30T03:50:33.633Z",
+    "title": "【防災無線放送内容】給水車のお知らせ（2026/07/30/12:45）",
+    "summary": "【防災無線放送内容】給水車のお知らせ（2026/07/30/12:45）\n水道局からのお知らせです。\n地震の影響により市内各地で断水または水圧低下が発生しています。ただいま、おこばコミュニティセンターで給水車を設置していますので、必要な方は取りに行ってください。皆様の節水のご協力をお願いします。",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2082673617285026301",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2082673617285026301",
+    "postedAt": "2026-07-30T03:44:19.000Z",
+    "fetchedAt": "2026-07-30T03:50:33.633Z",
+    "title": "災害総合相談窓口のご案内",
+    "summary": "災害総合相談窓口のご案内\n\n　被災された方々を支援するための専用窓口を市役所本庁舎２階に設けております。ご利用ください。\n\n開設場所：市役所本庁舎２階　市民相談室横\n平日　午前9時～午後5時\n電話 　33-4452\n\n詳しくは市ホームページを確認ください。\nhttps://t.co/amKjQNCBct",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "OTHER",
+    "priority": "NORMAL",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-004-2082670634589684147",
+    "sourceId": "SRC-NAT-004",
+    "sourceName": "総務省消防庁",
+    "accountHandle": "FDMA_JAPAN",
+    "postUrl": "https://x.com/FDMA_JAPAN/status/2082670634589684147",
+    "postedAt": "2026-07-30T03:32:28.000Z",
+    "fetchedAt": "2026-07-30T03:50:33.633Z",
+    "title": "【消防庁　令和８年熊本地震に対する消防機関の活動状況】 消防防災ヘリも、被災地で活動中です。#緊急消防援助隊 #緊援隊 #熊本県 #佐賀県防災航空隊 https",
+    "summary": "【消防庁　令和８年熊本地震に対する消防機関の活動状況】 消防防災ヘリも、被災地で活動中です。#緊急消防援助隊 #緊援隊 #熊本県 #佐賀県防災航空隊 https://t.co/pcIC805iqJ",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "EMERGENCY",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": true
+  },
+  {
+    "postId": "POST-SRC-NAT-005-2082668811069833655",
+    "sourceId": "SRC-NAT-005",
+    "sourceName": "防衛省 災害対策",
+    "accountHandle": "ModJapan_saigai",
+    "postUrl": "https://x.com/ModJapan_saigai/status/2082668811069833655",
+    "postedAt": "2026-07-30T03:25:13.000Z",
+    "fetchedAt": "2026-07-30T03:50:33.633Z",
+    "title": "本日、海上自衛隊の掃海母艦「ぶんご」、多用途支援艦「えんしゅう」「げんかい」の３隻が八代港に入港しました。入港後は、搭載した救援物資を速やかに陸上自衛隊へ引き継",
+    "summary": "本日、海上自衛隊の掃海母艦「ぶんご」、多用途支援艦「えんしゅう」「げんかい」の３隻が八代港に入港しました。入港後は、搭載した救援物資を速やかに陸上自衛隊へ引き継ぎ、陸上自衛隊において被災地の避難場所等、必要な場所への輸送を開始しています。\n\n↓掃海母艦「ぶんご」の入港の様子です。 https://t.co/rRXwyeT0Yq",
+    "regions": [
+      "全国"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": true
+  },
+  {
+    "postId": "POST-SRC-NAT-004-2082668603833504044",
+    "sourceId": "SRC-NAT-004",
+    "sourceName": "総務省消防庁",
+    "accountHandle": "FDMA_JAPAN",
+    "postUrl": "https://x.com/FDMA_JAPAN/status/2082668603833504044",
+    "postedAt": "2026-07-30T03:24:23.000Z",
+    "fetchedAt": "2026-07-30T03:50:33.633Z",
+    "title": "本日（7/30）は、熊本県を含めて31都府県に熱中症警戒アラートが発表されています。特に、避難所等普段とは異なる環境で過ごされている方は、こまめに水分補給をした",
+    "summary": "本日（7/30）は、熊本県を含めて31都府県に熱中症警戒アラートが発表されています。特に、避難所等普段とは異なる環境で過ごされている方は、こまめに水分補給をしたり、濡れたタオル等を肌に当て体を冷やすなどの熱中症対策をお願いします。周囲の方や離れて暮らすご家族への呼びかけもお願いします。 https://t.co/JcMPUwKKpi",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-001-2082667942484046003",
+    "sourceId": "SRC-NAT-001",
+    "sourceName": "首相官邸 災害・危機管理情報",
+    "accountHandle": "Kantei_Saigai",
+    "postUrl": "https://x.com/Kantei_Saigai/status/2082667942484046003",
+    "postedAt": "2026-07-30T03:21:46.000Z",
+    "fetchedAt": "2026-07-30T03:50:33.633Z",
+    "title": "【熊本地震】 https://t.co/HZdSW4EuJu",
+    "summary": "【熊本地震】 https://t.co/HZdSW4EuJu",
+    "regions": [
+      "全国"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2082666875948056892",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2082666875948056892",
+    "postedAt": "2026-07-30T03:17:31.000Z",
+    "fetchedAt": "2026-07-30T03:50:33.633Z",
+    "title": "(続き)",
+    "summary": "(続き) \nこちらは甲佐町です。\n現在(2026/07/30 12:17)発令中の避難情報については、以下をクリックして確認してください。\n 防災情報くまもと URL: https://t.co/OmOLef7ZZ9 #避難情報",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2082666874861683131",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2082666874861683131",
+    "postedAt": "2026-07-30T03:17:31.000Z",
+    "fetchedAt": "2026-07-30T03:50:33.633Z",
+    "title": "こちらは甲佐町です。",
+    "summary": "こちらは甲佐町です。\n2026/07/28 18:15に避難指示を発令しました。\n\n発令地区：\n甲佐町全域\n\n理由：地震警戒のため",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM001-2082666323948241081",
+    "sourceId": "SRC-MUN-KM001",
+    "sourceName": "熊本市公式X",
+    "accountHandle": "kumamotocity_",
+    "postUrl": "https://x.com/kumamotocity_/status/2082666323948241081",
+    "postedAt": "2026-07-30T03:15:20.000Z",
+    "fetchedAt": "2026-07-30T03:50:33.633Z",
+    "title": "■原稿■",
+    "summary": "■原稿■\n【濁水情報について（7月30日11：30時点）】\n\n熊本市内の一部で発生している濁水状況は、次のとおりです↓\nhttps://t.co/aiYZ2BxUQi",
+    "regions": [
+      "熊本市"
+    ],
+    "category": "OTHER",
+    "priority": "NORMAL",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2082663081700925468",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2082663081700925468",
+    "postedAt": "2026-07-30T03:02:27.000Z",
+    "fetchedAt": "2026-07-30T03:50:33.633Z",
+    "title": "(続き)",
+    "summary": "(続き) \nこちらは人吉市です。\n現在(2026/07/30 12:02)発令中の避難情報については、以下をクリックして確認してください。\n 防災情報くまもと URL: https://t.co/OmOLef7ZZ9 #避難情報",
+    "regions": [
+      "人吉市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2082663080518201456",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2082663080518201456",
+    "postedAt": "2026-07-30T03:02:27.000Z",
+    "fetchedAt": "2026-07-30T03:50:33.633Z",
+    "title": "こちらは人吉市です。",
+    "summary": "こちらは人吉市です。\n2026/07/30 12:00に高齢者等避難を解除しました。\n\n解除地区：\n人吉市全域",
+    "regions": [
+      "人吉市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM006-2082662475955089576",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082662475955089576",
+    "postedAt": "2026-07-30T03:00:02.000Z",
+    "fetchedAt": "2026-07-30T03:50:33.633Z",
+    "title": "【SL人吉の動態展示は中止します🚂】",
+    "summary": "【SL人吉の動態展示は中止します🚂】\n\n８月１日に予定していたＳＬ人吉の動態展示は、７月28日に発生した地震の影響に伴い、中止します。\n\n▼詳しくはこちらをご覧ください\nhttps://t.co/MCHiu7NF8m https://t.co/aDgPoDIThz",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM006-2082662471668789654",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082662471668789654",
+    "postedAt": "2026-07-30T03:00:01.000Z",
+    "fetchedAt": "2026-07-30T03:50:33.633Z",
+    "title": "【耐震対策講演会を中止します】",
+    "summary": "【耐震対策講演会を中止します】\n\n８月１日に予定していた令和８年度熊本県耐震対策講演会は、７月28日に発生した地震の影響に伴い、中止となりました。\n\n▼詳しくはこちらをご覧ください\nhttps://t.co/9Qpd0NOGBV https://t.co/ZLAWcXltJT",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM006-2082662469831696811",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082662469831696811",
+    "postedAt": "2026-07-30T03:00:01.000Z",
+    "fetchedAt": "2026-07-30T03:50:33.633Z",
+    "title": "【ゆうれい祭りを中止します】",
+    "summary": "【ゆうれい祭りを中止します】\n\n８月１日に予定していた令和８年「ゆうれい祭り」は、７月28日に発生した地震の影響に伴い、中止となりました。\n\n▼詳しくはこちらをご覧ください\nhttps://t.co/VCiAxa58vL https://t.co/2DZeXjmTEW",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2082657800531128748",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2082657800531128748",
+    "postedAt": "2026-07-30T02:41:28.000Z",
+    "fetchedAt": "2026-07-30T03:50:33.633Z",
+    "title": "【給水所情報】",
+    "summary": "【給水所情報】\n八代市からのお知らせです。\n本日、14時から予定しておりました「郡築コミュニティセンター」での応急給水について、場所を「第七中学校」に変更いたします。",
+    "regions": [
+      "八代市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM006-2082647545130713272",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082647545130713272",
+    "postedAt": "2026-07-30T02:00:43.000Z",
+    "fetchedAt": "2026-07-30T03:50:33.633Z",
+    "title": "【防災無線放送内容】市内全域の高齢者等避難を解除します",
+    "summary": "【防災無線放送内容】市内全域の高齢者等避難を解除します\nこちらは防災人吉市です。\n市内全域に発令していました、「高齢者等避難」は、本日（３０日）、正午をもって解除します。\n併せて、指定避難所８か所も正午をもって、すべて閉所します。",
+    "regions": [
+      "人吉市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-004-2082645066431279528",
+    "sourceId": "SRC-NAT-004",
+    "sourceName": "総務省消防庁",
+    "accountHandle": "FDMA_JAPAN",
+    "postUrl": "https://x.com/FDMA_JAPAN/status/2082645066431279528",
+    "postedAt": "2026-07-30T01:50:52.000Z",
+    "fetchedAt": "2026-07-30T03:50:33.633Z",
+    "title": "【消防庁とりまとめ第19報】令和８年熊本地震による被害及び消防機関等の対応状況について、7月30日（木）10時30分現在の被害状況等を取りまとめました。 詳細は",
+    "summary": "【消防庁とりまとめ第19報】令和８年熊本地震による被害及び消防機関等の対応状況について、7月30日（木）10時30分現在の被害状況等を取りまとめました。 詳細はこちら→https://t.co/Spt5jcTiPV\n#総務省消防庁 #災害情報 #地震",
+    "regions": [
+      "全国"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-005-2082642144179958015",
+    "sourceId": "SRC-NAT-005",
+    "sourceName": "防衛省 災害対策",
+    "accountHandle": "ModJapan_saigai",
+    "postUrl": "https://x.com/ModJapan_saigai/status/2082642144179958015",
+    "postedAt": "2026-07-30T01:39:15.000Z",
+    "fetchedAt": "2026-07-30T03:50:33.633Z",
+    "title": "本日も防衛省・自衛隊は、「イオンモール熊本」において警察や消防などと連携して、人命救助活動を行っています。",
+    "summary": "本日も防衛省・自衛隊は、「イオンモール熊本」において警察や消防などと連携して、人命救助活動を行っています。\n昨夜から、救助犬「クレイ」「アテナ」「モミジ」による捜索活動を開始しました。 https://t.co/Sxt6kNE0FF",
+    "regions": [
+      "全国"
+    ],
+    "category": "RESCUE_JSDF",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2082634284687667293",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2082634284687667293",
+    "postedAt": "2026-07-30T01:08:01.000Z",
+    "fetchedAt": "2026-07-30T03:50:33.633Z",
+    "title": "(続き)",
+    "summary": "(続き) \nこちらは熊本市です。\n現在(2026/07/28 19:30)開設中の避難所情報については、以下をクリックして確認してください。\n 防災情報くまもと URL: https://t.co/OmOLef7ZZ9\n #避難所開設",
+    "regions": [
+      "熊本市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2082634283613876343",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2082634283613876343",
+    "postedAt": "2026-07-30T01:08:01.000Z",
+    "fetchedAt": "2026-07-30T03:50:33.633Z",
+    "title": "こちらは熊本市です。",
+    "summary": "こちらは熊本市です。\n2026/07/28 19:30 に避難所を開設しましたのでお知らせします。\n開設した避難所： 済々黌高校【広域】",
+    "regions": [
+      "熊本市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-MUN-KM001-2082621938015564147",
     "sourceId": "SRC-MUN-KM001",
     "sourceName": "熊本市公式X",
