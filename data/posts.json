@@ -1,5 +1,82 @@
 [
   {
+    "postId": "POST-SRC-MUN-KM001-2082621938015564147",
+    "sourceId": "SRC-MUN-KM001",
+    "sourceName": "熊本市公式X",
+    "accountHandle": "kumamotocity_",
+    "postUrl": "https://x.com/kumamotocity_/status/2082621938015564147",
+    "postedAt": "2026-07-30T00:18:57.000Z",
+    "fetchedAt": "2026-07-30T00:55:22.560Z",
+    "title": "【応急給水活動について（７月30日08：45時点）】",
+    "summary": "【応急給水活動について（７月30日08：45時点）】\n７月30日（木）の応急給水活動について、次のとおり実施します。↓\n\n※杉上小学校が追加になりました。\nhttps://t.co/aiYZ2BxUQi",
+    "regions": [
+      "熊本県熊本市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2082619223013278101",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2082619223013278101",
+    "postedAt": "2026-07-30T00:08:10.000Z",
+    "fetchedAt": "2026-07-30T00:55:22.560Z",
+    "title": "(続き)",
+    "summary": "(続き) \nこちらは宇土市です。\n現在(2026/07/30 09:00)開設中の避難所情報については、以下をクリックして確認してください。\n 防災情報くまもと URL: https://t.co/OmOLef7ZZ9\n #避難所開設",
+    "regions": [
+      "宇土市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2082619221880770723",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2082619221880770723",
+    "postedAt": "2026-07-30T00:08:10.000Z",
+    "fetchedAt": "2026-07-30T00:55:22.560Z",
+    "title": "こちらは宇土市です。",
+    "summary": "こちらは宇土市です。\n2026/07/30 09:00 に避難所を開設しましたのでお知らせします。\n開設した避難所： 花園コミュニティセンター",
+    "regions": [
+      "宇土市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-004-2082619189416845701",
+    "sourceId": "SRC-NAT-004",
+    "sourceName": "総務省消防庁",
+    "accountHandle": "FDMA_JAPAN",
+    "postUrl": "https://x.com/FDMA_JAPAN/status/2082619189416845701",
+    "postedAt": "2026-07-30T00:08:02.000Z",
+    "fetchedAt": "2026-07-30T00:55:22.560Z",
+    "title": "【消防庁　令和８年熊本地震に対する消防機関の活動状況】 八代市の日本製紙八代工場被災現場において、救助活動中です。#緊急消防援助隊 #緊援隊 #熊本県 #岡山県",
+    "summary": "【消防庁　令和８年熊本地震に対する消防機関の活動状況】 八代市の日本製紙八代工場被災現場において、救助活動中です。#緊急消防援助隊 #緊援隊 #熊本県 #岡山県大隊 https://t.co/L47rPRpFOM",
+    "regions": [
+      "熊本県",
+      "八代市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "EMERGENCY",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": true
+  },
+  {
     "postId": "POST-SRC-MUN-KM006-2082598480045031466",
     "sourceId": "SRC-MUN-KM006",
     "sourceName": "人吉市公式X",
