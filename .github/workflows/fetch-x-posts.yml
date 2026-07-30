@@ -98,6 +98,27 @@ jobs:
           echo "commit_sha=$COMMIT_SHA" >> "$GITHUB_OUTPUT"
           git push
 
+      - name: Dispatch portal x-feed sync
+        if: steps.fetch.outputs.blocked != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.PORTAL_DISPATCH_TOKEN }}
+        run: |
+          set -euo pipefail
+          if [ -z "${GH_TOKEN}" ]; then
+            echo "PORTAL_DISPATCH_TOKEN is required to trigger kumamoto-disaster-portal sync"
+            exit 1
+          fi
+          UPDATED_AT="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          echo "PORTAL_DISPATCH_TARGET=toropoo-web/kumamoto-disaster-portal"
+          echo "PORTAL_DISPATCH_EVENT=x-feed-updated"
+          echo "PORTAL_DISPATCH_SOURCE=kumamoto-disaster-x-feed"
+          echo "PORTAL_DISPATCH_UPDATED_AT=${UPDATED_AT}"
+          gh api repos/toropoo-web/kumamoto-disaster-portal/dispatches \
+            -f event_type=x-feed-updated \
+            -f "client_payload[source]=kumamoto-disaster-x-feed" \
+            -f "client_payload[updated_at]=${UPDATED_AT}"
+          echo "PORTAL_DISPATCH_SENT=true"
+
       - name: Report blocked fetch
         if: steps.fetch.outputs.blocked == 'true'
         run: |

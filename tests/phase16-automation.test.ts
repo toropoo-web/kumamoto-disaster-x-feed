@@ -105,6 +105,16 @@ describe("phase16 feed automation", () => {
     assert.match(workflow, /workflow_dispatch:/);
     assert.match(workflow, /schedule:/);
   });
+
+  test("successful fetch dispatches portal x-feed sync", () => {
+    const workflow = readText(".github/workflows/fetch-x-posts.yml");
+    assert.match(workflow, /Dispatch portal x-feed sync/);
+    assert.match(workflow, /PORTAL_DISPATCH_TOKEN/);
+    assert.match(workflow, /event_type=x-feed-updated/);
+    assert.match(workflow, /client_payload\[source\]=kumamoto-disaster-x-feed/);
+    assert.match(workflow, /client_payload\[updated_at\]/);
+    assert.match(workflow, /toropoo-web\/kumamoto-disaster-portal/);
+  });
 });
 
 describe("phase16 fetch failure safety", () => {
