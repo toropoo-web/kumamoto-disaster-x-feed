@@ -1,5 +1,119 @@
 [
   {
+    "postId": "POST-SRC-NAT-005-2082709366399197529",
+    "sourceId": "SRC-NAT-005",
+    "sourceName": "防衛省 災害対策",
+    "accountHandle": "ModJapan_saigai",
+    "postUrl": "https://x.com/ModJapan_saigai/status/2082709366399197529",
+    "postedAt": "2026-07-30T06:06:22.000Z",
+    "fetchedAt": "2026-07-30T06:19:12.655Z",
+    "title": "防衛省・自衛隊は、小泉大臣の指示を踏まえ、「できることはすべてやる」との決意のもと、緊張感を持って人命救助を最優先に活動しています。また、熊本県では猛暑が続いて",
+    "summary": "防衛省・自衛隊は、小泉大臣の指示を踏まえ、「できることはすべてやる」との決意のもと、緊張感を持って人命救助を最優先に活動しています。また、熊本県では猛暑が続いており、被災者への生活支援が重要となっています。 https://t.co/SOCk11O15M",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "RESCUE_JSDF",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-004-2082701474845569443",
+    "sourceId": "SRC-NAT-004",
+    "sourceName": "総務省消防庁",
+    "accountHandle": "FDMA_JAPAN",
+    "postUrl": "https://x.com/FDMA_JAPAN/status/2082701474845569443",
+    "postedAt": "2026-07-30T05:35:00.000Z",
+    "fetchedAt": "2026-07-30T06:19:12.655Z",
+    "title": "【消防庁　令和８年熊本地震に対する消防機関の活動状況】被災地にて、 警視庁と合同で救助活動を実施しております。#緊急消防援助隊 #緊援隊 #熊本県 ＃警視庁 #",
+    "summary": "【消防庁　令和８年熊本地震に対する消防機関の活動状況】被災地にて、 警視庁と合同で救助活動を実施しております。#緊急消防援助隊 #緊援隊 #熊本県 ＃警視庁 #警備犬 https://t.co/SW1L2sACAr",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "EMERGENCY",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": true
+  },
+  {
+    "postId": "POST-SRC-NAT-001-2082697258613784775",
+    "sourceId": "SRC-NAT-001",
+    "sourceName": "首相官邸 災害・危機管理情報",
+    "accountHandle": "Kantei_Saigai",
+    "postUrl": "https://x.com/Kantei_Saigai/status/2082697258613784775",
+    "postedAt": "2026-07-30T05:18:15.000Z",
+    "fetchedAt": "2026-07-30T06:19:12.655Z",
+    "title": "【地震関連・官房長官記者会見】",
+    "summary": "【地震関連・官房長官記者会見】\n本日（７月３０日）１１時００分頃から行われた木原官房長官の記者会見における、令和８年熊本地震に関する関連質疑です。\n\n※要旨（速報版）\n（地震関連外冒頭発言　略）\n（記者） https://t.co/SLbUJHB2cP",
+    "regions": [
+      "全国"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": true
+  },
+  {
+    "postId": "POST-SRC-NAT-004-2082696098368643220",
+    "sourceId": "SRC-NAT-004",
+    "sourceName": "総務省消防庁",
+    "accountHandle": "FDMA_JAPAN",
+    "postUrl": "https://x.com/FDMA_JAPAN/status/2082696098368643220",
+    "postedAt": "2026-07-30T05:13:39.000Z",
+    "fetchedAt": "2026-07-30T06:19:12.655Z",
+    "title": "【消防庁とりまとめ第19報】令和８年熊本地震による被害及び消防機関等の対応状況について、7月30日（木）14時00分現在の被害状況等を取りまとめました。 詳細は",
+    "summary": "【消防庁とりまとめ第19報】令和８年熊本地震による被害及び消防機関等の対応状況について、7月30日（木）14時00分現在の被害状況等を取りまとめました。 詳細はこちら→https://t.co/naYYCk7IUF\n#総務省消防庁 #災害情報 #地震",
+    "regions": [
+      "全国"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-001-2082685661308711010",
+    "sourceId": "SRC-NAT-001",
+    "sourceName": "首相官邸 災害・危機管理情報",
+    "accountHandle": "Kantei_Saigai",
+    "postUrl": "https://x.com/Kantei_Saigai/status/2082685661308711010",
+    "postedAt": "2026-07-30T04:32:10.000Z",
+    "fetchedAt": "2026-07-30T06:19:12.655Z",
+    "title": "令和8年熊本地震に関する第3回非常災害対策本部会議のライブ配信です。 https://t.co/IiY34hcEBZ",
+    "summary": "令和8年熊本地震に関する第3回非常災害対策本部会議のライブ配信です。 https://t.co/IiY34hcEBZ",
+    "regions": [
+      "全国"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM001-2082679604083630590",
+    "sourceId": "SRC-MUN-KM001",
+    "sourceName": "熊本市公式X",
+    "accountHandle": "kumamotocity_",
+    "postUrl": "https://x.com/kumamotocity_/status/2082679604083630590",
+    "postedAt": "2026-07-30T04:08:06.000Z",
+    "fetchedAt": "2026-07-30T06:19:12.655Z",
+    "title": "先ほどの投稿内容に一部誤りがありました。修正のうえ、改めてお知らせいたします。",
+    "summary": "先ほどの投稿内容に一部誤りがありました。修正のうえ、改めてお知らせいたします。\n\n【濁水情報について（7月30日11：30時点）】\n\n熊本市内の一部で発生している濁水状況は、次のとおりです↓\nhttps://t.co/aiYZ2BxUQi",
+    "regions": [
+      "熊本市"
+    ],
+    "category": "OTHER",
+    "priority": "NORMAL",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-MUN-KM006-2082673973696012359",
     "sourceId": "SRC-MUN-KM006",
     "sourceName": "人吉市公式X",
