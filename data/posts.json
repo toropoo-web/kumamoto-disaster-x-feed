@@ -1,5 +1,177 @@
 [
   {
+    "postId": "POST-SRC-NAT-005-2082789328959557910",
+    "sourceId": "SRC-NAT-005",
+    "sourceName": "防衛省 災害対策",
+    "accountHandle": "ModJapan_saigai",
+    "postUrl": "https://x.com/ModJapan_saigai/status/2082789328959557910",
+    "postedAt": "2026-07-30T11:24:07.000Z",
+    "fetchedAt": "2026-07-30T11:27:22.300Z",
+    "title": "本日、熊本県の八代港に入港した海上自衛隊の艦艇から、飲料水や非常用糧食、生活用品などの支援物資を陸上自衛隊が引き継ぎ、避難所等への輸送を開始しました。",
+    "summary": "本日、熊本県の八代港に入港した海上自衛隊の艦艇から、飲料水や非常用糧食、生活用品などの支援物資を陸上自衛隊が引き継ぎ、避難所等への輸送を開始しました。\nあわせて、熊本県内各地で給水支援などの生活支援活動を実施しています。 https://t.co/HkJ2oFm6uj",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": true
+  },
+  {
+    "postId": "POST-SRC-MUN-KM001-2082786838834757638",
+    "sourceId": "SRC-MUN-KM001",
+    "sourceName": "熊本市公式X",
+    "accountHandle": "kumamotocity_",
+    "postUrl": "https://x.com/kumamotocity_/status/2082786838834757638",
+    "postedAt": "2026-07-30T11:14:13.000Z",
+    "fetchedAt": "2026-07-30T11:27:22.300Z",
+    "title": "【試験通水の実施について（7月30日20：00時点）】",
+    "summary": "【試験通水の実施について（7月30日20：00時点）】\n断水中の下記対象地区におきまして、段階的な試験通水を実施いたします。↓\nhttps://t.co/aiYZ2BxUQi\n※また、試験通水中は一時的に水が出る場合がありますが、あくまで試験のための通水ですので、ご使用はお控えくださいますようお願いいたします。",
+    "regions": [
+      "熊本県熊本市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-001-2082782907916304482",
+    "sourceId": "SRC-NAT-001",
+    "sourceName": "首相官邸 災害・危機管理情報",
+    "accountHandle": "Kantei_Saigai",
+    "postUrl": "https://x.com/Kantei_Saigai/status/2082782907916304482",
+    "postedAt": "2026-07-30T10:58:36.000Z",
+    "fetchedAt": "2026-07-30T11:27:22.300Z",
+    "title": "【地震関連・官房長官記者会見】",
+    "summary": "【地震関連・官房長官記者会見】\n本日（７月３０日）１６時００分頃から行われた木原官房長官の記者会見における、令和８年熊本地震に関する関連質疑です。\n\n※要旨（速報版）\n（記者） https://t.co/X98zWumACu",
+    "regions": [
+      "全国"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": true
+  },
+  {
+    "postId": "POST-SRC-MUN-KM006-2082774997098287150",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082774997098287150",
+    "postedAt": "2026-07-30T10:27:10.000Z",
+    "fetchedAt": "2026-07-30T11:27:22.300Z",
+    "title": "【市内全域で断水や水圧低下が発生しています】",
+    "summary": "【市内全域で断水や水圧低下が発生しています】\n\n地震の影響で水源地の濁りが発生し、水源地からの供給量が大幅に減少しているため、市内全域で水圧低下または断水が発生しています。\n\n▼詳しくはこちらをご覧ください\nhttps://t.co/zP4PxQQK2Y\n\n▼給水車などの場所はこちら\nhttps://t.co/iBGYFIR7y6",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2082764494758113550",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2082764494758113550",
+    "postedAt": "2026-07-30T09:45:26.000Z",
+    "fetchedAt": "2026-07-30T11:27:22.300Z",
+    "title": "こちらは氷川町です。",
+    "summary": "こちらは氷川町です。\n2026/07/29 18:00 に避難所を開設しましたのでお知らせします。\n開設した避難所： 氷川町立竜北西部小学校",
+    "regions": [
+      "氷川町"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2082764118038393161",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2082764118038393161",
+    "postedAt": "2026-07-30T09:43:56.000Z",
+    "fetchedAt": "2026-07-30T11:27:22.300Z",
+    "title": "こちらは氷川町です。",
+    "summary": "こちらは氷川町です。\n2026/07/29 18:00 に避難所を開設しましたのでお知らせします。\n開設した避難所： 氷川町立竜北東小学校",
+    "regions": [
+      "氷川町"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2082763739938640346",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2082763739938640346",
+    "postedAt": "2026-07-30T09:42:26.000Z",
+    "fetchedAt": "2026-07-30T11:27:22.300Z",
+    "title": "(続き)",
+    "summary": "(続き) \nこちらは氷川町です。\n現在(2026/07/29 18:00)開設中の避難所情報については、以下をクリックして確認してください。\n 防災情報くまもと URL: https://t.co/OmOLef7ZZ9\n #避難所開設",
+    "regions": [
+      "氷川町"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2082763738898440390",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2082763738898440390",
+    "postedAt": "2026-07-30T09:42:25.000Z",
+    "fetchedAt": "2026-07-30T11:27:22.300Z",
+    "title": "こちらは氷川町です。",
+    "summary": "こちらは氷川町です。\n2026/07/29 18:00 に避難所を開設しましたのでお知らせします。\n開設した避難所： 氷川町及び八代市中学校組合立氷川中学校",
+    "regions": [
+      "八代市",
+      "氷川町"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-005-2082763690810699810",
+    "sourceId": "SRC-NAT-005",
+    "sourceName": "防衛省 災害対策",
+    "accountHandle": "ModJapan_saigai",
+    "postUrl": "https://x.com/ModJapan_saigai/status/2082763690810699810",
+    "postedAt": "2026-07-30T09:42:14.000Z",
+    "fetchedAt": "2026-07-30T11:27:22.300Z",
+    "title": "熊本の震災対応にあたる隊員が安心して任務に専念できるよう、発災当日の28日から、全国12か所（全国の部隊から被災地へ派遣されているため）の駐屯地等で緊急登庁支援",
+    "summary": "熊本の震災対応にあたる隊員が安心して任務に専念できるよう、発災当日の28日から、全国12か所（全国の部隊から被災地へ派遣されているため）の駐屯地等で緊急登庁支援（隊員の子供の一時預かり制度）施設を開設しています。\n 子供たちの見守りは、必要な教育を受けた隊員が交代で実施しています。 https://t.co/RnL1dFxeks",
+    "regions": [
+      "全国"
+    ],
+    "category": "RESCUE_JSDF",
+    "priority": "EMERGENCY",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": true
+  },
+  {
     "postId": "POST-SRC-KUM-001-2082763024985887186",
     "sourceId": "SRC-KUM-001",
     "sourceName": "防災くまもと",
