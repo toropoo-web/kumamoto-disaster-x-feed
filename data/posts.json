@@ -1,5 +1,43 @@
 [
   {
+    "postId": "POST-SRC-NAT-005-2082813194502910256",
+    "sourceId": "SRC-NAT-005",
+    "sourceName": "防衛省 災害対策",
+    "accountHandle": "ModJapan_saigai",
+    "postUrl": "https://x.com/ModJapan_saigai/status/2082813194502910256",
+    "postedAt": "2026-07-30T12:58:57.000Z",
+    "fetchedAt": "2026-07-30T13:05:36.134Z",
+    "title": "熊本県において、人工透析に必要な水が不足している「うきクリニック」「松田病院」「熊本泌尿器科」「八代北部医療センター」の４か所に対し、本日、合計約90トンの給水",
+    "summary": "熊本県において、人工透析に必要な水が不足している「うきクリニック」「松田病院」「熊本泌尿器科」「八代北部医療センター」の４か所に対し、本日、合計約90トンの給水を完了しました。 https://t.co/etIsbtvPOv",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-002-2082793790038012381",
+    "sourceId": "SRC-NAT-002",
+    "sourceName": "内閣府防災",
+    "accountHandle": "CAO_BOUSAI",
+    "postUrl": "https://x.com/CAO_BOUSAI/status/2082793790038012381",
+    "postedAt": "2026-07-30T11:41:50.000Z",
+    "fetchedAt": "2026-07-30T13:05:36.134Z",
+    "title": "令和８年熊本地震の被害状況等を掲載しました。",
+    "summary": "令和８年熊本地震の被害状況等を掲載しました。\n#令和８年熊本地震 #被害状況 https://t.co/e5fsH6XhUU",
+    "regions": [
+      "全国"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-NAT-005-2082789328959557910",
     "sourceId": "SRC-NAT-005",
     "sourceName": "防衛省 災害対策",
