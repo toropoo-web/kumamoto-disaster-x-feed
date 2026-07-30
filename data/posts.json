@@ -1,5 +1,81 @@
 [
   {
+    "postId": "POST-SRC-KUM-001-2082763024985887186",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2082763024985887186",
+    "postedAt": "2026-07-30T09:39:35.000Z",
+    "fetchedAt": "2026-07-30T09:40:46.805Z",
+    "title": "(続き)",
+    "summary": "(続き) \nこちらは氷川町です。\n現在(2026/07/29 09:40)開設中の避難所情報については、以下をクリックして確認してください。\n 防災情報くまもと URL: https://t.co/OmOLef7ZZ9\n #避難所開設",
+    "regions": [
+      "氷川町"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2082763023622746566",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2082763023622746566",
+    "postedAt": "2026-07-30T09:39:35.000Z",
+    "fetchedAt": "2026-07-30T09:40:46.805Z",
+    "title": "こちらは氷川町です。",
+    "summary": "こちらは氷川町です。\n2026/07/29 09:40 に避難所を開設しましたのでお知らせします。\n開設した避難所： 氷川町公民館・宮原公民館",
+    "regions": [
+      "氷川町"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM006-2082756115046207792",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082756115046207792",
+    "postedAt": "2026-07-30T09:12:08.000Z",
+    "fetchedAt": "2026-07-30T09:40:46.805Z",
+    "title": "【市民プールはしばらくの間臨時休場します】",
+    "summary": "【市民プールはしばらくの間臨時休場します】\n\n　地震に伴う節水対策のため、当面の間、市民プールを臨時休場します。ご理解とご協力をお願いします。\n\n▼詳しくはこちらをご覧ください\nhttps://t.co/6NHkpktnHN",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM006-2082756008263524536",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082756008263524536",
+    "postedAt": "2026-07-30T09:11:42.000Z",
+    "fetchedAt": "2026-07-30T09:40:46.805Z",
+    "title": "【7/31】道の駅人吉／石野公園は臨時休園します",
+    "summary": "【7/31】道の駅人吉／石野公園は臨時休園します\n\n　地震の影響による断水のため、道の駅人吉／人吉クラフトパーク石野公園を全館臨時休園とします。ご理解とご協力をお願いします。\n\n▼詳しくはこちらをご覧ください\nhttps://t.co/5i87908icE",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-MUN-KM006-2082754504475484441",
     "sourceId": "SRC-MUN-KM006",
     "sourceName": "人吉市公式X",
