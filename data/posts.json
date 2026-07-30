@@ -1,5 +1,252 @@
 [
   {
+    "postId": "POST-SRC-MUN-KM006-2082754504475484441",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082754504475484441",
+    "postedAt": "2026-07-30T09:05:44.000Z",
+    "fetchedAt": "2026-07-30T09:10:25.942Z",
+    "title": "【防災無線放送内容】地震による水道水の濁りについて（2026/07/30/18:05）",
+    "summary": "【防災無線放送内容】地震による水道水の濁りについて（2026/07/30/18:05）\n水道局からのお知らせです。\n地震の影響により、市内各地で水圧低下や、断水、水道水の濁りが発生しています。水道の濁りを確認した場合は、飲料水としての使用は控...\nhttps://t.co/PWddrJ3s12",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM001-2082754041306812514",
+    "sourceId": "SRC-MUN-KM001",
+    "sourceName": "熊本市公式X",
+    "accountHandle": "kumamotocity_",
+    "postUrl": "https://x.com/kumamotocity_/status/2082754041306812514",
+    "postedAt": "2026-07-30T09:03:53.000Z",
+    "fetchedAt": "2026-07-30T09:10:25.942Z",
+    "title": "【応急給水活動について（７月30日18：00時点）】",
+    "summary": "【応急給水活動について（７月30日18：00時点）】\n\n7月31日（金）の応急給水活動について、次のとおり実施します。↓\n※北区に城北小学校、麻生田小学校が追加しました\nhttps://t.co/aiYZ2BxUQi",
+    "regions": [
+      "熊本県熊本市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-003-2082747691319386622",
+    "sourceId": "SRC-NAT-003",
+    "sourceName": "気象庁防災情報",
+    "accountHandle": "JMA_bousai",
+    "postUrl": "https://x.com/JMA_bousai/status/2082747691319386622",
+    "postedAt": "2026-07-30T08:38:39.000Z",
+    "fetchedAt": "2026-07-30T09:10:25.942Z",
+    "title": "気象庁の「令和８年熊本地震ポータルサイト」では、地震活動の状況や、被災地域の気象情報を、まとめて掲載しています。",
+    "summary": "気象庁の「令和８年熊本地震ポータルサイト」では、地震活動の状況や、被災地域の気象情報を、まとめて掲載しています。\n被災地域での応急・復旧対応や支援活動、避難生活の中での健康管理などにご留意いただくための資料として、ご活用ください。\nhttps://t.co/CaWQARIStK\n \n#令和８年熊本地震 https://t.co/9S1lSy0DjU",
+    "regions": [
+      "全国"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-003-2082746702705095029",
+    "sourceId": "SRC-NAT-003",
+    "sourceName": "気象庁防災情報",
+    "accountHandle": "JMA_bousai",
+    "postUrl": "https://x.com/JMA_bousai/status/2082746702705095029",
+    "postedAt": "2026-07-30T08:34:44.000Z",
+    "fetchedAt": "2026-07-30T09:10:25.942Z",
+    "title": "【被災地では熱中症対策を】",
+    "summary": "【被災地では熱中症対策を】\n熊本県では、今後も8月上旬にかけて最高気温が35℃以上の危険な暑さが続き、40℃以上の酷暑日となる日もある。特に断水や停電が続いている地域では、 #熱中症 などの健康管理に注意を！\n#令和8年熊本地震 ポータルサイトで最新情報の確認を！\nhttps://t.co/CaWQARIStK https://t.co/8GUiOEOd92",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2082745887831605417",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2082745887831605417",
+    "postedAt": "2026-07-30T08:31:29.000Z",
+    "fetchedAt": "2026-07-30T09:10:25.942Z",
+    "title": "【応急給水活動について】",
+    "summary": "【応急給水活動について】\n７月３０日（木）の応急給水を1箇所追加いたします。\n配布量は１回あたり５L程度となります。\n給水容器（ポリタンクやペットボトルなど）をご持参のうえ、お越しください。\n\n時間　１８：００～１９：００\n場所　龍峯コミュニティセンター",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-001-2082744523516752330",
+    "sourceId": "SRC-NAT-001",
+    "sourceName": "首相官邸 災害・危機管理情報",
+    "accountHandle": "Kantei_Saigai",
+    "postUrl": "https://x.com/Kantei_Saigai/status/2082744523516752330",
+    "postedAt": "2026-07-30T08:26:04.000Z",
+    "fetchedAt": "2026-07-30T09:10:25.942Z",
+    "title": "【お知らせ】",
+    "summary": "【お知らせ】\n本日（７月３０日）、高市総理は、令和８年熊本地震に関する非常災害対策本部会議（第３回）を開催しました。\n\n※高市総理発言要旨（速報版）\n　今日もお疲れ様でございます。 https://t.co/ANQFfl8Lld",
+    "regions": [
+      "全国"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": true
+  },
+  {
+    "postId": "POST-SRC-MUN-KM001-2082742370781843539",
+    "sourceId": "SRC-MUN-KM001",
+    "sourceName": "熊本市公式X",
+    "accountHandle": "kumamotocity_",
+    "postUrl": "https://x.com/kumamotocity_/status/2082742370781843539",
+    "postedAt": "2026-07-30T08:17:31.000Z",
+    "fetchedAt": "2026-07-30T09:10:25.942Z",
+    "title": "【水道の水圧低下について（７月30日16：30時点）】",
+    "summary": "【水道の水圧低下について（７月30日16：30時点）】\n地震の影響により、水が出にくいとのお問い合わせをいただいております。\n\n現在、復旧作業を進めておりますので、ご理解とご協力をお願いいたします。\n\n上下水道に関する最新情報はこちら↓\nhttps://t.co/aiYZ2BxUQi",
+    "regions": [
+      "熊本県熊本市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM006-2082740661464477700",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082740661464477700",
+    "postedAt": "2026-07-30T08:10:43.000Z",
+    "fetchedAt": "2026-07-30T09:10:25.942Z",
+    "title": "【防災無線放送内容】給水車のお知らせ（2026/07/30/17：10）",
+    "summary": "【防災無線放送内容】給水車のお知らせ（2026/07/30/17：10）\n水道局からのお知らせです。\n地震の影響により、市内各地で水圧低下や、地域によっては断水が発生しています。\n本日は東間コミュニティセンター、蓑野町公民館、中原団地、一二三...\nhttps://t.co/i8y6naMyWU",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-004-2082734645574238503",
+    "sourceId": "SRC-NAT-004",
+    "sourceName": "総務省消防庁",
+    "accountHandle": "FDMA_JAPAN",
+    "postUrl": "https://x.com/FDMA_JAPAN/status/2082734645574238503",
+    "postedAt": "2026-07-30T07:46:49.000Z",
+    "fetchedAt": "2026-07-30T09:10:25.942Z",
+    "title": "【消防庁とりまとめ第21報】令和８年熊本地震による被害及び消防機関等の対応状況について、7月30日（木）16時30分現在の被害状況等を取りまとめました。 詳細は",
+    "summary": "【消防庁とりまとめ第21報】令和８年熊本地震による被害及び消防機関等の対応状況について、7月30日（木）16時30分現在の被害状況等を取りまとめました。 詳細はこちら→https://t.co/cFEuAoEQkE #総務省消防庁 #災害情報 #地震",
+    "regions": [
+      "全国"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2082733678602723834",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2082733678602723834",
+    "postedAt": "2026-07-30T07:42:58.000Z",
+    "fetchedAt": "2026-07-30T09:10:25.942Z",
+    "title": "【応急給水活動について】",
+    "summary": "【応急給水活動について】\n７月３０日（木）の応急給水を1箇所追加いたします。 配布量は１回あたり５L程度となります。 給水容器（ポリタンクやペットボトルなど）をご持参のうえ、お越しください。 \n\n時間　１７：００～１９：００ \n場所　日奈久小学校",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-005-2082728886593298544",
+    "sourceId": "SRC-NAT-005",
+    "sourceName": "防衛省 災害対策",
+    "accountHandle": "ModJapan_saigai",
+    "postUrl": "https://x.com/ModJapan_saigai/status/2082728886593298544",
+    "postedAt": "2026-07-30T07:23:56.000Z",
+    "fetchedAt": "2026-07-30T09:10:25.942Z",
+    "title": "防衛省・自衛隊は、プッシュ型の支援等を積極的に実施するため、熊本県及びその周辺の各地域の２９か所に８２名の自衛隊員を派遣し、自衛隊が保有する災害派遣活動に資する",
+    "summary": "防衛省・自衛隊は、プッシュ型の支援等を積極的に実施するため、熊本県及びその周辺の各地域の２９か所に８２名の自衛隊員を派遣し、自衛隊が保有する災害派遣活動に資する能力を伝達するとともに、各自治体などのニーズの先行的かつ積極的な把握に努めています。引き続き、各自治体等と緊密に連携して https://t.co/JseFwk9q9V",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "RESCUE_JSDF",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM006-2082725106103804226",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2082725106103804226",
+    "postedAt": "2026-07-30T07:08:55.000Z",
+    "fetchedAt": "2026-07-30T09:10:25.942Z",
+    "title": "【市内全域で断水や水圧低下が発生しています（7/30 16:00現在）】",
+    "summary": "【市内全域で断水や水圧低下が発生しています（7/30 16:00現在）】\n\n　７月28日に発生した地震の影響で水源地の濁りが発生しています。そのため、水源地からの供給量が大幅に減少しており、現在、市内全域で水圧低下または断水が発生しています。",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-001-2082713145936867754",
+    "sourceId": "SRC-NAT-001",
+    "sourceName": "首相官邸 災害・危機管理情報",
+    "accountHandle": "Kantei_Saigai",
+    "postUrl": "https://x.com/Kantei_Saigai/status/2082713145936867754",
+    "postedAt": "2026-07-30T06:21:23.000Z",
+    "fetchedAt": "2026-07-30T09:10:25.942Z",
+    "title": "【災害時の熱中症にご注意ください】",
+    "summary": "【災害時の熱中症にご注意ください】 \n夏場の災害では、慣れない環境や作業で熱中症のリスクが高くなります。 \n十分に注意し、避難生活では普段以上に体調管理を心がけましょう。 \n（映像：政府広報オンライン「被災時に気をつけたい体調管理～熱中症～」） https://t.co/SQSBgG0Fet",
+    "regions": [
+      "全国"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": true
+  },
+  {
     "postId": "POST-SRC-NAT-005-2082709366399197529",
     "sourceId": "SRC-NAT-005",
     "sourceName": "防衛省 災害対策",
