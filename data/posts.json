@@ -1,5 +1,62 @@
 [
   {
+    "postId": "POST-SRC-NAT-004-2083007620819165297",
+    "sourceId": "SRC-NAT-004",
+    "sourceName": "総務省消防庁",
+    "accountHandle": "FDMA_JAPAN",
+    "postUrl": "https://x.com/FDMA_JAPAN/status/2083007620819165297",
+    "postedAt": "2026-07-31T01:51:31.000Z",
+    "fetchedAt": "2026-07-31T02:03:28.729Z",
+    "title": "【消防庁とりまとめ第23報】令和８年熊本地震による被害及び消防機関等の対応状況について、7月31日（金）10時30分現在の被害状況等を取りまとめました。 詳細は",
+    "summary": "【消防庁とりまとめ第23報】令和８年熊本地震による被害及び消防機関等の対応状況について、7月31日（金）10時30分現在の被害状況等を取りまとめました。 詳細はこちら→https://t.co/68Q39KukQb #総務省消防庁 #災害情報 #地震",
+    "regions": [
+      "全国"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM001-2082999687255101827",
+    "sourceId": "SRC-MUN-KM001",
+    "sourceName": "熊本市公式X",
+    "accountHandle": "kumamotocity_",
+    "postUrl": "https://x.com/kumamotocity_/status/2082999687255101827",
+    "postedAt": "2026-07-31T01:20:00.000Z",
+    "fetchedAt": "2026-07-31T02:03:28.729Z",
+    "title": "【熊本市の感染症情報】 ３０週",
+    "summary": "【熊本市の感染症情報】 ３０週\n避難所での感染対策について\n災害時には、感染症の拡大リスクが高まります。特に避難所では、衛生状態を保つことが大切です。感染症に「自分がかからない」ように、かかっても「他人にうつさない」ために、感染対策を行いましょう。\n詳しくは↓\nhttps://t.co/oORBUGP04C",
+    "regions": [
+      "熊本市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-004-2082996395167129871",
+    "sourceId": "SRC-NAT-004",
+    "sourceName": "総務省消防庁",
+    "accountHandle": "FDMA_JAPAN",
+    "postUrl": "https://x.com/FDMA_JAPAN/status/2082996395167129871",
+    "postedAt": "2026-07-31T01:06:55.000Z",
+    "fetchedAt": "2026-07-31T02:03:28.729Z",
+    "title": "【消防庁　令和８年熊本地震に対する消防機関の活動状況】被災地にて、重機による活動も実施しております。#緊急消防援助隊 #緊援隊 #熊本県 ＃福岡県大隊 http",
+    "summary": "【消防庁　令和８年熊本地震に対する消防機関の活動状況】被災地にて、重機による活動も実施しております。#緊急消防援助隊 #緊援隊 #熊本県 ＃福岡県大隊 https://t.co/JDjKwmZ6wj",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "EMERGENCY",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": true
+  },
+  {
     "postId": "POST-SRC-KUM-001-2082972862240133369",
     "sourceId": "SRC-KUM-001",
     "sourceName": "防災くまもと",

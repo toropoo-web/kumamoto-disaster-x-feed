@@ -1,11 +1,11 @@
 {
-  "lastAttemptAt": "2026-07-30T23:56:13.218Z",
-  "lastSuccessfulFetchAt": "2026-07-30T23:56:13.218Z",
+  "lastAttemptAt": "2026-07-31T02:03:28.729Z",
+  "lastSuccessfulFetchAt": "2026-07-31T02:03:28.729Z",
   "sourceCount": 10,
   "successfulSourceCount": 10,
   "failedSourceCount": 0,
-  "fetchedPostCount": 5,
-  "acceptedPostCount": 5,
-  "storedPostCount": 303,
+  "fetchedPostCount": 4,
+  "acceptedPostCount": 3,
+  "storedPostCount": 306,
   "status": "SUCCESS"
 }
