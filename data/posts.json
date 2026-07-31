@@ -1,5 +1,62 @@
 [
   {
+    "postId": "POST-SRC-MUN-KM005-2083021278500569245",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083021278500569245",
+    "postedAt": "2026-07-31T02:45:48.000Z",
+    "fetchedAt": "2026-07-31T02:59:53.237Z",
+    "title": "【応急給水情報】",
+    "summary": "【応急給水情報】 \n7月31日(金)の応急給水を1カ所追加します。 \n配布量は１回あたり５L程度となります。 給水容器（ポリタンクやペットボトルなど）をご持参のうえ、お越しください。 \n給水車が水の補給で一時的に不在になることがあります。 \n\n 時間　１２：００～１９：００ \n・八代支援学校",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM009-2083018356882653450",
+    "sourceId": "SRC-MUN-KM009",
+    "sourceName": "合志市公式X",
+    "accountHandle": "Koshi_city",
+    "postUrl": "https://x.com/Koshi_city/status/2083018356882653450",
+    "postedAt": "2026-07-31T02:34:11.000Z",
+    "fetchedAt": "2026-07-31T02:59:53.237Z",
+    "title": "応急給水について（8月1日〜）",
+    "summary": "応急給水について（8月1日〜）\n＜実施場所＞\n●8月1日（土）～濁水が収まるまで\n・御代志市民センター（午前9時～午後5時）\n・泉ヶ丘市民センター（午前9時～午後5時）\n・合志市役所（午後6時～午後8時）\n※配布量は1人あたり4リットル以内。給水容器（ポリタンクやペットボトルなど）を持参ください。",
+    "regions": [
+      "熊本県合志市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM009-2083017419459809617",
+    "sourceId": "SRC-MUN-KM009",
+    "sourceName": "合志市公式X",
+    "accountHandle": "Koshi_city",
+    "postUrl": "https://x.com/Koshi_city/status/2083017419459809617",
+    "postedAt": "2026-07-31T02:30:28.000Z",
+    "fetchedAt": "2026-07-31T02:59:53.237Z",
+    "title": "濁水が発生している地域への応急給水を実施します。",
+    "summary": "濁水が発生している地域への応急給水を実施します。\n＜実施場所＞\n●7月31日（金）\n・御代志市民センター（午前11時～午後5時）\n・泉ヶ丘市民センター（正午～午後5時）\n・合志市役所（午後6時～午後8時）\n※配布量は1人あたり4リットル以内。給水容器（ポリタンク、ペットボトル等）を持参ください。",
+    "regions": [
+      "熊本県合志市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-NAT-004-2083007620819165297",
     "sourceId": "SRC-NAT-004",
     "sourceName": "総務省消防庁",
@@ -55,6 +112,25 @@
     "status": "ACTIVE",
     "hasImage": false,
     "hasVideo": true
+  },
+  {
+    "postId": "POST-SRC-MUN-KM009-2082987249571156438",
+    "sourceId": "SRC-MUN-KM009",
+    "sourceName": "合志市公式X",
+    "accountHandle": "Koshi_city",
+    "postUrl": "https://x.com/Koshi_city/status/2082987249571156438",
+    "postedAt": "2026-07-31T00:30:34.000Z",
+    "fetchedAt": "2026-07-31T02:59:53.237Z",
+    "title": "地震発生に伴い開設中の避難所は次の通りです（31日午前8時30分時点）。",
+    "summary": "地震発生に伴い開設中の避難所は次の通りです（31日午前8時30分時点）。\n\n(1)合志市防災拠点センター\n(2)泉ヶ丘市民センター\n(3)野々島防災拠点センター\n(4)黒石防災拠点センター\n(5)須屋市民センター\n\n※避難する時は食べ物や飲み物など身の回り品をお持ちください",
+    "regions": [
+      "熊本県合志市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
   },
   {
     "postId": "POST-SRC-KUM-001-2082972862240133369",
@@ -470,6 +546,25 @@
       "氷川町"
     ],
     "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM009-2082760334000136215",
+    "sourceId": "SRC-MUN-KM009",
+    "sourceName": "合志市公式X",
+    "accountHandle": "Koshi_city",
+    "postUrl": "https://x.com/Koshi_city/status/2082760334000136215",
+    "postedAt": "2026-07-30T09:28:54.000Z",
+    "fetchedAt": "2026-07-31T02:59:53.237Z",
+    "title": "【地震に関する生活情報】",
+    "summary": "【地震に関する生活情報】 \n地震発生に伴う公共施設の休館や催しの中止など各種情報については、市ホームページ「防災サイト」に掲載しています。詳しくはこちらをご確認ください。→https://t.co/6PP0wXkrGm",
+    "regions": [
+      "熊本県合志市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
     "priority": "HIGH",
     "status": "ACTIVE",
     "hasImage": false,
@@ -3505,6 +3600,25 @@
     "hasVideo": false
   },
   {
+    "postId": "POST-SRC-MUN-KM009-2082116920166535220",
+    "sourceId": "SRC-MUN-KM009",
+    "sourceName": "合志市公式X",
+    "accountHandle": "Koshi_city",
+    "postUrl": "https://x.com/Koshi_city/status/2082116920166535220",
+    "postedAt": "2026-07-28T14:52:12.000Z",
+    "fetchedAt": "2026-07-31T02:59:53.237Z",
+    "title": "【地震に関する生活情報】",
+    "summary": "【地震に関する生活情報】\n地震発生に伴う公共施設の休館や催しの中止、ごみの収集などの情報については、市ホームページ「防災サイト」に掲載しています。詳しくはこちらをご確認ください。→https://t.co/uS0Fgj7Pmk",
+    "regions": [
+      "熊本県合志市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-MUN-KM001-2082116517471416606",
     "sourceId": "SRC-MUN-KM001",
     "sourceName": "熊本市公式X",
@@ -4170,6 +4284,25 @@
     "hasVideo": false
   },
   {
+    "postId": "POST-SRC-MUN-KM009-2082060988615188894",
+    "sourceId": "SRC-MUN-KM009",
+    "sourceName": "合志市公式X",
+    "accountHandle": "Koshi_city",
+    "postUrl": "https://x.com/Koshi_city/status/2082060988615188894",
+    "postedAt": "2026-07-28T11:09:57.000Z",
+    "fetchedAt": "2026-07-31T02:59:53.237Z",
+    "title": "【地震の影響による本日（28日）の運行終了】",
+    "summary": "【地震の影響による本日（28日）の運行終了】\nレターバスは、地震の発生による大規模な交通渋滞のため、本日（28日）の次の便を運休とします。\n\n＜南ルート＞\n・光の森駅・武蔵塚駅方面\n　　12便（18:36 老人憩の家発）\n\n・老人憩の家行き\n　　13便（19:34 武蔵ヶ丘高速バス停前発）",
+    "regions": [
+      "熊本県合志市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-NAT-004-2082056503092183339",
     "sourceId": "SRC-NAT-004",
     "sourceName": "総務省消防庁",
@@ -4224,6 +4357,25 @@
     "priority": "EMERGENCY",
     "status": "ACTIVE",
     "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM009-2082051649443639500",
+    "sourceId": "SRC-MUN-KM009",
+    "sourceName": "合志市公式X",
+    "accountHandle": "Koshi_city",
+    "postUrl": "https://x.com/Koshi_city/status/2082051649443639500",
+    "postedAt": "2026-07-28T10:32:50.000Z",
+    "fetchedAt": "2026-07-31T02:59:53.237Z",
+    "title": "【地震の影響による水道状況について】",
+    "summary": "【地震の影響による水道状況について】\n合志市水道課よりお知らせします。\n\n先ほど発生しました地震の影響により、水道から濁った水が出てくる可能性があります。\n\n濁った水が出てきた場合は、飲み水として使用することをお控えいただくよう、ご協力のほどよろしくお願いいたします。",
+    "regions": [
+      "熊本県合志市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
     "hasVideo": false
   },
   {
@@ -4431,6 +4583,25 @@
     ],
     "category": "EARTHQUAKE_TSUNAMI",
     "priority": "EMERGENCY",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM009-2082029294566724060",
+    "sourceId": "SRC-MUN-KM009",
+    "sourceName": "合志市公式X",
+    "accountHandle": "Koshi_city",
+    "postUrl": "https://x.com/Koshi_city/status/2082029294566724060",
+    "postedAt": "2026-07-28T09:04:00.000Z",
+    "fetchedAt": "2026-07-31T02:59:53.237Z",
+    "title": "地震発生に伴い、28日午後6時に避難所を開設します。",
+    "summary": "地震発生に伴い、28日午後6時に避難所を開設します。\n(1)合志市防災拠点センター\n(2)泉ヶ丘市民センター\n(3)みどり館\n(4)合生文化会館\n(5)野々島防災拠点センター\n(6)御代志市民センター\n(7)黒石防災拠点センター\n(8)須屋市民センター\n※避難する時は食べ物や飲み物など身の回り品をお持ちください。",
+    "regions": [
+      "熊本県合志市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
     "status": "ACTIVE",
     "hasImage": false,
     "hasVideo": false
