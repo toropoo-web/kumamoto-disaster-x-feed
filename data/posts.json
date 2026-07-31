@@ -1,5 +1,196 @@
 [
   {
+    "postId": "POST-SRC-MUN-KM001-2083149931129500052",
+    "sourceId": "SRC-MUN-KM001",
+    "sourceName": "熊本市公式X",
+    "accountHandle": "kumamotocity_",
+    "postUrl": "https://x.com/kumamotocity_/status/2083149931129500052",
+    "postedAt": "2026-07-31T11:17:01.000Z",
+    "fetchedAt": "2026-07-31T11:20:05.342Z",
+    "title": "【第19報】南区城南町における試験通水の実施について(続報)（７月31日19：00時点）",
+    "summary": "【第19報】南区城南町における試験通水の実施について(続報)（７月31日19：00時点）\n\n南区城南町で実施している断水解消に向けた試験通水の詳細及び上下水道局からのお願いです↓\nhttps://t.co/aiYZ2BxUQi",
+    "regions": [
+      "熊本県熊本市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-005-2083149697074803048",
+    "sourceId": "SRC-NAT-005",
+    "sourceName": "防衛省 災害対策",
+    "accountHandle": "ModJapan_saigai",
+    "postUrl": "https://x.com/ModJapan_saigai/status/2083149697074803048",
+    "postedAt": "2026-07-31T11:16:05.000Z",
+    "fetchedAt": "2026-07-31T11:20:05.342Z",
+    "title": "本日も、自衛隊は熊本県内41か所で給水支援を実施しています。",
+    "summary": "本日も、自衛隊は熊本県内41か所で給水支援を実施しています。\n約160名の隊員と給水車49両が活動しており、昨日より支援体制を拡大しています。\nまた、人工透析に必要な水を確保するため、「菊池郡市医師会立病院」「松岡内科クリニック」への給水を昨日完了しました。 https://t.co/fvh5tNV1fb",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "RESCUE_JSDF",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-001-2083137967322001534",
+    "sourceId": "SRC-NAT-001",
+    "sourceName": "首相官邸 災害・危機管理情報",
+    "accountHandle": "Kantei_Saigai",
+    "postUrl": "https://x.com/Kantei_Saigai/status/2083137967322001534",
+    "postedAt": "2026-07-31T10:29:28.000Z",
+    "fetchedAt": "2026-07-31T11:20:05.342Z",
+    "title": "【地震関連・官房長官記者会見】",
+    "summary": "【地震関連・官房長官記者会見】\n本日（７月３１日）１６時００分頃から行われた木原官房長官の記者会見における、令和８年熊本地震に関する冒頭発言と関連質疑です。 \n\n※要旨（速報版） https://t.co/O0FBmsxv0s",
+    "regions": [
+      "全国"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": true
+  },
+  {
+    "postId": "POST-SRC-MUN-KM001-2083137693551374350",
+    "sourceId": "SRC-MUN-KM001",
+    "sourceName": "熊本市公式X",
+    "accountHandle": "kumamotocity_",
+    "postUrl": "https://x.com/kumamotocity_/status/2083137693551374350",
+    "postedAt": "2026-07-31T10:28:23.000Z",
+    "fetchedAt": "2026-07-31T11:20:05.342Z",
+    "title": "【り災証明書の臨時窓口開設】",
+    "summary": "【り災証明書の臨時窓口開設】\n令和8年熊本地震に伴う、り災証明書の臨時窓口を8月1日（土）2日（日）に開設します。\nなお、り災証明書（住家）はマイナポータルからの電子申請も可能です。\n開設窓口：各区福祉課、城南総合出張所\n受付時間：午前9時～午後4時\n詳細は→https://t.co/cp5eBhHrAa https://t.co/tOyhkQsgHb",
+    "regions": [
+      "熊本県熊本市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM001-2083137504564445535",
+    "sourceId": "SRC-MUN-KM001",
+    "sourceName": "熊本市公式X",
+    "accountHandle": "kumamotocity_",
+    "postUrl": "https://x.com/kumamotocity_/status/2083137504564445535",
+    "postedAt": "2026-07-31T10:27:38.000Z",
+    "fetchedAt": "2026-07-31T11:20:05.342Z",
+    "title": "【８月１日の応急給水所について（７月31日19：00時点）】",
+    "summary": "【８月１日の応急給水所について（７月31日19：00時点）】\n８月１日（土）の応急給水所は次のとおりです。↓\nhttps://t.co/aiYZ2BxUQi https://t.co/p1GFeGOW2A",
+    "regions": [
+      "熊本県熊本市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-005-2083136643758981339",
+    "sourceId": "SRC-NAT-005",
+    "sourceName": "防衛省 災害対策",
+    "accountHandle": "ModJapan_saigai",
+    "postUrl": "https://x.com/ModJapan_saigai/status/2083136643758981339",
+    "postedAt": "2026-07-31T10:24:13.000Z",
+    "fetchedAt": "2026-07-31T11:20:05.342Z",
+    "title": "本日１８時、陸上自衛隊は熊本県の被災者支援のため、「火の君文化センター」で入浴支援を開始しました。（※～２２時まで）",
+    "summary": "本日１８時、陸上自衛隊は熊本県の被災者支援のため、「火の君文化センター」で入浴支援を開始しました。（※～２２時まで）\n被災された方々が少しでも安心して生活できる環境を確保できるよう、生活支援を継続しています。 https://t.co/RcxPhF7y9X",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "RESCUE_JSDF",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": true
+  },
+  {
+    "postId": "POST-SRC-NAT-003-2083118209625100735",
+    "sourceId": "SRC-NAT-003",
+    "sourceName": "気象庁防災情報",
+    "accountHandle": "JMA_bousai",
+    "postUrl": "https://x.com/JMA_bousai/status/2083118209625100735",
+    "postedAt": "2026-07-31T09:10:58.000Z",
+    "fetchedAt": "2026-07-31T11:20:05.342Z",
+    "title": "【熊本県への #台風 の影響】",
+    "summary": "【熊本県への #台風 の影響】\n台風第13号が沖縄・奄美を進んだ場合、熊本県では湿った南東風により、地震で地盤が緩んでいる地域の土砂災害、フェーン現象による高温、強風や高波の発生が考えられる。\n#令和8年熊本地震 ポータルサイトで最新情報の確認を！\nhttps://t.co/CaWQARIStK https://t.co/QzktDRKj8w",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM006-2083116892508803167",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2083116892508803167",
+    "postedAt": "2026-07-31T09:05:44.000Z",
+    "fetchedAt": "2026-07-31T11:20:05.342Z",
+    "title": "【防災無線放送内容】熱中症警戒アラートの発表について（2026/07/31/18:05）",
+    "summary": "【防災無線放送内容】熱中症警戒アラートの発表について（2026/07/31/18:05）\n市役所からのお知らせです。\n明日（１日）も、熱中症警戒アラートが発表され、その後も数日にわたり暑さが継続する見込みです。屋外での活動をできるだけ避け、こ...\nhttps://t.co/CkT4hhdYVu",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "OTHER",
+    "priority": "NORMAL",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM006-2083116636727611631",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2083116636727611631",
+    "postedAt": "2026-07-31T09:04:43.000Z",
+    "fetchedAt": "2026-07-31T11:20:05.342Z",
+    "title": "【令和８年熊本地震で被災した八代市へ職員を派遣します】",
+    "summary": "【令和８年熊本地震で被災した八代市へ職員を派遣します】\n７月28日に発生した「令和８年熊本地震」で、熊本県内では多数の死傷者が確認され、建物の倒壊や道路の損壊、停電・断水など、甚大な被害が発生しています。\n被災自治体では避難所運営や災害復旧などのため職員が不足している状況です。 https://t.co/1ce670tzqN",
+    "regions": [
+      "熊本県",
+      "八代市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-003-2083116615848362099",
+    "sourceId": "SRC-NAT-003",
+    "sourceName": "気象庁防災情報",
+    "accountHandle": "JMA_bousai",
+    "postUrl": "https://x.com/JMA_bousai/status/2083116615848362099",
+    "postedAt": "2026-07-31T09:04:38.000Z",
+    "fetchedAt": "2026-07-31T11:20:05.342Z",
+    "title": "気象庁は令和8年熊本地震を受け、JETT（気象庁防災対応支援チーム）を地元自治体に派遣しており、本日熊本県庁で開催された第1回政府非常災害現地対策本部会議と第8",
+    "summary": "気象庁は令和8年熊本地震を受け、JETT（気象庁防災対応支援チーム）を地元自治体に派遣しており、本日熊本県庁で開催された第1回政府非常災害現地対策本部会議と第8回災害対策本部会議の合同会議において、地震活動の状況や気象の見通しについて説明しました。引き続き被災地の災害対応を支援します。 https://t.co/FXnD6NDWqA",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-MUN-KM005-2083107823131787351",
     "sourceId": "SRC-MUN-KM005",
     "sourceName": "八代市公式X",
