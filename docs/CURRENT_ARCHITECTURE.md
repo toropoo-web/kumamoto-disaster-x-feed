@@ -35,12 +35,14 @@ XApiPostFetcher → X API v2
 - 返信・リポスト除外
 - ページネーション（最大3ページ/Source）
 
-## 定期取得（Phase 12）
+## 定期取得（Phase 12 / PHASE28）
 
 | Workflow | 用途 |
 |----------|------|
 | `ci.yml` | テスト・ビルド（API 非呼び出し） |
-| `fetch-x-posts.yml` | 投稿取得・JSONコミット（手動のみ、schedule はコメントアウト） |
+| `fetch-x-posts.yml` | 投稿取得・JSONコミット・Portal dispatch（`*/30 * * * *` UTC + 手動） |
+
+取得後は `repository_dispatch` で `kumamoto-disaster-portal` の X Feed 同期を起動。Portal 側にもバックアップ cron あり。
 
 HTTP 402 時は JSON 不更新・commit スキップ。公開サイトは `lastSuccessfulFetchAt` のみ表示。
 

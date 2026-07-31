@@ -1,10 +1,10 @@
 name: Fetch X Posts
 
 on:
-  workflow_dispatch:
   schedule:
-    # UTC基準: 毎時 :00 / :30。JSTは+9時間（例: UTC 00:00 = JST 09:00）
+    # UTC: every 30 minutes (JST = UTC+9)
     - cron: "*/30 * * * *"
+  workflow_dispatch:
 
 concurrency:
   group: kumamoto-x-fetch
@@ -17,7 +17,16 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    outputs:
+      blocked: ${{ steps.fetch.outputs.blocked }}
+      dispatch_portal: ${{ steps.fetch.outputs.blocked != 'true' }}
     steps:
+      - name: Log workflow trigger
+        run: |
+          echo "WORKFLOW_TRIGGER=${{ github.event_name }}"
+          echo "WORKFLOW_RUN_ID=${{ github.run_id }}"
+          echo "SCHEDULED_UTC=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+
       - name: Checkout
         uses: actions/checkout@v4
 
@@ -62,11 +71,14 @@ jobs:
           if [ "$FETCH_EXIT" -ne 0 ]; then
             exit "$FETCH_EXIT"
           fi
+          echo "FETCH_STATUS=SUCCESS"
 
       - name: Build site
+        if: steps.fetch.outputs.blocked != 'true'
         run: npm run build
 
       - name: Validate production data
+        if: steps.fetch.outputs.blocked != 'true'
         run: npm run test:production-data
 
       - name: Commit data changes
@@ -98,8 +110,20 @@ jobs:
           echo "commit_sha=$COMMIT_SHA" >> "$GITHUB_OUTPUT"
           git push
 
+      - name: Report blocked fetch
+        if: steps.fetch.outputs.blocked == 'true'
+        run: |
+          echo "FETCH_STATUS=X_API_PAYMENT_REQUIRED"
+          echo "DATA_MODIFIED=false"
+          echo "COMMIT_SKIPPED=true"
+          echo "PORTAL_DISPATCH_SKIPPED=true"
+
+  dispatch-portal:
+    needs: fetch
+    if: needs.fetch.outputs.dispatch_portal == 'true'
+    runs-on: ubuntu-latest
+    steps:
       - name: Dispatch portal x-feed sync
-        if: steps.fetch.outputs.blocked != 'true'
         env:
           GH_TOKEN: ${{ secrets.PORTAL_DISPATCH_TOKEN }}
         run: |
@@ -118,10 +142,3 @@ jobs:
             -f "client_payload[source]=kumamoto-disaster-x-feed" \
             -f "client_payload[updated_at]=${UPDATED_AT}"
           echo "PORTAL_DISPATCH_SENT=true"
-
-      - name: Report blocked fetch
-        if: steps.fetch.outputs.blocked == 'true'
-        run: |
-          echo "FETCH_STATUS=X_API_PAYMENT_REQUIRED"
-          echo "DATA_MODIFIED=false"
-          echo "COMMIT_SKIPPED=true"
