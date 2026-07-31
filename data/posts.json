@@ -1,5 +1,43 @@
 [
   {
+    "postId": "POST-SRC-MUN-KM005-2083304194815955029",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083304194815955029",
+    "postedAt": "2026-07-31T21:30:00.000Z",
+    "fetchedAt": "2026-07-31T21:35:01.271Z",
+    "title": "【応急給水活動について】（その２）",
+    "summary": "【応急給水活動について】（その２）\n\n時間　７：００～１９：００ \n場所\n・第二中学校\n・代陽コミュニティセンター\n・八代小学校\n・八千把コミュニティセンター\n・太田郷コミュニティセンター\n・昭和コミュニティセンター\n・鏡コミュニティセンター\n・千丁コミュニティセンター\n・泉運動公園\n（続く）",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2083304193826443520",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083304193826443520",
+    "postedAt": "2026-07-31T21:30:00.000Z",
+    "fetchedAt": "2026-07-31T21:35:01.271Z",
+    "title": "【本日８月１日(土)の応急給水活動について】（その１）",
+    "summary": "【本日８月１日(土)の応急給水活動について】（その１） 　\n配布量は１回あたり５L程度となります。\n給水容器（ポリタンクやペットボトルなど）をご持参のうえ、お越しください。\nまた、給水車が水の補給で一時的に不在になることがありますが、あらかじめご了承ください。\n（続く）",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-NAT-001-2083171025458491541",
     "sourceId": "SRC-NAT-001",
     "sourceName": "首相官邸 災害・危機管理情報",
