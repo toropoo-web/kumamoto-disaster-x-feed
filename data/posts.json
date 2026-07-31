@@ -1,5 +1,62 @@
 [
   {
+    "postId": "POST-SRC-NAT-004-2083316135647498504",
+    "sourceId": "SRC-NAT-004",
+    "sourceName": "総務省消防庁",
+    "accountHandle": "FDMA_JAPAN",
+    "postUrl": "https://x.com/FDMA_JAPAN/status/2083316135647498504",
+    "postedAt": "2026-07-31T22:17:27.000Z",
+    "fetchedAt": "2026-07-31T22:51:50.681Z",
+    "title": "【消防庁とりまとめ第26報】令和８年熊本地震による被害及び消防機関等の対応状況について、8月1日（土）7時00分現在の被害状況等を取りまとめました。 詳細はこち",
+    "summary": "【消防庁とりまとめ第26報】令和８年熊本地震による被害及び消防機関等の対応状況について、8月1日（土）7時00分現在の被害状況等を取りまとめました。 詳細はこちら→https://t.co/XdfNoLkqTC #総務省消防庁 #災害情報 #地震",
+    "regions": [
+      "全国"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM006-2083315694184341819",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2083315694184341819",
+    "postedAt": "2026-07-31T22:15:42.000Z",
+    "fetchedAt": "2026-07-31T22:51:50.681Z",
+    "title": "【防災無線放送内容】水道水に関するお知らせ（2026/08/01/07:15)",
+    "summary": "【防災無線放送内容】水道水に関するお知らせ（2026/08/01/07:15)\n水道局からのお知らせです。\n現在、水が出る状況ですが、水道管の中に空気が残っており、水を出すときに配管が壊れる恐れがありますので、蛇口はゆっくり開けてください。また...\nhttps://t.co/TTnhUh7RQU",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM001-2083311401196753368",
+    "sourceId": "SRC-MUN-KM001",
+    "sourceName": "熊本市公式X",
+    "accountHandle": "kumamotocity_",
+    "postUrl": "https://x.com/kumamotocity_/status/2083311401196753368",
+    "postedAt": "2026-07-31T21:58:38.000Z",
+    "fetchedAt": "2026-07-31T22:51:50.681Z",
+    "title": "【応急給水活動について（8月1日07：00時点）】",
+    "summary": "【応急給水活動について（8月1日07：00時点）】\n8月1日（土）の応急給水活動について下記のとおり実施します。\nhttps://t.co/aiYZ2BxUQi https://t.co/fwlofu5lrv",
+    "regions": [
+      "熊本県熊本市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-MUN-KM005-2083304194815955029",
     "sourceId": "SRC-MUN-KM005",
     "sourceName": "八代市公式X",
