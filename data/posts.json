@@ -1,5 +1,214 @@
 [
   {
+    "postId": "POST-SRC-NAT-001-2083171025458491541",
+    "sourceId": "SRC-NAT-001",
+    "sourceName": "首相官邸 災害・危機管理情報",
+    "accountHandle": "Kantei_Saigai",
+    "postUrl": "https://x.com/Kantei_Saigai/status/2083171025458491541",
+    "postedAt": "2026-07-31T12:40:50.000Z",
+    "fetchedAt": "2026-07-31T13:11:47.892Z",
+    "title": "【お知らせ】",
+    "summary": "【お知らせ】\n本日（７月３１日）、高市総理は、令和８年熊本地震に関する非常災害対策本部会議（第４回）を開催しました。\n\n※高市総理発言要旨（速報版）\n　「令和８年熊本地震」でお亡くなりになった方は、災害との関連を調査中の方を含めて、本日１５時時点で、３５名となりました。 https://t.co/EIPyAr90Ev",
+    "regions": [
+      "全国"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": true
+  },
+  {
+    "postId": "POST-SRC-NAT-002-2083163463522951243",
+    "sourceId": "SRC-NAT-002",
+    "sourceName": "内閣府防災",
+    "accountHandle": "CAO_BOUSAI",
+    "postUrl": "https://x.com/CAO_BOUSAI/status/2083163463522951243",
+    "postedAt": "2026-07-31T12:10:47.000Z",
+    "fetchedAt": "2026-07-31T13:11:47.892Z",
+    "title": "令和８年熊本地震の被害状況等を更新しました。",
+    "summary": "令和８年熊本地震の被害状況等を更新しました。\n #令和８年熊本地震 #被害状況 https://t.co/e5fsH6XhUU",
+    "regions": [
+      "全国"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2083161692293537951",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083161692293537951",
+    "postedAt": "2026-07-31T12:03:45.000Z",
+    "fetchedAt": "2026-07-31T13:11:47.892Z",
+    "title": "【避難所運営について】",
+    "summary": "【避難所運営について】 \n　画像のとおり避難所を再編しましたのでお知らせします。 https://t.co/accjErN9TY",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM001-2083159966542901373",
+    "sourceId": "SRC-MUN-KM001",
+    "sourceName": "熊本市公式X",
+    "accountHandle": "kumamotocity_",
+    "postUrl": "https://x.com/kumamotocity_/status/2083159966542901373",
+    "postedAt": "2026-07-31T11:56:53.000Z",
+    "fetchedAt": "2026-07-31T13:11:47.892Z",
+    "title": "【熊本市無料入浴支援事業を開始します！】",
+    "summary": "【熊本市無料入浴支援事業を開始します！】\n令和8年熊本地震により被災した方で、自宅や避難所等で入浴することが困難な方を対象に、協力施設での無料入浴支援を８月１日（土）から実施します。\n協力施設は随時更新します。\n詳しくは→https://t.co/TvZQy9G8CX\n＃令和8年熊本地震　#無料入浴支援",
+    "regions": [
+      "熊本市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2083157609402773651",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083157609402773651",
+    "postedAt": "2026-07-31T11:47:31.000Z",
+    "fetchedAt": "2026-07-31T13:11:47.892Z",
+    "title": "【応急給水活動について】（その３）",
+    "summary": "【応急給水活動について】（その３）\n\n時間　８：３０～１９：００\n場所\n・松高コミュニティセンター\n・第七中学校\n・第四中学校\n・宮地小学校\n・竜峯コミュニティセンター\n・日奈久小学校\n・金剛小学校\n・第六中学校\n・八代支援学校\n・日奈久コミュニティセンター\n・太田郷小学校",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2083157505723789344",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083157505723789344",
+    "postedAt": "2026-07-31T11:47:07.000Z",
+    "fetchedAt": "2026-07-31T13:11:47.892Z",
+    "title": "【応急給水活動について】（その２）",
+    "summary": "【応急給水活動について】（その２）\n\n時間　７：００～１９：００\n場所\n・第二中学校\n・代陽コミュニティセンター\n・八代小学校\n・八千把コミュニティセンター\n・太田郷コミュニティセンター\n・昭和コミュニティセンター\n・鏡コミュニティセンター\n・千丁コミュニティセンター\n・泉運動公園\n（続く）",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2083157394230772217",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083157394230772217",
+    "postedAt": "2026-07-31T11:46:40.000Z",
+    "fetchedAt": "2026-07-31T13:11:47.892Z",
+    "title": "【明日８月１日(土)の応急給水活動について】（その１）",
+    "summary": "【明日８月１日(土)の応急給水活動について】（その１）\n　配布量は１回あたり５L程度となります。\n　給水容器（ポリタンクやペットボトルなど）をご持参のうえ、お越しください。\n　また、給水車が水の補給で一時的に不在になることがありますが、あらかじめご了承ください。\n（続く）",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-005-2083156130386329622",
+    "sourceId": "SRC-NAT-005",
+    "sourceName": "防衛省 災害対策",
+    "accountHandle": "ModJapan_saigai",
+    "postUrl": "https://x.com/ModJapan_saigai/status/2083156130386329622",
+    "postedAt": "2026-07-31T11:41:39.000Z",
+    "fetchedAt": "2026-07-31T13:11:47.892Z",
+    "title": "本日、陸上自衛隊の輸送機「オスプレイ」は佐賀駐屯地を離陸し、海上自衛隊の護衛艦「いせ」で支援物資を搭載した後、熊本県の高遊原分屯地へ輸送しました。",
+    "summary": "本日、陸上自衛隊の輸送機「オスプレイ」は佐賀駐屯地を離陸し、海上自衛隊の護衛艦「いせ」で支援物資を搭載した後、熊本県の高遊原分屯地へ輸送しました。\n到着した物資を直ちに陸上自衛隊のトラックへ積み替え、広域物資集積拠点（グランメッセ熊本）などへ届けています。 https://t.co/WpFrR11hhi",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "RESCUE_JSDF",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": true
+  },
+  {
+    "postId": "POST-SRC-MUN-KM001-2083154193318285821",
+    "sourceId": "SRC-MUN-KM001",
+    "sourceName": "熊本市公式X",
+    "accountHandle": "kumamotocity_",
+    "postUrl": "https://x.com/kumamotocity_/status/2083154193318285821",
+    "postedAt": "2026-07-31T11:33:57.000Z",
+    "fetchedAt": "2026-07-31T13:11:47.892Z",
+    "title": "南区富合町の一部（約5,500戸）で発生しておりました断水は、解消しました（ただし、一部で水圧低下が見られます）。",
+    "summary": "南区富合町の一部（約5,500戸）で発生しておりました断水は、解消しました（ただし、一部で水圧低下が見られます）。\nなお、南区城南町の一部では断水が継続しております。\nご迷惑をおかけしますが、ご理解とご協力をお願いいたします。\n\n上下水道に関する最新情報はこちら↓\nhttps://t.co/aiYZ2BxUQi",
+    "regions": [
+      "熊本県熊本市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2083151109737320529",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2083151109737320529",
+    "postedAt": "2026-07-31T11:21:42.000Z",
+    "fetchedAt": "2026-07-31T13:11:47.892Z",
+    "title": "(続き)",
+    "summary": "(続き) \nこちらは宇城市です。\n現在(2026/07/31 17:00)開設中の避難所情報については、以下をクリックして確認してください。\n 防災情報くまもと URL: https://t.co/OmOLef7ZZ9\n #避難所開設",
+    "regions": [
+      "宇城市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2083151108604936402",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2083151108604936402",
+    "postedAt": "2026-07-31T11:21:42.000Z",
+    "fetchedAt": "2026-07-31T13:11:47.892Z",
+    "title": "こちらは宇城市です。",
+    "summary": "こちらは宇城市です。\n2026/07/31 17:00 に避難所を開設しましたのでお知らせします。\n開設した避難所： 小川中学校体育館、不知火小学校２Ｆ交流スペース、豊野防災拠点センター、松橋中学校武道館",
+    "regions": [
+      "宇城市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-MUN-KM001-2083149931129500052",
     "sourceId": "SRC-MUN-KM001",
     "sourceName": "熊本市公式X",
