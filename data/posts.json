@@ -1,5 +1,81 @@
 [
   {
+    "postId": "POST-SRC-MUN-KM005-2083336503992918200",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083336503992918200",
+    "postedAt": "2026-07-31T23:38:23.000Z",
+    "fetchedAt": "2026-07-31T23:53:41.471Z",
+    "title": "【応急給水活動について】",
+    "summary": "【応急給水活動について】\n\n 八代市からのお知らせです。\n 給水所の一部で、給水車の到着が遅れております。 市民の皆様には大変ご迷惑をおかけしますが、ご理解とご協力をお願いいたします。",
+    "regions": [
+      "八代市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2083334339144962518",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083334339144962518",
+    "postedAt": "2026-07-31T23:29:47.000Z",
+    "fetchedAt": "2026-07-31T23:53:41.471Z",
+    "title": "【応急給水活動(八代支援学校への給水車の到着時間変更)】",
+    "summary": "【応急給水活動(八代支援学校への給水車の到着時間変更)】 \n 八代市からのお知らせです。\n 「八代支援学校」への給水車の到着が遅れております。 ９：００～９：３０ごろに到着する予定です。 市民の皆様には大変ご迷惑をおかけしますが、ご理解とご協力をお願いいたします。",
+    "regions": [
+      "八代市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2083329934089658572",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2083329934089658572",
+    "postedAt": "2026-07-31T23:12:17.000Z",
+    "fetchedAt": "2026-07-31T23:53:41.471Z",
+    "title": "(続き)",
+    "summary": "(続き) \nこちらは益城町です。\n現在(2026/07/28 18:50)開設中の避難所情報については、以下をクリックして確認してください。\n 防災情報くまもと URL: https://t.co/OmOLef7ZZ9\n #避難所開設",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2083329932923670641",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2083329932923670641",
+    "postedAt": "2026-07-31T23:12:17.000Z",
+    "fetchedAt": "2026-07-31T23:53:41.471Z",
+    "title": "こちらは益城町です。",
+    "summary": "こちらは益城町です。\n2026/07/28 18:50 に避難所を開設しましたのでお知らせします。\n開設した避難所： 益城町総合体育館",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-NAT-004-2083316135647498504",
     "sourceId": "SRC-NAT-004",
     "sourceName": "総務省消防庁",
