@@ -1,5 +1,291 @@
 [
   {
+    "postId": "POST-SRC-MUN-KM005-2083063889189802248",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083063889189802248",
+    "postedAt": "2026-07-31T05:35:07.000Z",
+    "fetchedAt": "2026-07-31T05:48:18.527Z",
+    "title": "【八代港での応急給水活動について】",
+    "summary": "【八代港での応急給水活動について】\n　本日、下記の場所にて応急給水をおこないます。\n\n時間　７月３１日（金）１５：００～１８：００（予定）\n場所　八代港内　八代市港町　県営６号上屋近く　４．５ｍ岸壁\n〒866-0033 熊本県八代市港町９７\n\n詳しくはこちら\nhttps://t.co/9Sgo4tig0Y",
+    "regions": [
+      "熊本県",
+      "八代市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2083062144200028400",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083062144200028400",
+    "postedAt": "2026-07-31T05:28:11.000Z",
+    "fetchedAt": "2026-07-31T05:48:18.527Z",
+    "title": "【応急給水情報】",
+    "summary": "【応急給水情報】 \n7月31日(金)の応急給水を1カ所追加します。 \n\n配布量は１回あたり５L程度となります。 給水容器（ポリタンクやペットボトルなど）をご持参のうえ、お越しください。 給水車が水の補給で一時的に不在になることがあります。 \n\n時間　１５：００～１９：００\n・日奈久コミセン",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM001-2083060434492613105",
+    "sourceId": "SRC-MUN-KM001",
+    "sourceName": "熊本市公式X",
+    "accountHandle": "kumamotocity_",
+    "postUrl": "https://x.com/kumamotocity_/status/2083060434492613105",
+    "postedAt": "2026-07-31T05:21:23.000Z",
+    "fetchedAt": "2026-07-31T05:48:18.527Z",
+    "title": "【南区城南町における試験通水の実施について(続報)（７月31日13：00時点）】",
+    "summary": "【南区城南町における試験通水の実施について(続報)（７月31日13：00時点）】\n漏水箇所を特定するため、断水中の下記対象地区において、7月31日（金）午後も継続して試験通水を実施しております。\n\n詳細はこちら↓\nhttps://t.co/aiYZ2BxUQi",
+    "regions": [
+      "熊本県熊本市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-004-2083051793857335566",
+    "sourceId": "SRC-NAT-004",
+    "sourceName": "総務省消防庁",
+    "accountHandle": "FDMA_JAPAN",
+    "postUrl": "https://x.com/FDMA_JAPAN/status/2083051793857335566",
+    "postedAt": "2026-07-31T04:47:03.000Z",
+    "fetchedAt": "2026-07-31T05:48:18.527Z",
+    "title": "【消防庁とりまとめ第24報】令和８年熊本地震による被害及び消防機関等の対応状況について、7月31日（金）13時30分現在の被害状況等を取りまとめました。 詳細は",
+    "summary": "【消防庁とりまとめ第24報】令和８年熊本地震による被害及び消防機関等の対応状況について、7月31日（金）13時30分現在の被害状況等を取りまとめました。 詳細はこちら→https://t.co/u47Z5IkvPK\n#総務省消防庁 #災害情報 #地震",
+    "regions": [
+      "全国"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2083049104024936784",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083049104024936784",
+    "postedAt": "2026-07-31T04:36:22.000Z",
+    "fetchedAt": "2026-07-31T05:48:18.527Z",
+    "title": "【応急給水情報】",
+    "summary": "【応急給水情報】  \n　7月31日(金)の応急給水を1カ所追加します。   \n\n　配布量は１回あたり５L程度となります。 給水容器（ポリタンクやペットボトルなど）をご持参のうえ、お越しください。 給水車が水の補給で一時的に不在になることがあります。    \n\n時間　１４：００～１９：００  \n・第６中学校",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM006-2083048947820667249",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2083048947820667249",
+    "postedAt": "2026-07-31T04:35:44.000Z",
+    "fetchedAt": "2026-07-31T05:48:18.527Z",
+    "title": "【防災無線放送内容】給水のお知らせ（2026/07/31/13:35）",
+    "summary": "【防災無線放送内容】給水のお知らせ（2026/07/31/13:35）\n水道局からのお知らせです。\n蓑野町公民館、中原団地、西瀬コミュニティセンター、村山公園あやめ広場の４か所の給水所を、本日（３１日）、午後２時に閉鎖し、新たに午後３時から赤...\nhttps://t.co/68Io67AGP2",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2083047536542245319",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2083047536542245319",
+    "postedAt": "2026-07-31T04:30:08.000Z",
+    "fetchedAt": "2026-07-31T05:48:18.527Z",
+    "title": "(続き)",
+    "summary": "(続き) \nこちらは西原村です。\n現在(2026/07/31 13:30)発令中の避難情報については、以下をクリックして確認してください。\n 防災情報くまもと URL: https://t.co/OmOLef7ZZ9 #避難情報",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2083047535015530688",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2083047535015530688",
+    "postedAt": "2026-07-31T04:30:08.000Z",
+    "fetchedAt": "2026-07-31T05:48:18.527Z",
+    "title": "こちらは西原村です。",
+    "summary": "こちらは西原村です。\n2026/07/31 13:30に高齢者等避難を解除し、避難所も閉鎖いたしました。\n地震発生から1週間程度は、引き続き最大震度7程度の地震に十分注意してください。\n\n解除地区：\n西原村全域",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "EMERGENCY",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2083029345589936494",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083029345589936494",
+    "postedAt": "2026-07-31T03:17:51.000Z",
+    "fetchedAt": "2026-07-31T05:48:18.527Z",
+    "title": "【応急給水情報】",
+    "summary": "【応急給水情報】 \n7月31日(金)の応急給水を1カ所追加します。 \n\n配布量は１回あたり５L程度となります。 給水容器（ポリタンクやペットボトルなど）をご持参のうえ、お越しください。 給水車が水の補給で一時的に不在になることがあります。  \n\n時間　１３：００～１９：００ \n・金剛小学校",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2083027461915468189",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083027461915468189",
+    "postedAt": "2026-07-31T03:10:22.000Z",
+    "fetchedAt": "2026-07-31T05:48:18.527Z",
+    "title": "【仮設トイレの設置について】",
+    "summary": "【仮設トイレの設置について】\n\n　現在、避難所等に仮設トイレを設置しています。  \n\n◆設置場所\n・本庁舎北側喫煙所隣\n・代陽コミセン\n・八代コミセン\n・松高コミセン\n・トヨオカ地建アリーナ\n・太田郷コミセン\n・植柳小学校\n・八千把コミセン\n・第四中学校\n・千丁支所\n・鏡コミセン",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2083025586377949476",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2083025586377949476",
+    "postedAt": "2026-07-31T03:02:55.000Z",
+    "fetchedAt": "2026-07-31T05:48:18.527Z",
+    "title": "(続き)",
+    "summary": "(続き) \nこちらは水俣市です。\n現在(2026/07/31 12:02)発令中の避難情報については、以下をクリックして確認してください。\n 防災情報くまもと URL: https://t.co/OmOLef7ZZ9 #避難情報",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2083025585258045641",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2083025585258045641",
+    "postedAt": "2026-07-31T03:02:54.000Z",
+    "fetchedAt": "2026-07-31T05:48:18.527Z",
+    "title": "(続き) 必要な方は、避難を継続してください。",
+    "summary": "(続き) 必要な方は、避難を継続してください。",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2083025584133919118",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2083025584133919118",
+    "postedAt": "2026-07-31T03:02:54.000Z",
+    "fetchedAt": "2026-07-31T05:48:18.527Z",
+    "title": "こちらは水俣市です。",
+    "summary": "こちらは水俣市です。\n2026/07/31 12:00に避難指示を解除し、レベル３高齢者避難を発令しました。\n\n発令地区：\n水俣市全域\n\n理由：地震警戒のため\n警戒レベル４からレベル３に移行しましたが、引き続き災害の発生する恐れがありますので、\n警戒を続けてください。また、避難が",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2083024935883313199",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2083024935883313199",
+    "postedAt": "2026-07-31T03:00:20.000Z",
+    "fetchedAt": "2026-07-31T05:48:18.527Z",
+    "title": "(続き)",
+    "summary": "(続き) \nこちらは水俣市です。\n現在(2026/07/31 12:00)発令中の避難情報については、以下をクリックして確認してください。\n 防災情報くまもと URL: https://t.co/OmOLef7ZZ9 #避難情報",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2083024934490853405",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2083024934490853405",
+    "postedAt": "2026-07-31T03:00:19.000Z",
+    "fetchedAt": "2026-07-31T05:48:18.527Z",
+    "title": "こちらは水俣市です。",
+    "summary": "こちらは水俣市です。\n2026/07/31 12:00に避難指示を解除しました。\n\n解除地区：\n水俣市全域",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-MUN-KM005-2083021278500569245",
     "sourceId": "SRC-MUN-KM005",
     "sourceName": "八代市公式X",
