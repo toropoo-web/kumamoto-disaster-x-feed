@@ -242,6 +242,6 @@ export function hasVideo(media?: XSearchMedia[]): boolean {
   return (
     media?.some(
       (item) => item.type === "video" || item.type === "animated_gif"
-    ) ?? false;
+    ) ?? false
   );
 }
