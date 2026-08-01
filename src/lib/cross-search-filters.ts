@@ -1,6 +1,5 @@
-import { EXCLUSION_KEYWORDS, stripHtml, truncateSummary } from "@/lib/filters";
+import { stripHtml, truncateSummary } from "@/lib/filters";
 import {
-  CROSS_SEARCH_DISASTER_TERMS,
   CROSS_SEARCH_MUNICIPALITIES,
   CROSS_SEARCH_REGIONAL_TERMS,
 } from "@/lib/cross-search-queries";
@@ -9,12 +8,7 @@ import { CROSS_SEARCH_SINCE_DATE } from "@/types/cross-search-post";
 export type CrossSearchFilterReason =
   | "ACCEPTED"
   | "REJECTED_BEFORE_SINCE_DATE"
-  | "REJECTED_NOT_DISASTER_RELATED"
-  | "REJECTED_NOT_REGION_RELATED"
-  | "REJECTED_EXCLUSION_KEYWORD"
   | "REJECTED_EMPTY_TEXT"
-  | "REJECTED_RETWEET"
-  | "REJECTED_REPLY"
   | "REJECTED_MISSING_HANDLE";
 
 export type CrossSearchFilterResult = {
@@ -25,13 +19,6 @@ export type CrossSearchFilterResult = {
 
 function normalizeText(text: string): string {
   return stripHtml(text).replace(/\s+/g, " ").trim();
-}
-
-function containsAnyKeyword(text: string, keywords: readonly string[]): boolean {
-  const normalized = text.toLowerCase();
-  return keywords.some(function (keyword) {
-    return normalized.includes(keyword.toLowerCase());
-  });
 }
 
 function extractHashtags(text: string): string[] {
@@ -71,15 +58,10 @@ export function detectCrossSearchRegions(text: string): string[] {
   return regions;
 }
 
-export function isDisasterRelatedText(text: string): boolean {
-  return containsAnyKeyword(text, CROSS_SEARCH_DISASTER_TERMS);
-}
-
 export function evaluateCrossSearchPost(input: {
   text: string;
   postedAt: string;
   accountHandle?: string | null;
-  referencedTypes?: string[];
 }): CrossSearchFilterResult {
   const text = normalizeText(input.text);
   const regions = detectCrossSearchRegions(text);
@@ -89,18 +71,6 @@ export function evaluateCrossSearchPost(input: {
   }
   if (!isOnOrAfterCrossSearchSinceDate(input.postedAt)) {
     return { pass: false, reason: "REJECTED_BEFORE_SINCE_DATE", regions };
-  }
-  if ((input.referencedTypes ?? []).includes("retweeted")) {
-    return { pass: false, reason: "REJECTED_RETWEET", regions };
-  }
-  if ((input.referencedTypes ?? []).includes("replied_to")) {
-    return { pass: false, reason: "REJECTED_REPLY", regions };
-  }
-  if (containsAnyKeyword(text, EXCLUSION_KEYWORDS)) {
-    return { pass: false, reason: "REJECTED_EXCLUSION_KEYWORD", regions };
-  }
-  if (!isDisasterRelatedText(text)) {
-    return { pass: false, reason: "REJECTED_NOT_DISASTER_RELATED", regions };
   }
   if (!input.accountHandle) {
     return { pass: false, reason: "REJECTED_MISSING_HANDLE", regions };

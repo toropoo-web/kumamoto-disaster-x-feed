@@ -15,6 +15,7 @@
     "fetch:x-cross-search": "tsx scripts/fetch-x-cross-search.ts",
     "fetch:x-cross-search:dry": "tsx scripts/fetch-x-cross-search.ts --dry-run",
     "test:cross-search-separation": "tsx --test tests/phase17-cross-search-separation.test.ts",
+    "test:cross-search-open-acquisition": "tsx --test tests/phase18-cross-search-open-acquisition.test.ts",
     "report:cross-search-activate": "tsx scripts/report-cross-search-activate.ts"
   },
   "dependencies": {

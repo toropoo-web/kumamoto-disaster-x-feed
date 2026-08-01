@@ -23,11 +23,6 @@ export type CrossSearchMappedResult = {
   reason: string;
 };
 
-function getReferencedTypes(tweet: XSearchTweet): string[] {
-  return (tweet.referenced_tweets ?? []).map(function (ref) {
-    return ref.type;
-  });
-}
 
 function getMediaForTweet(
   tweet: XSearchTweet,
@@ -56,7 +51,6 @@ export function mapSearchTweetToCrossSearchPost(
     text,
     postedAt,
     accountHandle,
-    referencedTypes: getReferencedTypes(tweet),
   });
 
   if (!evaluation.pass) {

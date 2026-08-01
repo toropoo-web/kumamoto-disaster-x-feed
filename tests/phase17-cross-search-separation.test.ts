@@ -58,8 +58,10 @@ describe("phase17 cross-search feed separation", function () {
     assert.ok(queries.length > 0);
     queries.forEach(function (query) {
       assert.ok(query.query.length <= 512, `query too long: ${query.id}`);
-      assert.match(query.query, /熊本地震|熊本/);
       assert.match(query.query, /-is:retweet/);
+      if (query.queryType !== "OPEN") {
+        assert.match(query.query, /熊本地震|熊本/);
+      }
     });
   });
 

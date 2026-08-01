@@ -70,7 +70,7 @@ export type CrossSearchQuery = {
   id: string;
   query: string;
   municipalityBatch: string[];
-  queryType: "MUNICIPALITY" | "REGIONAL" | "SUPPORT";
+  queryType: "MUNICIPALITY" | "REGIONAL" | "SUPPORT" | "OPEN";
 };
 
 function quoteTerm(term: string): string {
@@ -86,6 +86,10 @@ function buildDisasterClause(): string {
 
 function buildLocationClause(terms: readonly string[]): string {
   return `(${terms.map(quoteTerm).join(" OR ")})`;
+}
+
+function buildLocationOnlyQuery(locationTerms: readonly string[]): string {
+  return `${buildLocationClause(locationTerms)} ${CROSS_SEARCH_QUERY_SUFFIX}`;
 }
 
 function buildQuery(
@@ -170,6 +174,24 @@ export function buildCrossSearchQueries(): CrossSearchQuery[] {
       municipalityBatch: [],
       queryType: "SUPPORT",
     });
+  });
+
+  chunkTerms(CROSS_SEARCH_MUNICIPALITIES, municipalityBatchSize).forEach(
+    function (municipalityBatch, index) {
+      queries.push({
+        id: `MUN-OPEN-${String(index + 1).padStart(2, "0")}`,
+        query: buildLocationOnlyQuery(municipalityBatch),
+        municipalityBatch: municipalityBatch.slice(),
+        queryType: "OPEN",
+      });
+    }
+  );
+
+  queries.push({
+    id: "REGIONAL-OPEN",
+    query: buildLocationOnlyQuery(CROSS_SEARCH_REGIONAL_TERMS),
+    municipalityBatch: [],
+    queryType: "OPEN",
   });
 
   return queries.filter(function (item) {
