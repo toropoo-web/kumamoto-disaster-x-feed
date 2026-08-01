@@ -1,0 +1,63 @@
+name: Fetch X Cross Search Posts
+
+on:
+  schedule:
+    - cron: "10,40 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: kumamoto-x-cross-search-fetch
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-cross-search:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Verify API token is configured
+        env:
+          X_API_BEARER_TOKEN: ${{ secrets.X_API_BEARER_TOKEN }}
+        run: |
+          if [ -z "$X_API_BEARER_TOKEN" ]; then
+            echo "X_API_TOKEN_CONFIGURED=false"
+            exit 1
+          fi
+          echo "X_API_TOKEN_CONFIGURED=true"
+
+      - name: Fetch X cross-search posts
+        env:
+          X_API_BEARER_TOKEN: ${{ secrets.X_API_BEARER_TOKEN }}
+        run: npm run fetch:x-cross-search
+
+      - name: Validate cross-search separation
+        run: npm run test:cross-search-separation
+
+      - name: Commit cross-search data
+        env:
+          DATA_FILES: data/posts-cross-search.json data/cross-search-fetch-state.json
+        run: |
+          set -e
+          if git diff --quiet -- $DATA_FILES 2>/dev/null && \
+             [ -z "$(git status --porcelain -- $DATA_FILES)" ]; then
+            echo "NO_CROSS_SEARCH_DATA_CHANGES"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add $DATA_FILES
+          git commit -m "chore(data): update X cross-search posts"
+          git push

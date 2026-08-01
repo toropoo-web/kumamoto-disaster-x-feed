@@ -11,7 +11,11 @@
     "test:pre-fetch": "tsx --test tests/reset.test.ts tests/phase11.test.ts tests/phase11a.test.ts tests/phase12.test.ts tests/phase15.test.ts",
     "test:production-data": "tsx --test tests/phase15-production.test.ts",
     "fetch:x": "tsx scripts/fetch-x.ts",
-    "fetch:x:dry": "tsx scripts/fetch-x.ts --dry-run"
+    "fetch:x:dry": "tsx scripts/fetch-x.ts --dry-run",
+    "fetch:x-cross-search": "tsx scripts/fetch-x-cross-search.ts",
+    "fetch:x-cross-search:dry": "tsx scripts/fetch-x-cross-search.ts --dry-run",
+    "test:cross-search-separation": "tsx --test tests/phase17-cross-search-separation.test.ts",
+    "report:cross-search-activate": "tsx scripts/report-cross-search-activate.ts"
   },
   "dependencies": {
     "next": "^14.2.0",
