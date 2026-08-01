@@ -1,5 +1,43 @@
 [
   {
+    "postId": "POST-SRC-MUN-KM001-2083530472802722215",
+    "sourceId": "SRC-MUN-KM001",
+    "sourceName": "熊本市公式X",
+    "accountHandle": "kumamotocity_",
+    "postUrl": "https://x.com/kumamotocity_/status/2083530472802722215",
+    "postedAt": "2026-08-01T12:29:09.000Z",
+    "fetchedAt": "2026-08-01T12:31:47.432Z",
+    "title": "【8月2日の応急給水所について（8月1日21：00時点）】",
+    "summary": "【8月2日の応急給水所について（8月1日21：00時点）】\n\n8月2日（日）の応急給水活動について下記のとおり実施します。\nhttps://t.co/aiYZ2BxUQi https://t.co/VixjdHCwA5",
+    "regions": [
+      "熊本県熊本市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-001-2083522168814805089",
+    "sourceId": "SRC-NAT-001",
+    "sourceName": "首相官邸 災害・危機管理情報",
+    "accountHandle": "Kantei_Saigai",
+    "postUrl": "https://x.com/Kantei_Saigai/status/2083522168814805089",
+    "postedAt": "2026-08-01T11:56:09.000Z",
+    "fetchedAt": "2026-08-01T12:31:47.432Z",
+    "title": "【熊本地震】",
+    "summary": "【熊本地震】\n現地では災害派遣医療チームであるDMATにより転院搬送・診療の補助等が実施されています。酷暑の中、懸命に救出・救助活動に従事されている皆様に敬意と感謝を申し上げます。\n（写真提供：DMAT） https://t.co/Zf8mn9244i",
+    "regions": [
+      "全国"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-MUN-KM005-2083509178753339445",
     "sourceId": "SRC-MUN-KM005",
     "sourceName": "八代市公式X",
