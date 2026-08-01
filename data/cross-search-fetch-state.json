@@ -1,10 +1,10 @@
 {
-  "lastAttemptAt": null,
-  "lastSuccessfulFetchAt": null,
-  "queryCount": 0,
-  "apiPostCount": 0,
-  "acceptedPostCount": 0,
-  "storedPostCount": 0,
-  "unregisteredAccountPostCount": 0,
-  "status": "NOT_RUN"
+  "lastAttemptAt": "2026-08-01T08:38:36.461Z",
+  "lastSuccessfulFetchAt": "2026-08-01T08:38:36.461Z",
+  "queryCount": 11,
+  "apiPostCount": 3272,
+  "acceptedPostCount": 2498,
+  "storedPostCount": 2008,
+  "unregisteredAccountPostCount": 2007,
+  "status": "SUCCESS"
 }
