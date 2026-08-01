@@ -1,15 +1,13 @@
 import { stripHtml, truncateSummary } from "@/lib/filters";
-import {
-  CROSS_SEARCH_MUNICIPALITIES,
-  CROSS_SEARCH_REGIONAL_TERMS,
-} from "@/lib/cross-search-queries";
+import { CROSS_SEARCH_MUNICIPALITIES } from "@/lib/cross-search-queries";
 import { CROSS_SEARCH_SINCE_DATE } from "@/types/cross-search-post";
 
 export type CrossSearchFilterReason =
   | "ACCEPTED"
   | "REJECTED_BEFORE_SINCE_DATE"
   | "REJECTED_EMPTY_TEXT"
-  | "REJECTED_MISSING_HANDLE";
+  | "REJECTED_MISSING_HANDLE"
+  | "REJECTED_OUT_OF_MUNICIPALITY_SCOPE";
 
 export type CrossSearchFilterResult = {
   pass: boolean;
@@ -49,13 +47,13 @@ export function detectCrossSearchRegions(text: string): string[] {
     }
   });
 
-  CROSS_SEARCH_REGIONAL_TERMS.forEach(function (term) {
-    if (haystack.includes(term) && regions.indexOf(term) === -1) {
-      regions.push(term);
-    }
-  });
-
   return regions;
+}
+
+export function hasMunicipalityScope(regions: string[]): boolean {
+  return regions.some(function (region) {
+    return (CROSS_SEARCH_MUNICIPALITIES as readonly string[]).includes(region);
+  });
 }
 
 export function evaluateCrossSearchPost(input: {
@@ -74,6 +72,9 @@ export function evaluateCrossSearchPost(input: {
   }
   if (!input.accountHandle) {
     return { pass: false, reason: "REJECTED_MISSING_HANDLE", regions };
+  }
+  if (!hasMunicipalityScope(regions)) {
+    return { pass: false, reason: "REJECTED_OUT_OF_MUNICIPALITY_SCOPE", regions };
   }
 
   return { pass: true, reason: "ACCEPTED", regions };

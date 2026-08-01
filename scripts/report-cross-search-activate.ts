@@ -2,7 +2,6 @@ import fs from "node:fs";
 import path from "node:path";
 import {
   buildCrossSearchQueries,
-  CROSS_SEARCH_SUPPORT_TERMS,
   listOfficialAccountHandles,
   OFFICIAL_ACCOUNT_CLASSIFICATION,
 } from "../src/lib/cross-search-queries";
@@ -169,10 +168,9 @@ function main(): void {
     status: layerChecks.x_cross_search.pass ? "COMPLETE" : "PENDING_DATA",
     posts_cross_search_count: posts.length,
     query_count: queries.length,
-    support_query_count: queries.filter(function (query) {
-      return query.queryType === "SUPPORT";
+    open_query_count: queries.filter(function (query) {
+      return query.queryType === "OPEN";
     }).length,
-    support_terms: CROSS_SEARCH_SUPPORT_TERMS,
     poster_distribution: distribution,
     search_counts: searchCounts,
     layer_checks: layerChecks,

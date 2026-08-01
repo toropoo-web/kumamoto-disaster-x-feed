@@ -24,45 +24,6 @@ export const CROSS_SEARCH_MUNICIPALITIES = [
   "霧島市",
 ] as const;
 
-export const CROSS_SEARCH_REGIONAL_TERMS = [
-  "熊本県",
-  "熊本",
-  "南九州",
-  "九州南部",
-] as const;
-
-export const CROSS_SEARCH_DISASTER_TERMS = [
-  "熊本地震",
-  "令和8年熊本地震",
-  "令和８年熊本地震",
-  "#令和8年熊本地震",
-  "熊本",
-  "熊本県",
-  "地震",
-  "震度",
-  "被災",
-  "災害",
-] as const;
-
-export const CROSS_SEARCH_SUPPORT_TERMS = [
-  "給水",
-  "水",
-  "支援物資",
-  "炊き出し",
-  "食料",
-  "風呂",
-  "シャワー",
-  "車中泊",
-  "Wi-Fi",
-  "ペット",
-  "迷子",
-  "無料開放",
-  "避難",
-  "充電",
-  "氷",
-  "冷却",
-] as const;
-
 export const CROSS_SEARCH_QUERY_SUFFIX = "-is:retweet lang:ja";
 export const CROSS_SEARCH_MAX_QUERY_LENGTH = 512;
 
@@ -70,7 +31,7 @@ export type CrossSearchQuery = {
   id: string;
   query: string;
   municipalityBatch: string[];
-  queryType: "MUNICIPALITY" | "REGIONAL" | "SUPPORT" | "OPEN";
+  queryType: "OPEN";
 };
 
 function quoteTerm(term: string): string {
@@ -80,27 +41,12 @@ function quoteTerm(term: string): string {
   return `"${term}"`;
 }
 
-function buildDisasterClause(): string {
-  return `(${CROSS_SEARCH_DISASTER_TERMS.map(quoteTerm).join(" OR ")})`;
-}
-
 function buildLocationClause(terms: readonly string[]): string {
   return `(${terms.map(quoteTerm).join(" OR ")})`;
 }
 
 function buildLocationOnlyQuery(locationTerms: readonly string[]): string {
   return `${buildLocationClause(locationTerms)} ${CROSS_SEARCH_QUERY_SUFFIX}`;
-}
-
-function buildQuery(
-  locationTerms: readonly string[],
-  supportTerms?: readonly string[]
-): string {
-  const parts = [buildDisasterClause(), buildLocationClause(locationTerms)];
-  if (supportTerms && supportTerms.length > 0) {
-    parts.push(buildLocationClause(supportTerms));
-  }
-  return `${parts.join(" ")} ${CROSS_SEARCH_QUERY_SUFFIX}`;
 }
 
 function chunkTerms<T>(terms: readonly T[], size: number): T[][] {
@@ -112,12 +58,11 @@ function chunkTerms<T>(terms: readonly T[], size: number): T[][] {
 }
 
 function resolveMunicipalityBatchSize(): number {
-  const disasterClause = buildDisasterClause();
   const suffix = CROSS_SEARCH_QUERY_SUFFIX;
-  const overhead = disasterClause.length + suffix.length + 2;
+  const overhead = suffix.length + 2;
   const maxBatchLength = CROSS_SEARCH_MAX_QUERY_LENGTH - overhead - 4;
 
-  let batchSize = 4;
+  let batchSize = 6;
   while (batchSize > 1) {
     const sample = buildLocationClause(
       CROSS_SEARCH_MUNICIPALITIES.slice(0, batchSize)
@@ -130,51 +75,9 @@ function resolveMunicipalityBatchSize(): number {
   return batchSize;
 }
 
-function resolveSupportBatchSize(): number {
-  const sampleQuery = buildQuery(
-    ["熊本県", "熊本"],
-    CROSS_SEARCH_SUPPORT_TERMS.slice(0, 4)
-  );
-  if (sampleQuery.length <= CROSS_SEARCH_MAX_QUERY_LENGTH) {
-    return 4;
-  }
-  return 3;
-}
-
 export function buildCrossSearchQueries(): CrossSearchQuery[] {
   const queries: CrossSearchQuery[] = [];
   const municipalityBatchSize = resolveMunicipalityBatchSize();
-
-  chunkTerms(CROSS_SEARCH_MUNICIPALITIES, municipalityBatchSize).forEach(
-    function (municipalityBatch, index) {
-      queries.push({
-        id: `MUN-BATCH-${String(index + 1).padStart(2, "0")}`,
-        query: buildQuery(municipalityBatch),
-        municipalityBatch: municipalityBatch.slice(),
-        queryType: "MUNICIPALITY",
-      });
-    }
-  );
-
-  queries.push({
-    id: "REGIONAL",
-    query: buildQuery(CROSS_SEARCH_REGIONAL_TERMS),
-    municipalityBatch: [],
-    queryType: "REGIONAL",
-  });
-
-  const supportBatchSize = resolveSupportBatchSize();
-  chunkTerms(CROSS_SEARCH_SUPPORT_TERMS, supportBatchSize).forEach(function (
-    supportBatch,
-    index
-  ) {
-    queries.push({
-      id: `SUPPORT-BATCH-${String(index + 1).padStart(2, "0")}`,
-      query: buildQuery(CROSS_SEARCH_REGIONAL_TERMS, supportBatch),
-      municipalityBatch: [],
-      queryType: "SUPPORT",
-    });
-  });
 
   chunkTerms(CROSS_SEARCH_MUNICIPALITIES, municipalityBatchSize).forEach(
     function (municipalityBatch, index) {
@@ -186,13 +89,6 @@ export function buildCrossSearchQueries(): CrossSearchQuery[] {
       });
     }
   );
-
-  queries.push({
-    id: "REGIONAL-OPEN",
-    query: buildLocationOnlyQuery(CROSS_SEARCH_REGIONAL_TERMS),
-    municipalityBatch: [],
-    queryType: "OPEN",
-  });
 
   return queries.filter(function (item) {
     return item.query.length <= CROSS_SEARCH_MAX_QUERY_LENGTH;
