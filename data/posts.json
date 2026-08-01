@@ -1,5 +1,119 @@
 [
   {
+    "postId": "POST-SRC-MUN-KM006-2083397136276934830",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2083397136276934830",
+    "postedAt": "2026-08-01T03:39:19.000Z",
+    "fetchedAt": "2026-08-01T05:18:40.113Z",
+    "title": "【道の駅人吉・人吉クラフトパーク石野公園 8/2営業再開🌿】",
+    "summary": "【道の駅人吉・人吉クラフトパーク石野公園 8/2営業再開🌿】\n\n地震による断水のため臨時休園しておりましたが、水道の復旧に伴い 8月2日(日)より通常営業を再開いたします。\nご不便をおかけし、大変申し訳ございませんでした。\n皆さまのご来園を心よりお待ちしております😊 https://t.co/dllddnZJ6o",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-003-2083394274566287808",
+    "sourceId": "SRC-NAT-003",
+    "sourceName": "気象庁防災情報",
+    "accountHandle": "JMA_bousai",
+    "postUrl": "https://x.com/JMA_bousai/status/2083394274566287808",
+    "postedAt": "2026-08-01T03:27:57.000Z",
+    "fetchedAt": "2026-08-01T05:18:40.113Z",
+    "title": "【被災地では熱中症対策を】",
+    "summary": "【被災地では熱中症対策を】\n熊本県では、6日頃までは最高気温が35度以上の日が続き、酷暑日となる日もある見込み。危険な暑さがしばらく続くため、特に断水が続いている地域では、 #熱中症 などの健康管理に注意を！\n#令和8年熊本地震 ポータルサイトで最新情報の確認を！\nhttps://t.co/CaWQARIStK https://t.co/BhHnXUfgRj",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-004-2083384105488851068",
+    "sourceId": "SRC-NAT-004",
+    "sourceName": "総務省消防庁",
+    "accountHandle": "FDMA_JAPAN",
+    "postUrl": "https://x.com/FDMA_JAPAN/status/2083384105488851068",
+    "postedAt": "2026-08-01T02:47:32.000Z",
+    "fetchedAt": "2026-08-01T05:18:40.113Z",
+    "title": "【消防庁とりまとめ第27報】令和８年熊本地震による被害及び消防機関等の対応状況について、8月1日（土）11時30分現在の被害状況等を取りまとめました。 詳細はこ",
+    "summary": "【消防庁とりまとめ第27報】令和８年熊本地震による被害及び消防機関等の対応状況について、8月1日（土）11時30分現在の被害状況等を取りまとめました。 詳細はこちら→https://t.co/X6HNVpcu13\n#総務省消防庁 #災害情報 #地震",
+    "regions": [
+      "全国"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2083374835040931876",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083374835040931876",
+    "postedAt": "2026-08-01T02:10:42.000Z",
+    "fetchedAt": "2026-08-01T05:18:40.113Z",
+    "title": "【応急給水情報】",
+    "summary": "【応急給水情報】\n\n８月１日（土）の応急給水を１カ所追加いたします。\n配布量は１回あたり５L程度となります。\n給水容器（ポリタンクやペットボトルなど）をご持参のうえ、お越しください。\n\n時間　１０：４５～１９：００\n・八代市役所（庁舎西側）",
+    "regions": [
+      "八代市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM006-2083372278621052930",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2083372278621052930",
+    "postedAt": "2026-08-01T02:00:33.000Z",
+    "fetchedAt": "2026-08-01T05:18:40.113Z",
+    "title": "【水道復旧のお知らせ】8/1 10:30",
+    "summary": "【水道復旧のお知らせ】8/1 10:30\n断水でご不便をおかけしておりましたが、水道の復旧作業が完了しました。\n⚠️ 復旧直後は水の濁りや異物が出る場合があります。透明になるまで流してからご使用ください。\n⚠️ 蛇口はゆっくり開けてください。\n\n▼詳細はこちらhttps://t.co/Q7BxvZzkK7",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2083370599930585098",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083370599930585098",
+    "postedAt": "2026-08-01T01:53:52.000Z",
+    "fetchedAt": "2026-08-01T05:18:40.113Z",
+    "title": "【八代港での応急給水活動について】",
+    "summary": "【八代港での応急給水活動について】\n本日、下記の場所にて応急給水をおこないます。\n\n時間　令和８年８月１日（土）\n           １１：００～１４：００（予定）\n場所　八代港内 八代市港町９７ 県営６号上屋近く \n           ４．５ｍ岸壁\n\n詳細はこちら\nhttps://t.co/0MaHQdwqX3",
+    "regions": [
+      "八代市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-MUN-KM006-2083364778488348701",
     "sourceId": "SRC-MUN-KM006",
     "sourceName": "人吉市公式X",
