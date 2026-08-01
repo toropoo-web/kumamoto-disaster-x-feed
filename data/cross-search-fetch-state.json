@@ -1,10 +1,10 @@
 {
-  "lastAttemptAt": "2026-08-01T12:33:46.862Z",
-  "lastSuccessfulFetchAt": "2026-08-01T12:33:46.862Z",
+  "lastAttemptAt": "2026-08-01T12:55:38.594Z",
+  "lastSuccessfulFetchAt": "2026-08-01T12:55:38.594Z",
   "queryCount": 18,
-  "apiPostCount": 5340,
-  "acceptedPostCount": 5340,
-  "storedPostCount": 4873,
-  "unregisteredAccountPostCount": 4868,
+  "apiPostCount": 5356,
+  "acceptedPostCount": 5356,
+  "storedPostCount": 5677,
+  "unregisteredAccountPostCount": 5671,
   "status": "SUCCESS"
 }
