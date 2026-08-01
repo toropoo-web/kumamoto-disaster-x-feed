@@ -1,5 +1,24 @@
 [
   {
+    "postId": "POST-SRC-MUN-KM005-2083509178753339445",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083509178753339445",
+    "postedAt": "2026-08-01T11:04:32.000Z",
+    "fetchedAt": "2026-08-01T11:11:12.583Z",
+    "title": "【手押しポンプが使えます】",
+    "summary": "【手押しポンプが使えます】\n  以下の施設で、手押しポンプが利用可能です。\n ※飲料水としての利用はできません。雑用水として利用ください。 \n※容器はご自身で準備をお願いします。 \n ・八代市役所本庁舎\n・会地公園　\n・新八代駅がめさん公園\n・東中洲児童公園\n・日置公園　\n・植柳新町西児童公園",
+    "regions": [
+      "八代市"
+    ],
+    "category": "OTHER",
+    "priority": "NORMAL",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-MUN-KM005-2083479335269511326",
     "sourceId": "SRC-MUN-KM005",
     "sourceName": "八代市公式X",
