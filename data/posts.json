@@ -1,5 +1,83 @@
 [
   {
+    "postId": "POST-SRC-MUN-KM005-2083479335269511326",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083479335269511326",
+    "postedAt": "2026-08-01T09:05:57.000Z",
+    "fetchedAt": "2026-08-01T09:49:46.936Z",
+    "title": "【避難所運営について】",
+    "summary": "【避難所運営について】\n 画像のとおり、避難所を再編しましたのでお知らせします。 https://t.co/olQ8RJmOoh",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-005-2083478278137139430",
+    "sourceId": "SRC-NAT-005",
+    "sourceName": "防衛省 災害対策",
+    "accountHandle": "ModJapan_saigai",
+    "postUrl": "https://x.com/ModJapan_saigai/status/2083478278137139430",
+    "postedAt": "2026-08-01T09:01:45.000Z",
+    "fetchedAt": "2026-08-01T09:49:46.936Z",
+    "title": "本日も、自衛隊は熊本県内で入浴支援を実施しています。",
+    "summary": "本日も、自衛隊は熊本県内で入浴支援を実施しています。\n陸上自衛隊が引き続き熊本市の「火の君文化センター」（18時～22時）で入浴支援（シャワー）を行います。\nまた、海上自衛隊も宇城市の「三角港緑地公園」（18時30～22時）において入浴支援を行います。 https://t.co/JDKlrbUI2o",
+    "regions": [
+      "熊本県",
+      "熊本市",
+      "宇城市"
+    ],
+    "category": "RESCUE_JSDF",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": true
+  },
+  {
+    "postId": "POST-SRC-MUN-KM001-2083469947897049372",
+    "sourceId": "SRC-MUN-KM001",
+    "sourceName": "熊本市公式X",
+    "accountHandle": "kumamotocity_",
+    "postUrl": "https://x.com/kumamotocity_/status/2083469947897049372",
+    "postedAt": "2026-08-01T08:28:39.000Z",
+    "fetchedAt": "2026-08-01T09:49:46.936Z",
+    "title": "南区城南町の一部で発生しておりました断水は解消しました。",
+    "summary": "南区城南町の一部で発生しておりました断水は解消しました。\n また南区富合町の一部で発生しておりました水圧低下も、解消いたしました。\n \n 断水が継続している市民の皆様にはご迷惑をおかけしますが、ご理解とご協力をお願いいたします。\n \n詳細はこちら↓\nhttps://t.co/aiYZ2BxUQi",
+    "regions": [
+      "熊本県熊本市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-004-2083468660371521945",
+    "sourceId": "SRC-NAT-004",
+    "sourceName": "総務省消防庁",
+    "accountHandle": "FDMA_JAPAN",
+    "postUrl": "https://x.com/FDMA_JAPAN/status/2083468660371521945",
+    "postedAt": "2026-08-01T08:23:32.000Z",
+    "fetchedAt": "2026-08-01T09:49:46.936Z",
+    "title": "【消防庁とりまとめ第28報】令和８年熊本地震による被害及び消防機関等の対応状況について、8月1日（土）17時00分現在の被害状況等を取りまとめました。詳細はこち",
+    "summary": "【消防庁とりまとめ第28報】令和８年熊本地震による被害及び消防機関等の対応状況について、8月1日（土）17時00分現在の被害状況等を取りまとめました。詳細はこちら→https://t.co/kISMA18sgU\n#総務省消防庁 #災害情報 #地震",
+    "regions": [
+      "全国"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-MUN-KM005-2083456242958413865",
     "sourceId": "SRC-MUN-KM005",
     "sourceName": "八代市公式X",
