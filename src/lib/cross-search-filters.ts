@@ -1,4 +1,5 @@
 import { stripHtml, truncateSummary } from "@/lib/filters";
+import { evaluateDisasterRelevance } from "@/lib/cross-search-disaster-relevance";
 import { CROSS_SEARCH_MUNICIPALITIES } from "@/lib/cross-search-queries";
 import { CROSS_SEARCH_SINCE_DATE } from "@/types/cross-search-post";
 
@@ -7,7 +8,9 @@ export type CrossSearchFilterReason =
   | "REJECTED_BEFORE_SINCE_DATE"
   | "REJECTED_EMPTY_TEXT"
   | "REJECTED_MISSING_HANDLE"
-  | "REJECTED_OUT_OF_MUNICIPALITY_SCOPE";
+  | "REJECTED_OUT_OF_MUNICIPALITY_SCOPE"
+  | "REJECTED_NOT_DISASTER_RELEVANT"
+  | "REJECTED_NOISE_CONTENT";
 
 export type CrossSearchFilterResult = {
   pass: boolean;
@@ -75,6 +78,14 @@ export function evaluateCrossSearchPost(input: {
   }
   if (!hasMunicipalityScope(regions)) {
     return { pass: false, reason: "REJECTED_OUT_OF_MUNICIPALITY_SCOPE", regions };
+  }
+
+  const relevance = evaluateDisasterRelevance(text);
+  if (!relevance.pass) {
+    if (relevance.reason === "NOISE_EXCLUDED") {
+      return { pass: false, reason: "REJECTED_NOISE_CONTENT", regions };
+    }
+    return { pass: false, reason: "REJECTED_NOT_DISASTER_RELEVANT", regions };
   }
 
   return { pass: true, reason: "ACCEPTED", regions };

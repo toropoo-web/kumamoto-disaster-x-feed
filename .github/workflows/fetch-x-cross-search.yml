@@ -41,6 +41,9 @@ jobs:
       - name: Fetch X cross-search posts
         env:
           X_API_BEARER_TOKEN: ${{ secrets.X_API_BEARER_TOKEN }}
+          X_CROSS_SEARCH_MAX_PAGES: "1"
+          X_FETCH_REQUEST_DELAY_MS: "1500"
+          GITHUB_EVENT_NAME: ${{ github.event_name }}
         run: npm run fetch:x-cross-search
 
       - name: Validate cross-search separation

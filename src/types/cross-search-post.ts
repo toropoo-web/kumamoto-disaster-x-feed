@@ -25,10 +25,12 @@ export type CrossSearchFetchState = {
   lastAttemptAt: string | null;
   lastSuccessfulFetchAt: string | null;
   queryCount: number;
+  scheduledQueryCount?: number;
   apiPostCount: number;
   acceptedPostCount: number;
   storedPostCount: number;
   unregisteredAccountPostCount: number;
+  accessDeniedCount?: number;
   status: "SUCCESS" | "PARTIAL" | "FAILED" | "NOT_RUN";
 };
 

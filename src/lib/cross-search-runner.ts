@@ -4,12 +4,14 @@ import { readJsonFile, writeJsonAtomically } from "@/lib/json-io";
 import {
   buildCrossSearchQueries,
   listOfficialAccountHandles,
+  resolveQueriesForScheduledRun,
 } from "@/lib/cross-search-queries";
 import {
   countUnregisteredAccountPosts,
   mergeCrossSearchPosts,
   mapSearchResponseToCrossSearchPosts,
 } from "@/lib/cross-search-pipeline";
+import { evaluateCrossSearchPost } from "@/lib/cross-search-filters";
 import { XSearchClient } from "@/lib/fetchers/x-search-client";
 import { loadXApiConfigFromEnv } from "@/types/x-api";
 import {
@@ -24,7 +26,18 @@ const CROSS_SEARCH_POSTS_FILE = () =>
   path.join(DATA_DIR(), "posts-cross-search.json");
 const CROSS_SEARCH_STATE_FILE = () =>
   path.join(DATA_DIR(), "cross-search-fetch-state.json");
-const MAX_PAGES_PER_QUERY = Number(process.env.X_CROSS_SEARCH_MAX_PAGES || 3);
+const MAX_PAGES_PER_QUERY = Number(process.env.X_CROSS_SEARCH_MAX_PAGES || 1);
+
+function pruneCrossSearchPosts(posts: CrossSearchPost[]): CrossSearchPost[] {
+  return posts.filter(function (post) {
+    const evaluation = evaluateCrossSearchPost({
+      text: post.content || post.summary || post.title || "",
+      postedAt: post.postedAt,
+      accountHandle: post.accountHandle,
+    });
+    return evaluation.pass;
+  });
+}
 
 export type CrossSearchRunResult = {
   dryRun: boolean;
@@ -46,6 +59,7 @@ export type CrossSearchRunResult = {
 export async function runCrossSearchFetch(options?: {
   dryRun?: boolean;
   client?: XSearchClient;
+  runAllQueries?: boolean;
 }): Promise<CrossSearchRunResult> {
   const dryRun = options?.dryRun ?? false;
   const config = loadXApiConfigFromEnv();
@@ -58,7 +72,10 @@ export async function runCrossSearchFetch(options?: {
     CROSS_SEARCH_STATE_FILE(),
     createEmptyCrossSearchFetchState()
   );
-  const queries = buildCrossSearchQueries();
+  const allQueries = buildCrossSearchQueries();
+  const queries = resolveQueriesForScheduledRun(allQueries, {
+    runAll: options?.runAllQueries ?? process.env.X_CROSS_SEARCH_RUN_ALL === "true",
+  });
   const officialHandles = listOfficialAccountHandles();
 
   if (!config) {
@@ -80,6 +97,7 @@ export async function runCrossSearchFetch(options?: {
   let apiPostCount = 0;
   let acceptedPostCount = 0;
   let failedQueryCount = 0;
+  let accessDeniedCount = 0;
 
   for (const query of queries) {
     try {
@@ -126,6 +144,13 @@ export async function runCrossSearchFetch(options?: {
         error instanceof Error && "code" in error
           ? String((error as { code?: string }).code)
           : "UNKNOWN";
+      if (errorCode === "ACCESS_DENIED") {
+        accessDeniedCount += 1;
+      }
+      const errorStatus =
+        error instanceof Error && "status" in error
+          ? String((error as { status?: number }).status)
+          : "";
       querySummaries.push({
         id: query.id,
         query: query.query,
@@ -133,13 +158,15 @@ export async function runCrossSearchFetch(options?: {
         accepted: 0,
         rejected: 0,
         status: "FAILED",
-        errorCode,
+        errorCode: errorStatus ? `${errorCode}:${errorStatus}` : errorCode,
       });
-      console.error(`Cross-search query failed (${query.id}): ${errorCode}`);
+      console.error(
+        `Cross-search query failed (${query.id}): ${errorCode}${errorStatus ? ` HTTP ${errorStatus}` : ""}`
+      );
     }
   }
 
-  const merged = mergeCrossSearchPosts(existing, incoming);
+  const merged = pruneCrossSearchPosts(mergeCrossSearchPosts(existing, incoming));
   const unregisteredAccountPostCount = countUnregisteredAccountPosts(
     merged,
     officialHandles
@@ -154,13 +181,16 @@ export async function runCrossSearchFetch(options?: {
 
   const fetchState: CrossSearchFetchState = {
     lastAttemptAt: now,
-    lastSuccessfulFetchAt: status === "FAILED" ? previousState.lastSuccessfulFetchAt : now,
-    queryCount: queries.length,
+    lastSuccessfulFetchAt:
+      status === "FAILED" ? previousState.lastSuccessfulFetchAt : now,
+    queryCount: allQueries.length,
+    scheduledQueryCount: queries.length,
     apiPostCount,
     acceptedPostCount,
     storedPostCount: merged.length,
     unregisteredAccountPostCount,
     status,
+    accessDeniedCount,
   };
 
   if (dryRun) {
@@ -177,6 +207,16 @@ export async function runCrossSearchFetch(options?: {
   if (status !== "FAILED") {
     writeJsonAtomically(CROSS_SEARCH_POSTS_FILE(), merged);
     writeJsonAtomically(CROSS_SEARCH_STATE_FILE(), fetchState);
+  } else {
+    writeJsonAtomically(CROSS_SEARCH_STATE_FILE(), {
+      ...previousState,
+      ...fetchState,
+      storedPostCount: existing.length,
+      unregisteredAccountPostCount: countUnregisteredAccountPosts(
+        existing,
+        officialHandles
+      ),
+    });
   }
 
   return {

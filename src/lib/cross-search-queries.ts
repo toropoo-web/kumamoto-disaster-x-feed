@@ -24,6 +24,22 @@ export const CROSS_SEARCH_MUNICIPALITIES = [
   "霧島市",
 ] as const;
 
+export const DISASTER_QUERY_TERMS = [
+  "熊本地震",
+  "令和8年熊本地震",
+  "地震",
+  "被災",
+  "災害",
+  "支援",
+  "給水",
+  "断水",
+  "避難",
+  "復旧",
+  "ボランティア",
+  "炊き出し",
+  "物資",
+] as const;
+
 export const CROSS_SEARCH_QUERY_SUFFIX = "-is:retweet lang:ja";
 export const CROSS_SEARCH_MAX_QUERY_LENGTH = 512;
 
@@ -31,7 +47,7 @@ export type CrossSearchQuery = {
   id: string;
   query: string;
   municipalityBatch: string[];
-  queryType: "OPEN";
+  queryType: "SCOPED";
 };
 
 function quoteTerm(term: string): string {
@@ -41,12 +57,15 @@ function quoteTerm(term: string): string {
   return `"${term}"`;
 }
 
-function buildLocationClause(terms: readonly string[]): string {
+function buildClause(terms: readonly string[]): string {
   return `(${terms.map(quoteTerm).join(" OR ")})`;
 }
 
-function buildLocationOnlyQuery(locationTerms: readonly string[]): string {
-  return `${buildLocationClause(locationTerms)} ${CROSS_SEARCH_QUERY_SUFFIX}`;
+function buildScopedQuery(
+  locationTerms: readonly string[],
+  disasterTerms: readonly string[]
+): string {
+  return `${buildClause(locationTerms)} ${buildClause(disasterTerms)} ${CROSS_SEARCH_QUERY_SUFFIX}`;
 }
 
 function chunkTerms<T>(terms: readonly T[], size: number): T[][] {
@@ -59,14 +78,13 @@ function chunkTerms<T>(terms: readonly T[], size: number): T[][] {
 
 function resolveMunicipalityBatchSize(): number {
   const suffix = CROSS_SEARCH_QUERY_SUFFIX;
-  const overhead = suffix.length + 2;
+  const disasterClause = buildClause(DISASTER_QUERY_TERMS);
+  const overhead = disasterClause.length + suffix.length + 3;
   const maxBatchLength = CROSS_SEARCH_MAX_QUERY_LENGTH - overhead - 4;
 
-  let batchSize = 6;
+  let batchSize = 5;
   while (batchSize > 1) {
-    const sample = buildLocationClause(
-      CROSS_SEARCH_MUNICIPALITIES.slice(0, batchSize)
-    );
+    const sample = buildClause(CROSS_SEARCH_MUNICIPALITIES.slice(0, batchSize));
     if (sample.length <= maxBatchLength) {
       break;
     }
@@ -82,10 +100,10 @@ export function buildCrossSearchQueries(): CrossSearchQuery[] {
   chunkTerms(CROSS_SEARCH_MUNICIPALITIES, municipalityBatchSize).forEach(
     function (municipalityBatch, index) {
       queries.push({
-        id: `MUN-OPEN-${String(index + 1).padStart(2, "0")}`,
-        query: buildLocationOnlyQuery(municipalityBatch),
+        id: `MUN-SCOPED-${String(index + 1).padStart(2, "0")}`,
+        query: buildScopedQuery(municipalityBatch, DISASTER_QUERY_TERMS),
         municipalityBatch: municipalityBatch.slice(),
-        queryType: "OPEN",
+        queryType: "SCOPED",
       });
     }
   );
@@ -93,6 +111,22 @@ export function buildCrossSearchQueries(): CrossSearchQuery[] {
   return queries.filter(function (item) {
     return item.query.length <= CROSS_SEARCH_MAX_QUERY_LENGTH;
   });
+}
+
+export function resolveQueriesForScheduledRun(
+  queries: CrossSearchQuery[],
+  options?: { now?: Date; runAll?: boolean }
+): CrossSearchQuery[] {
+  if (!queries.length) {
+    return [];
+  }
+  if (options?.runAll) {
+    return queries.slice();
+  }
+  const now = options?.now ?? new Date();
+  const slot = Math.floor(now.getTime() / (30 * 60 * 1000));
+  const index = slot % queries.length;
+  return [queries[index]];
 }
 
 export const OFFICIAL_ACCOUNT_CLASSIFICATION = {
