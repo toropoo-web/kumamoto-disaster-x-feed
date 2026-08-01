@@ -1,5 +1,119 @@
 [
   {
+    "postId": "POST-SRC-MUN-KM006-2083364778488348701",
+    "sourceId": "SRC-MUN-KM006",
+    "sourceName": "人吉市公式X",
+    "accountHandle": "hitoyoshishi",
+    "postUrl": "https://x.com/hitoyoshishi/status/2083364778488348701",
+    "postedAt": "2026-08-01T01:30:44.000Z",
+    "fetchedAt": "2026-08-01T01:52:38.888Z",
+    "title": "【防災無線放送内容】給水所と生活用水提供の終了について（2026/08/01/10:30)",
+    "summary": "【防災無線放送内容】給水所と生活用水提供の終了について（2026/08/01/10:30)\n水道局からのお知らせです。\n断水等によりご不便をおかけしていました水道の復旧作業が完了しました。つきましては、市役所の給水所を除き、その他の給水所及び生...\nhttps://t.co/im4w5IS3qi",
+    "regions": [
+      "熊本県人吉市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2083364420571566287",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083364420571566287",
+    "postedAt": "2026-08-01T01:29:19.000Z",
+    "fetchedAt": "2026-08-01T01:52:38.888Z",
+    "title": "【応急給水情報】",
+    "summary": "【応急給水情報】 \n ８月１日(土)の応急給水を１カ所追加します。 \n\n配布量は１回あたり５L程度となります。 給水容器（ポリタンクやペットボトルなど）を持参のうえ、お越しください。 給水車が水の補給で一時的に不在になることがあります。\n\n 時間　１０:３０～１９:００ \n・第一中学校",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2083360574973657428",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2083360574973657428",
+    "postedAt": "2026-08-01T01:14:02.000Z",
+    "fetchedAt": "2026-08-01T01:52:38.888Z",
+    "title": "(続き)",
+    "summary": "(続き) \nこちらは熊本市です。\n現在(2026/08/01 07:00)開設中の避難所情報については、以下をクリックして確認してください。\n 防災情報くまもと URL: https://t.co/OmOLef7ZZ9\n #避難所開設",
+    "regions": [
+      "熊本市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2083360573883101203",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2083360573883101203",
+    "postedAt": "2026-08-01T01:14:02.000Z",
+    "fetchedAt": "2026-08-01T01:52:38.888Z",
+    "title": "こちらは熊本市です。",
+    "summary": "こちらは熊本市です。\n2026/08/01 07:00 に避難所を開設しましたのでお知らせします。\n開設した避難所： 西部公民館",
+    "regions": [
+      "熊本市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2083358561380499599",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083358561380499599",
+    "postedAt": "2026-08-01T01:06:02.000Z",
+    "fetchedAt": "2026-08-01T01:52:38.888Z",
+    "title": "【迷ったときは＃7119へ】",
+    "summary": "【迷ったときは＃7119へ】\n\n厳しい暑さがつづいており、熱中症の危険が高まっています。\n救急車を呼んだほうが良いのか、今すぐ病院に行ったほうが良いのかなど迷った場合は、「＃7119」の相談ダイヤルをご利用ください\n\n熊本県救急安心センター（♯7119）\nhttps://t.co/hiXgrDZUFQ",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "MEDICAL_SUPPORT",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2083342848800530910",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083342848800530910",
+    "postedAt": "2026-08-01T00:03:36.000Z",
+    "fetchedAt": "2026-08-01T01:52:38.888Z",
+    "title": "【避難所開設情報　８月１日　６：００現在】",
+    "summary": "【避難所開設情報　８月１日　６：００現在】 \n 現在、開設している避難所の一覧を公表します。 詳しくは画像を確認ください。 https://t.co/55riKxJzEi",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-MUN-KM005-2083336503992918200",
     "sourceId": "SRC-MUN-KM005",
     "sourceName": "八代市公式X",
