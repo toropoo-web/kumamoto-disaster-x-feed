@@ -1,5 +1,24 @@
 [
   {
+    "postId": "POST-SRC-MUN-KM005-2083560539851288731",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083560539851288731",
+    "postedAt": "2026-08-01T14:28:38.000Z",
+    "fetchedAt": "2026-08-01T20:05:29.939Z",
+    "title": "【避難所開設情報　８月１日　２１：００現在】",
+    "summary": "【避難所開設情報　８月１日　２１：００現在】\n　現在、開設している避難所の一覧を公表します。\n詳しくは、画像を確認ください。 https://t.co/toiCVnUmPT",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-MUN-KM005-2083555952394137896",
     "sourceId": "SRC-MUN-KM005",
     "sourceName": "八代市公式X",
