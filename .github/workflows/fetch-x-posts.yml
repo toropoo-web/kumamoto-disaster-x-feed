@@ -61,14 +61,6 @@ jobs:
           npm run fetch:x
           echo "fetch_status=success" >> "$GITHUB_OUTPUT"
 
-      - name: Build site
-        if: success()
-        run: npm run build
-
-      - name: Validate production data
-        if: success()
-        run: npm run test:production-data
-
       - name: Commit data changes
         if: success()
         id: commit
@@ -97,6 +89,14 @@ jobs:
           git commit --amend --no-edit
           echo "commit_sha=$COMMIT_SHA" >> "$GITHUB_OUTPUT"
           git push
+
+      - name: Build site
+        if: success()
+        run: npm run build
+
+      - name: Validate production data
+        if: success()
+        run: npm run test:production-data
 
   dispatch-portal:
     needs: fetch
