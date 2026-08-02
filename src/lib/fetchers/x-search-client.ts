@@ -54,6 +54,12 @@ export type SearchRecentParams = {
   paginationToken?: string;
 };
 
+/**
+ * tweets/search/recent supports start_time pagination only (no since_id).
+ * Incremental fetch uses a rolling start_time with overlap — see cross-search-incremental.ts.
+ */
+export type SearchRecentStrategy = "start_time_overlap";
+
 const RETRY_DELAYS_MS = [1000, 3000];
 const NO_RETRY_CODES: XApiErrorCode[] = [
   "AUTHENTICATION_ERROR",

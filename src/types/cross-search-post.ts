@@ -21,6 +21,17 @@ export type CrossSearchPost = {
   searchQueryId?: string;
 };
 
+export type CrossSearchBatchFetchState = {
+  lastSuccessfulSearchAt: string | null;
+  nextStartTime: string | null;
+  lastBatchId: string;
+  lastNewestPostId: string | null;
+  fetchedCount: number;
+  acceptedCount: number;
+  storedCount: number;
+  consecutiveFailures: number;
+};
+
 export type CrossSearchFetchState = {
   lastAttemptAt: string | null;
   lastSuccessfulFetchAt: string | null;
@@ -31,6 +42,8 @@ export type CrossSearchFetchState = {
   storedPostCount: number;
   unregisteredAccountPostCount: number;
   accessDeniedCount?: number;
+  consecutiveFailures?: number;
+  batches?: Record<string, CrossSearchBatchFetchState>;
   status: "SUCCESS" | "PARTIAL" | "FAILED" | "NOT_RUN";
 };
 
@@ -43,6 +56,8 @@ export function createEmptyCrossSearchFetchState(): CrossSearchFetchState {
     acceptedPostCount: 0,
     storedPostCount: 0,
     unregisteredAccountPostCount: 0,
+    consecutiveFailures: 0,
+    batches: {},
     status: "NOT_RUN",
   };
 }

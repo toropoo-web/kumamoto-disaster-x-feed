@@ -8,5 +8,58 @@
   "storedPostCount": 3321,
   "unregisteredAccountPostCount": 3317,
   "status": "SUCCESS",
-  "accessDeniedCount": 0
+  "accessDeniedCount": 0,
+  "consecutiveFailures": 0,
+  "batches": {
+    "MUN-SCOPED-01": {
+      "lastBatchId": "MUN-SCOPED-01",
+      "lastSuccessfulSearchAt": "2026-08-02T06:42:35.736Z",
+      "nextStartTime": "2026-08-02T06:37:35.736Z",
+      "lastNewestPostId": null,
+      "fetchedCount": 0,
+      "acceptedCount": 0,
+      "storedCount": 3321,
+      "consecutiveFailures": 0
+    },
+    "MUN-SCOPED-02": {
+      "lastBatchId": "MUN-SCOPED-02",
+      "lastSuccessfulSearchAt": "2026-08-02T06:42:35.736Z",
+      "nextStartTime": "2026-08-02T06:37:35.736Z",
+      "lastNewestPostId": null,
+      "fetchedCount": 0,
+      "acceptedCount": 0,
+      "storedCount": 3321,
+      "consecutiveFailures": 0
+    },
+    "MUN-SCOPED-03": {
+      "lastBatchId": "MUN-SCOPED-03",
+      "lastSuccessfulSearchAt": "2026-08-02T06:42:35.736Z",
+      "nextStartTime": "2026-08-02T06:37:35.736Z",
+      "lastNewestPostId": null,
+      "fetchedCount": 0,
+      "acceptedCount": 0,
+      "storedCount": 3321,
+      "consecutiveFailures": 0
+    },
+    "MUN-SCOPED-04": {
+      "lastBatchId": "MUN-SCOPED-04",
+      "lastSuccessfulSearchAt": "2026-08-02T06:42:35.736Z",
+      "nextStartTime": "2026-08-02T06:37:35.736Z",
+      "lastNewestPostId": null,
+      "fetchedCount": 0,
+      "acceptedCount": 0,
+      "storedCount": 3321,
+      "consecutiveFailures": 0
+    },
+    "MUN-SCOPED-05": {
+      "lastBatchId": "MUN-SCOPED-05",
+      "lastSuccessfulSearchAt": "2026-08-02T06:42:35.736Z",
+      "nextStartTime": "2026-08-02T06:37:35.736Z",
+      "lastNewestPostId": null,
+      "fetchedCount": 0,
+      "acceptedCount": 0,
+      "storedCount": 3321,
+      "consecutiveFailures": 0
+    }
+  }
 }
