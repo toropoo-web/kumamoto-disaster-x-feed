@@ -1,6 +1,7 @@
 import fs from "fs";
 
-export const X_API_FETCH_DISABLED_SUMMARY_TITLE = "X API取得停止中";
+export const X_API_FETCH_DISABLED_SUMMARY_TITLE =
+  "X API取得停止中（課金保護モード）";
 
 export function isXApiFetchEnabled(): boolean {
   const value = process.env.X_API_FETCH_ENABLED?.trim().toLowerCase();
