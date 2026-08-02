@@ -98,6 +98,26 @@ jobs:
         if: success()
         run: npm run test:production-data
 
+      - name: Commit failure monitoring state
+        if: failure()
+        env:
+          FAILURE_FILES: data/fetch-state.json data/source-runtime.json data/feed-status.json
+        run: |
+          if git diff --quiet -- $FAILURE_FILES 2>/dev/null && \
+             [ -z "$(git status --porcelain -- $FAILURE_FILES)" ]; then
+            echo "NO_FAILURE_STATE_CHANGES"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add $FAILURE_FILES
+          if git diff --cached --quiet; then
+            echo "NO_FAILURE_STATE_CHANGES"
+            exit 0
+          fi
+          git commit -m "chore(data): record X fetch failure state"
+          git push
+
   dispatch-portal:
     needs: fetch
     if: needs.fetch.outputs.dispatch_portal == 'true'
