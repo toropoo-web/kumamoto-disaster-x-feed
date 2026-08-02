@@ -1,16 +1,17 @@
 {
-  "lastAttemptAt": "2026-08-02T08:18:57.432Z",
+  "lastAttemptAt": "2026-08-02T09:31:18.869Z",
   "lastSuccessfulFetchAt": "2026-08-02T08:18:57.432Z",
   "sourceCount": 11,
-  "successfulSourceCount": 11,
-  "failedSourceCount": 0,
-  "fetchedPostCount": 30,
-  "acceptedPostCount": 25,
+  "successfulSourceCount": 0,
+  "failedSourceCount": 11,
+  "fetchedPostCount": 0,
+  "acceptedPostCount": 0,
   "storedPostCount": 434,
-  "status": "SUCCESS",
-  "lastHttpStatus": null,
-  "consecutiveFailures": 0,
-  "successfulSources": [
+  "status": "FAILED",
+  "lastHttpStatus": 402,
+  "consecutiveFailures": 1,
+  "successfulSources": [],
+  "failedSources": [
     "SRC-NAT-001",
     "SRC-NAT-002",
     "SRC-NAT-003",
@@ -23,6 +24,5 @@
     "SRC-MUN-KM006",
     "SRC-MUN-KM009"
   ],
-  "failedSources": [],
-  "failureReason": null
+  "failureReason": "X_API_PAYMENT_REQUIRED"
 }
