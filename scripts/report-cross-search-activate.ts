@@ -168,9 +168,7 @@ function main(): void {
     status: layerChecks.x_cross_search.pass ? "COMPLETE" : "PENDING_DATA",
     posts_cross_search_count: posts.length,
     query_count: queries.length,
-    open_query_count: queries.filter(function (query) {
-      return query.queryType === "OPEN";
-    }).length,
+    open_query_count: 0,
     poster_distribution: distribution,
     search_counts: searchCounts,
     layer_checks: layerChecks,
