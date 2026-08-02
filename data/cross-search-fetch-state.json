@@ -1,15 +1,15 @@
 {
-  "lastAttemptAt": "2026-08-02T06:42:35.736Z",
+  "lastAttemptAt": "2026-08-02T09:17:53.990Z",
   "lastSuccessfulFetchAt": "2026-08-02T06:42:35.736Z",
   "queryCount": 5,
   "scheduledQueryCount": 1,
-  "apiPostCount": 98,
-  "acceptedPostCount": 80,
+  "apiPostCount": 0,
+  "acceptedPostCount": 0,
   "storedPostCount": 3321,
   "unregisteredAccountPostCount": 3317,
-  "status": "SUCCESS",
-  "accessDeniedCount": 0,
-  "consecutiveFailures": 0,
+  "status": "FAILED",
+  "accessDeniedCount": 1,
+  "consecutiveFailures": 1,
   "batches": {
     "MUN-SCOPED-01": {
       "lastBatchId": "MUN-SCOPED-01",
@@ -59,7 +59,7 @@
       "fetchedCount": 0,
       "acceptedCount": 0,
       "storedCount": 3321,
-      "consecutiveFailures": 0
+      "consecutiveFailures": 1
     }
   }
 }
