@@ -34,6 +34,7 @@ import {
   readFeedStatus,
   writeFeedStatus,
 } from "@/lib/feed-status";
+import { isXApiFetchEnabled } from "@/lib/x-api-fetch-enabled";
 
 const DATA_DIR = () => path.join(process.cwd(), "data");
 const POSTS_FILE = () => path.join(DATA_DIR(), "posts.json");
@@ -71,6 +72,7 @@ export type FetchRunResult = {
   status: FetchState["status"];
   dryRun: boolean;
   tokenConfigured: boolean;
+  fetchEnabled: boolean;
   sourceSummaries: SourceFetchSummary[];
   totals: PostProcessingBreakdown;
   mergedPosts?: OfficialPost[];
@@ -99,11 +101,28 @@ export async function runFetch(
 
   const emptyTotals = createEmptyBreakdown();
 
+  if (!isXApiFetchEnabled()) {
+    return {
+      status: "NOT_RUN",
+      dryRun,
+      tokenConfigured: Boolean(config),
+      fetchEnabled: false,
+      sourceSummaries: [],
+      totals: emptyTotals,
+      fetchState: {
+        ...previousState,
+        sourceCount: sources.length,
+        status: "NOT_RUN",
+      },
+    };
+  }
+
   if (!config) {
     return {
       status: "NOT_RUN",
       dryRun,
       tokenConfigured: false,
+      fetchEnabled: true,
       sourceSummaries: [],
       totals: emptyTotals,
       fetchState: {
@@ -325,6 +344,7 @@ export async function runFetch(
       status: "FAILED",
       dryRun,
       tokenConfigured: true,
+      fetchEnabled: true,
       sourceSummaries,
       totals,
       fetchState,
@@ -356,6 +376,7 @@ export async function runFetch(
       status,
       dryRun: true,
       tokenConfigured: true,
+      fetchEnabled: true,
       sourceSummaries,
       totals,
       mergedPosts: merged,
@@ -402,6 +423,7 @@ export async function runFetch(
       status: "FAILED",
       dryRun: false,
       tokenConfigured: true,
+      fetchEnabled: true,
       sourceSummaries,
       totals,
       fetchState: {
@@ -419,6 +441,7 @@ export async function runFetch(
     status,
     dryRun: false,
     tokenConfigured: true,
+    fetchEnabled: true,
     sourceSummaries,
     totals,
     mergedPosts: merged,

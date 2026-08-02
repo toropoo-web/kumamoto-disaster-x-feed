@@ -1,10 +1,12 @@
 name: Fetch X Posts
 
 on:
-  schedule:
-    # UTC: every 30 minutes (JST = UTC+9)
-    - cron: "*/30 * * * *"
   workflow_dispatch:
+    inputs:
+      x_api_fetch_enabled:
+        description: "Set true to enable X API fetch (billing resumes)"
+        type: boolean
+        default: false
 
 concurrency:
   group: kumamoto-x-fetch
@@ -17,6 +19,8 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    env:
+      X_API_FETCH_ENABLED: ${{ github.event.inputs.x_api_fetch_enabled == true && 'true' || 'false' }}
     outputs:
       fetch_status: ${{ steps.fetch.outputs.fetch_status }}
       dispatch_portal: ${{ steps.fetch.outputs.fetch_status == 'success' }}
@@ -25,6 +29,7 @@ jobs:
         run: |
           echo "WORKFLOW_TRIGGER=${{ github.event_name }}"
           echo "WORKFLOW_RUN_ID=${{ github.run_id }}"
+          echo "X_API_FETCH_ENABLED=${X_API_FETCH_ENABLED}"
           echo "SCHEDULED_UTC=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
 
       - name: Checkout
@@ -40,9 +45,11 @@ jobs:
         run: npm ci
 
       - name: Run pre-fetch tests
+        if: env.X_API_FETCH_ENABLED == 'true'
         run: npm run test:pre-fetch
 
       - name: Verify API token is configured
+        if: env.X_API_FETCH_ENABLED == 'true'
         env:
           X_API_BEARER_TOKEN: ${{ secrets.X_API_BEARER_TOKEN }}
         run: |
@@ -57,12 +64,20 @@ jobs:
         env:
           X_API_BEARER_TOKEN: ${{ secrets.X_API_BEARER_TOKEN }}
         run: |
-          set -e
-          npm run fetch:x
+          set +e
+          npm run fetch:x | tee /tmp/fetch-x.log
+          EXIT_CODE=${PIPESTATUS[0]}
+          if grep -q 'FETCH_STATUS=SKIPPED' /tmp/fetch-x.log; then
+            echo "fetch_status=skipped" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          if [ "$EXIT_CODE" -ne 0 ]; then
+            exit "$EXIT_CODE"
+          fi
           echo "fetch_status=success" >> "$GITHUB_OUTPUT"
 
       - name: Commit data changes
-        if: success()
+        if: success() && steps.fetch.outputs.fetch_status == 'success'
         id: commit
         env:
           DATA_FILES: data/posts.json data/fetch-state.json data/source-runtime.json data/api-usage.json data/feed-status.json
@@ -91,15 +106,15 @@ jobs:
           git push
 
       - name: Build site
-        if: success()
+        if: success() && steps.fetch.outputs.fetch_status == 'success'
         run: npm run build
 
       - name: Validate production data
-        if: success()
+        if: success() && steps.fetch.outputs.fetch_status == 'success'
         run: npm run test:production-data
 
       - name: Commit failure monitoring state
-        if: failure()
+        if: failure() && env.X_API_FETCH_ENABLED == 'true'
         env:
           FAILURE_FILES: data/fetch-state.json data/source-runtime.json data/feed-status.json
         run: |

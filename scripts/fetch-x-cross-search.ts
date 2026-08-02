@@ -3,6 +3,10 @@ import {
   printCrossSearchSummary,
   runCrossSearchFetch,
 } from "../src/lib/cross-search-runner";
+import {
+  isXApiFetchEnabled,
+  writeXApiFetchDisabledStepSummary,
+} from "../src/lib/x-api-fetch-enabled";
 
 loadProjectEnv();
 
@@ -11,6 +15,16 @@ async function main(): Promise<void> {
   const runAllQueries =
     process.argv.includes("--all-queries") ||
     process.env.GITHUB_EVENT_NAME === "workflow_dispatch";
+
+  if (!isXApiFetchEnabled()) {
+    writeXApiFetchDisabledStepSummary("cross-search");
+    console.log("FETCH_STATUS=SKIPPED");
+    console.log("X_API_FETCH_DISABLED=true");
+    console.log("DATA_MODIFIED=false");
+    console.log("COMMIT_SKIPPED=true");
+    process.exit(0);
+  }
+
   const result = await runCrossSearchFetch({ dryRun, runAllQueries });
 
   if (!result.tokenConfigured) {

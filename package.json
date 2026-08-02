@@ -22,7 +22,8 @@
     "report:cross-search-query-optimization": "tsx scripts/report-cross-search-query-optimization.ts",
     "test:cross-search-token-optimization": "tsx --test tests/phase20-cross-search-token-optimization.test.ts",
     "test:cross-search-query-optimization": "tsx --test tests/phase21-cross-search-query-optimization.test.ts",
-    "test:cross-search-incremental-fetch": "tsx --test tests/phase22-cross-search-incremental-fetch.test.ts"
+    "test:cross-search-incremental-fetch": "tsx --test tests/phase22-cross-search-incremental-fetch.test.ts",
+    "test:x-api-fetch-disabled": "tsx --test tests/phase23-x-api-fetch-disabled.test.ts"
   },
   "dependencies": {
     "next": "^14.2.0",

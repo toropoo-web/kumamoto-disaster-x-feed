@@ -99,11 +99,11 @@ describe("phase16 feed automation", () => {
     assert.match(workflow, /contents: write/);
   });
 
-  test("schedule workflow runs every 30 minutes in UTC", () => {
+  test("fetch workflow is manual-only when X API fetch is disabled", () => {
     const workflow = readText(".github/workflows/fetch-x-posts.yml");
-    assert.match(workflow, /\*\/30 \* \* \* \*/);
     assert.match(workflow, /workflow_dispatch:/);
-    assert.match(workflow, /schedule:/);
+    assert.doesNotMatch(workflow, /^\s*schedule:/m);
+    assert.match(workflow, /X_API_FETCH_ENABLED/);
   });
 
   test("successful fetch dispatches portal x-feed sync", () => {
@@ -120,10 +120,14 @@ describe("phase16 feed automation", () => {
 describe("phase16 fetch failure safety", () => {
   let tmpDir: string;
   let originalCwd: string;
+  let originalToken: string | undefined;
+  let originalFetchEnabled: string | undefined;
 
   before(() => {
     tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), "kumamoto-x-phase16-"));
     originalCwd = process.cwd();
+    originalToken = process.env.X_API_BEARER_TOKEN;
+    originalFetchEnabled = process.env.X_API_FETCH_ENABLED;
     fs.mkdirSync(path.join(tmpDir, "data"), { recursive: true });
     fs.copyFileSync(
       path.join(ROOT, "data/sources.json"),
@@ -153,10 +157,20 @@ describe("phase16 fetch failure safety", () => {
     });
     process.chdir(tmpDir);
     process.env.X_API_BEARER_TOKEN = "test-token";
+    process.env.X_API_FETCH_ENABLED = "true";
   });
 
   after(() => {
-    delete process.env.X_API_BEARER_TOKEN;
+    if (originalToken === undefined) {
+      delete process.env.X_API_BEARER_TOKEN;
+    } else {
+      process.env.X_API_BEARER_TOKEN = originalToken;
+    }
+    if (originalFetchEnabled === undefined) {
+      delete process.env.X_API_FETCH_ENABLED;
+    } else {
+      process.env.X_API_FETCH_ENABLED = originalFetchEnabled;
+    }
     process.chdir(originalCwd);
     try {
       fs.rmSync(tmpDir, { recursive: true, force: true });

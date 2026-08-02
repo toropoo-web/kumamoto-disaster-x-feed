@@ -149,11 +149,13 @@ describe("fetch workflow visibility", { concurrency: false }, () => {
   let tmpDir: string;
   let originalCwd: string;
   let originalToken: string | undefined;
+  let originalFetchEnabled: string | undefined;
 
   before(() => {
     tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), "kumamoto-x-visibility-"));
     originalCwd = process.cwd();
     originalToken = process.env.X_API_BEARER_TOKEN;
+    originalFetchEnabled = process.env.X_API_FETCH_ENABLED;
     fs.mkdirSync(path.join(tmpDir, "data"), { recursive: true });
     fs.copyFileSync(
       path.join(ROOT, "data/sources.json"),
@@ -186,6 +188,7 @@ describe("fetch workflow visibility", { concurrency: false }, () => {
     });
     process.chdir(tmpDir);
     process.env.X_API_BEARER_TOKEN = "test-token";
+    process.env.X_API_FETCH_ENABLED = "true";
   });
 
   after(() => {
@@ -194,6 +197,11 @@ describe("fetch workflow visibility", { concurrency: false }, () => {
       delete process.env.X_API_BEARER_TOKEN;
     } else {
       process.env.X_API_BEARER_TOKEN = originalToken;
+    }
+    if (originalFetchEnabled === undefined) {
+      delete process.env.X_API_FETCH_ENABLED;
+    } else {
+      process.env.X_API_FETCH_ENABLED = originalFetchEnabled;
     }
     try {
       fs.rmSync(tmpDir, { recursive: true, force: true });
@@ -308,12 +316,14 @@ describe("fetch workflow visibility workflow contract", () => {
     assert.match(script, /writeFetchStepSummary/);
   });
 
-  test("cron schedules are staggered between official fetch and cross-search", () => {
+  test("fetch workflows are manual-only without cron schedule", () => {
     const official = readText(".github/workflows/fetch-x-posts.yml");
     const cross = readText(".github/workflows/fetch-x-cross-search.yml");
-    assert.match(official, /\*\/30 \* \* \* \*/);
-    assert.match(cross, /10,40 \* \* \* \*/);
-    assert.doesNotMatch(official, /10,40/);
+    for (const workflow of [official, cross]) {
+      assert.match(workflow, /workflow_dispatch:/);
+      assert.doesNotMatch(workflow, /^\s*schedule:/m);
+      assert.match(workflow, /X_API_FETCH_ENABLED/);
+    }
   });
 });
 

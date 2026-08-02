@@ -28,6 +28,7 @@ import {
   type CrossSearchFetchState,
   type CrossSearchPost,
 } from "@/types/cross-search-post";
+import { isXApiFetchEnabled } from "@/lib/x-api-fetch-enabled";
 
 const DATA_DIR = () => path.join(process.cwd(), "data");
 const CROSS_SEARCH_POSTS_FILE = () =>
@@ -69,6 +70,7 @@ function resolveNewestPostId(
 export type CrossSearchRunResult = {
   dryRun: boolean;
   tokenConfigured: boolean;
+  fetchEnabled: boolean;
   status: CrossSearchFetchState["status"];
   searchStrategy: ReturnType<typeof resolveIncrementalSearchStrategy>;
   querySummaries: Array<{
@@ -123,10 +125,27 @@ export async function runCrossSearchFetch(options?: {
     ...(previousState.batches ?? {}),
   };
 
+  if (!isXApiFetchEnabled()) {
+    return {
+      dryRun,
+      tokenConfigured: Boolean(config),
+      fetchEnabled: false,
+      status: "NOT_RUN",
+      searchStrategy: resolveIncrementalSearchStrategy(),
+      querySummaries: [],
+      fetchState: previousState,
+      metrics: {
+        duplicateExcluded: 0,
+        newStoredCount: 0,
+      },
+    };
+  }
+
   if (!config) {
     return {
       dryRun,
       tokenConfigured: false,
+      fetchEnabled: true,
       status: "NOT_RUN",
       searchStrategy: resolveIncrementalSearchStrategy(),
       querySummaries: [],
@@ -303,6 +322,7 @@ export async function runCrossSearchFetch(options?: {
   const result: CrossSearchRunResult = {
     dryRun,
     tokenConfigured: true,
+    fetchEnabled: true,
     status,
     searchStrategy: resolveIncrementalSearchStrategy(),
     querySummaries,

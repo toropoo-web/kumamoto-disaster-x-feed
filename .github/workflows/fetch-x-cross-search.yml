@@ -1,9 +1,12 @@
 name: Fetch X Cross Search Posts
 
 on:
-  schedule:
-    - cron: "10,40 * * * *"
   workflow_dispatch:
+    inputs:
+      x_api_fetch_enabled:
+        description: "Set true to enable X API fetch (billing resumes)"
+        type: boolean
+        default: false
 
 concurrency:
   group: kumamoto-x-cross-search-fetch
@@ -15,7 +18,15 @@ permissions:
 jobs:
   fetch-cross-search:
     runs-on: ubuntu-latest
+    env:
+      X_API_FETCH_ENABLED: ${{ github.event.inputs.x_api_fetch_enabled == true && 'true' || 'false' }}
     steps:
+      - name: Log workflow trigger
+        run: |
+          echo "WORKFLOW_TRIGGER=${{ github.event_name }}"
+          echo "WORKFLOW_RUN_ID=${{ github.run_id }}"
+          echo "X_API_FETCH_ENABLED=${X_API_FETCH_ENABLED}"
+
       - name: Checkout
         uses: actions/checkout@v4
 
@@ -29,6 +40,7 @@ jobs:
         run: npm ci
 
       - name: Verify API token is configured
+        if: env.X_API_FETCH_ENABLED == 'true'
         env:
           X_API_BEARER_TOKEN: ${{ secrets.X_API_BEARER_TOKEN }}
         run: |
@@ -47,9 +59,11 @@ jobs:
         run: npm run fetch:x-cross-search
 
       - name: Validate cross-search separation
+        if: env.X_API_FETCH_ENABLED == 'true'
         run: npm run test:cross-search-separation
 
       - name: Commit cross-search data
+        if: env.X_API_FETCH_ENABLED == 'true'
         env:
           DATA_FILES: data/posts-cross-search.json data/cross-search-fetch-state.json
         run: |

@@ -5,6 +5,10 @@ import {
   writeFetchStepSummary,
 } from "../src/lib/fetch-monitoring";
 import { runFetch, printDryRunSummary } from "../src/lib/fetch-runner";
+import {
+  isXApiFetchEnabled,
+  writeXApiFetchDisabledStepSummary,
+} from "../src/lib/x-api-fetch-enabled";
 
 loadProjectEnv();
 
@@ -27,6 +31,16 @@ function shouldFailWorkflow(
 
 async function main(): Promise<void> {
   const dryRun = process.argv.includes("--dry-run");
+
+  if (!isXApiFetchEnabled()) {
+    writeXApiFetchDisabledStepSummary("official");
+    console.log("FETCH_STATUS=SKIPPED");
+    console.log("X_API_FETCH_DISABLED=true");
+    console.log("DATA_MODIFIED=false");
+    console.log("COMMIT_SKIPPED=true");
+    process.exit(0);
+  }
+
   const result = await runFetch({ dryRun });
 
   if (!result.tokenConfigured) {

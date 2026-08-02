@@ -326,11 +326,11 @@ describe("phase12 fetch workflow safety", () => {
     assert.match(workflow, /set -e/);
   });
 
-  test("fetch workflow schedule runs every 30 minutes", () => {
+  test("fetch workflow is manual-only when X API fetch is disabled", () => {
     const workflow = readText(".github/workflows/fetch-x-posts.yml");
-    assert.match(workflow, /schedule:/);
-    assert.match(workflow, /\*\/30 \* \* \* \*/);
-    assert.match(workflow, /UTC/);
+    assert.match(workflow, /workflow_dispatch:/);
+    assert.doesNotMatch(workflow, /^\s*schedule:/m);
+    assert.match(workflow, /X_API_FETCH_ENABLED/);
   });
 
   test("fetch workflow uses concurrency guard", () => {

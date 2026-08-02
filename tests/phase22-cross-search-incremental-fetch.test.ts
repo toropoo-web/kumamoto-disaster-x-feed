@@ -150,6 +150,7 @@ function setupWorkspace(input?: {
     input?.state ?? createEmptyCrossSearchFetchState()
   );
   process.env.X_API_BEARER_TOKEN = "test-token";
+  process.env.X_API_FETCH_ENABLED = "true";
 }
 
 function readState(): CrossSearchFetchState {
@@ -175,6 +176,7 @@ describe("phase22 cross-search incremental fetch", function () {
     process.chdir(previousCwd);
     fs.rmSync(tmpDir, { recursive: true, force: true });
     delete process.env.X_API_BEARER_TOKEN;
+    delete process.env.X_API_FETCH_ENABLED;
   });
 
   test("A: first fetch without batch state uses CROSS_SEARCH_SINCE_DATE", function () {
