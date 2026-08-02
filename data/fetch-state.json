@@ -1,11 +1,28 @@
 {
-  "lastAttemptAt": "2026-08-01T21:14:58.998Z",
-  "lastSuccessfulFetchAt": "2026-08-01T21:14:58.998Z",
+  "lastAttemptAt": "2026-08-02T08:18:57.432Z",
+  "lastSuccessfulFetchAt": "2026-08-02T08:18:57.432Z",
   "sourceCount": 11,
   "successfulSourceCount": 11,
   "failedSourceCount": 0,
-  "fetchedPostCount": 0,
-  "acceptedPostCount": 0,
-  "storedPostCount": 409,
-  "status": "SUCCESS"
+  "fetchedPostCount": 30,
+  "acceptedPostCount": 25,
+  "storedPostCount": 434,
+  "status": "SUCCESS",
+  "lastHttpStatus": null,
+  "consecutiveFailures": 0,
+  "successfulSources": [
+    "SRC-NAT-001",
+    "SRC-NAT-002",
+    "SRC-NAT-003",
+    "SRC-NAT-004",
+    "SRC-NAT-005",
+    "SRC-NAT-006",
+    "SRC-KUM-001",
+    "SRC-MUN-KM001",
+    "SRC-MUN-KM005",
+    "SRC-MUN-KM006",
+    "SRC-MUN-KM009"
+  ],
+  "failedSources": [],
+  "failureReason": null
 }

@@ -1,5 +1,481 @@
 [
   {
+    "postId": "POST-SRC-MUN-KM005-2083826722521469149",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083826722521469149",
+    "postedAt": "2026-08-02T08:06:20.000Z",
+    "fetchedAt": "2026-08-02T08:18:57.432Z",
+    "title": "【給水場所等のマップ】",
+    "summary": "【給水場所等のマップ】\n給水場所等の位置関係は以下のリンクから確認できます。\nhttps://t.co/Obkvuky3RA",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2083826647644680588",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083826647644680588",
+    "postedAt": "2026-08-02T08:06:03.000Z",
+    "fetchedAt": "2026-08-02T08:18:57.432Z",
+    "title": "【本日８月２日（日）の応急給水活動について】",
+    "summary": "【本日８月２日（日）の応急給水活動について】\n その４\n\n・昭和コミュニティセンター\n・鏡コミュニティセンター\n・千丁コミュニティセンター\n・泉運動公園\n・宮地コミュニティセンター\n・麦島コミュニティセンター\n\n以上です。",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2083826103760888133",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083826103760888133",
+    "postedAt": "2026-08-02T08:03:53.000Z",
+    "fetchedAt": "2026-08-02T08:18:57.432Z",
+    "title": "【本日８月２日（日）の応急給水活動について】 その３",
+    "summary": "【本日８月２日（日）の応急給水活動について】 その３\n\n・太田郷小学校\n・第一中学校\n・第二中学校\n・代陽コミュニティセンター\n・八代小学校\n・八千把コミュニティセンター\n・太田郷コミュニティセンター\n　\n(続く)",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2083825619612422286",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083825619612422286",
+    "postedAt": "2026-08-02T08:01:57.000Z",
+    "fetchedAt": "2026-08-02T08:18:57.432Z",
+    "title": "【本日８月２日（日）の応急給水活動について】 その２",
+    "summary": "【本日８月２日（日）の応急給水活動について】 その２\n\n終了時間（予定）　１９：００\n\n場所\n\n・松高コミュニティセンター\n・第七中学校\n・第四中学校\n・龍峯コミュニティセンター\n・日奈久小学校\n・金剛小学校\n・植柳小学校\n・松高小学校\n・八代支援学校\n・日奈久コミュニティセンター",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-002-2083825386186748240",
+    "sourceId": "SRC-NAT-002",
+    "sourceName": "内閣府防災",
+    "accountHandle": "CAO_BOUSAI",
+    "postUrl": "https://x.com/CAO_BOUSAI/status/2083825386186748240",
+    "postedAt": "2026-08-02T08:01:02.000Z",
+    "fetchedAt": "2026-08-02T08:18:57.432Z",
+    "title": "【熊本市と八代市の避難所】",
+    "summary": "【熊本市と八代市の避難所】\n熊本市と八代市の避難所における、水やエアコン等の情報は、各市のホームページでご覧いただくことも可能です。\n\n熊本市は https://t.co/oPnXgb8PB7\n八代市は https://t.co/DRdx8CnVLl\n\nをご覧ください。",
+    "regions": [
+      "熊本市",
+      "八代市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2083825279890510277",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083825279890510277",
+    "postedAt": "2026-08-02T08:00:36.000Z",
+    "fetchedAt": "2026-08-02T08:18:57.432Z",
+    "title": "【本日８月２日（日）の応急給水活動について】 その１",
+    "summary": "【本日８月２日（日）の応急給水活動について】 その１ \n\n 配布量は１回あたり５L程度となります。 \n 給水容器（ポリタンクやペットボトルなど）をご持参のうえ、お越しください。 　 \nまた、給水車が水の補給で一時的に不在になることがありますが、あらかじめご了承ください。 \n（続く）",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-004-2083825187972407403",
+    "sourceId": "SRC-NAT-004",
+    "sourceName": "総務省消防庁",
+    "accountHandle": "FDMA_JAPAN",
+    "postUrl": "https://x.com/FDMA_JAPAN/status/2083825187972407403",
+    "postedAt": "2026-08-02T08:00:15.000Z",
+    "fetchedAt": "2026-08-02T08:18:57.432Z",
+    "title": "【消防庁　令和８年熊本地震に対する消防機関の活動状況】緊急消防援助隊の救急部隊が、救急要請に備えて待機している間、避難所を見回って熱中症予防の啓発等を実施してい",
+    "summary": "【消防庁　令和８年熊本地震に対する消防機関の活動状況】緊急消防援助隊の救急部隊が、救急要請に備えて待機している間、避難所を見回って熱中症予防の啓発等を実施しています。\n#総務省消防庁 #緊急消防援助隊 #救急隊 #熱中症予防 #避難所 https://t.co/mIQLGPUwfH",
+    "regions": [
+      "全国"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "EMERGENCY",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": true
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2083807337283047626",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083807337283047626",
+    "postedAt": "2026-08-02T06:49:19.000Z",
+    "fetchedAt": "2026-08-02T08:18:57.432Z",
+    "title": "【避難所情報　８月２日　12:00現在】",
+    "summary": "【避難所情報　８月２日　12:00現在】\n現在、開設している避難所の一覧を公開します。\n詳しくは、画像を確認ください。 https://t.co/MDxQNUC1Nr",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-002-2083806992318259620",
+    "sourceId": "SRC-NAT-002",
+    "sourceName": "内閣府防災",
+    "accountHandle": "CAO_BOUSAI",
+    "postUrl": "https://x.com/CAO_BOUSAI/status/2083806992318259620",
+    "postedAt": "2026-08-02T06:47:56.000Z",
+    "fetchedAt": "2026-08-02T08:18:57.432Z",
+    "title": "【車中泊をされている皆様へ】",
+    "summary": "【車中泊をされている皆様へ】\n熊本県内においては、猛暑日となっており熱中症のリスクが高くなっていることから、特に車中泊をされている方は、以下の熱中症対策を行いましょう。",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "OTHER",
+    "priority": "NORMAL",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2083800786006618339",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083800786006618339",
+    "postedAt": "2026-08-02T06:23:17.000Z",
+    "fetchedAt": "2026-08-02T08:18:57.432Z",
+    "title": "【車中泊や在宅避難をされている方へ】その２",
+    "summary": "【車中泊や在宅避難をされている方へ】その２\n②エコノミークラス症候群 \n長時間座って歩かないと、血液が固まり、エコノミークラス症候群になるおそれがあります。予防のため、こまめに水分をとり、軽い体操やストレッチを行いましょう。ゆったりとした服装を心がけてください。",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-003-2083799515761692734",
+    "sourceId": "SRC-NAT-003",
+    "sourceName": "気象庁防災情報",
+    "accountHandle": "JMA_bousai",
+    "postUrl": "https://x.com/JMA_bousai/status/2083799515761692734",
+    "postedAt": "2026-08-02T06:18:14.000Z",
+    "fetchedAt": "2026-08-02T08:18:57.432Z",
+    "title": "【被災地では #熱中症 対策を】",
+    "summary": "【被災地では #熱中症 対策を】\n熊本県では最高気温が35度以上の日が続き、3日は酷暑日となる見込み。熱中症のリスクが高くなるため普段以上に体調管理に留意を！\n#令和8年熊本地震 ポータルサイトで最新情報の確認を！\nhttps://t.co/CaWQARIStK\n環境省のポストもチェック！ https://t.co/yjXg6PNgs3 https://t.co/l7RfIZSvSY",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2083797095098855464",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083797095098855464",
+    "postedAt": "2026-08-02T06:08:37.000Z",
+    "fetchedAt": "2026-08-02T08:18:57.432Z",
+    "title": "【車中泊や在宅避難をされている方へ】その１",
+    "summary": "【車中泊や在宅避難をされている方へ】その１\n\n① 熱中症予防 \n猛暑が続き、熱中症が増えています。\nこまめに水分と塩分を取りましょう。\n・外での作業は、帽子をかぶり、できるだけ２人以上で\n涼しい場所で３０分ごとに休憩を取りましょう。\n(続く)",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM001-2083793698580738368",
+    "sourceId": "SRC-MUN-KM001",
+    "sourceName": "熊本市公式X",
+    "accountHandle": "kumamotocity_",
+    "postUrl": "https://x.com/kumamotocity_/status/2083793698580738368",
+    "postedAt": "2026-08-02T05:55:07.000Z",
+    "fetchedAt": "2026-08-02T08:18:57.432Z",
+    "title": "【断水の一部解消について（8月2日14:30時点）】",
+    "summary": "【断水の一部解消について（8月2日14:30時点）】\n南区城南町の一部（今吉野、さんさん、隈庄、宮地、下宮地）（約1,350戸）の断水は解消しました。\n水が出ない場合は、メーターボックス内のバルブが開いているかご確認ください。\n\n断水解消・継続地区などの詳細はこちら↓\nhttps://t.co/aiYZ2BxUQi https://t.co/jhJ1Z72WgW",
+    "regions": [
+      "熊本県熊本市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2083785385793253376",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083785385793253376",
+    "postedAt": "2026-08-02T05:22:05.000Z",
+    "fetchedAt": "2026-08-02T08:18:57.432Z",
+    "title": "【八代港での支援のお知らせ】",
+    "summary": "【八代港での支援のお知らせ】    \n本日、８月2日(日)八代港にて、 \n ・給水　\n ・充電　 \n ・入浴　の支援を行っております。 \nより多くの方に利用いただくため、 ３０分以内の入浴をご協力お願いします。 石鹸タオル等の貸し出しはありません。 必ず持参ください。 \n詳しくは、画像をご確認ください https://t.co/cnsDuL6rsA",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2083784853326274773",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083784853326274773",
+    "postedAt": "2026-08-02T05:19:58.000Z",
+    "fetchedAt": "2026-08-02T08:18:57.432Z",
+    "title": "【八代港での支援のお知らせ】",
+    "summary": "【八代港での支援のお知らせ】  \n先ほど投稿いたしました８月2日(日)八代港における給水　 充電、入浴の支援につきまして、添付しておりました画像に誤りがございました。正しくは、次の内容となります。大変申し訳ございませんでした。",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-004-2083754951063613801",
+    "sourceId": "SRC-NAT-004",
+    "sourceName": "総務省消防庁",
+    "accountHandle": "FDMA_JAPAN",
+    "postUrl": "https://x.com/FDMA_JAPAN/status/2083754951063613801",
+    "postedAt": "2026-08-02T03:21:09.000Z",
+    "fetchedAt": "2026-08-02T08:18:57.432Z",
+    "title": "【消防庁とりまとめ第30報】令和８年熊本地震による被害及び消防機関等の対応状況について、8月2日（日）12時00分現在の被害状況等を取りまとめました。詳細はこち",
+    "summary": "【消防庁とりまとめ第30報】令和８年熊本地震による被害及び消防機関等の対応状況について、8月2日（日）12時00分現在の被害状況等を取りまとめました。詳細はこちら→https://t.co/eKbwrdItPD\n#総務省消防庁 #災害情報 #地震",
+    "regions": [
+      "全国"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2083753561192825343",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083753561192825343",
+    "postedAt": "2026-08-02T03:15:37.000Z",
+    "fetchedAt": "2026-08-02T08:18:57.432Z",
+    "title": "【八代港での応急給水活動について】その２",
+    "summary": "【八代港での応急給水活動について】その２\n周辺地図はこちらです。 https://t.co/fVPI7PpC9C",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2083749575748465108",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2083749575748465108",
+    "postedAt": "2026-08-02T02:59:47.000Z",
+    "fetchedAt": "2026-08-02T08:18:57.432Z",
+    "title": "(続き)",
+    "summary": "(続き) \nこちらは苓北町です。\n現在(2026/08/02 11:59)発令中の避難情報については、以下をクリックして確認してください。\n 防災情報くまもと URL: https://t.co/OmOLef7ZZ9 #避難情報",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-KUM-001-2083749573873545266",
+    "sourceId": "SRC-KUM-001",
+    "sourceName": "防災くまもと",
+    "accountHandle": "Bousai_Kumamoto",
+    "postUrl": "https://x.com/Bousai_Kumamoto/status/2083749573873545266",
+    "postedAt": "2026-08-02T02:59:47.000Z",
+    "fetchedAt": "2026-08-02T08:18:57.432Z",
+    "title": "こちらは苓北町です。",
+    "summary": "こちらは苓北町です。\n2026/08/02 12:00に高齢者等避難を解除しました。\n\n解除地区：\n苓北町全域",
+    "regions": [
+      "熊本県"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2083741533246038332",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083741533246038332",
+    "postedAt": "2026-08-02T02:27:50.000Z",
+    "fetchedAt": "2026-08-02T08:18:57.432Z",
+    "title": "【八代港での応急給水活動について】",
+    "summary": "【八代港での応急給水活動について】\n \n日時　８月２日（日） １１：００～１７：００（予定） 場所　八代港内 八代市港町９７ \n　　　県営６号上屋近く ４．５ｍ岸壁  \n\n・給水容器を持参ください。\n ・調査観測兼清掃船の水がなくなり次第終了します。 \n・明日11:00ごろから給水支援の実施予定です",
+    "regions": [
+      "八代市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-003-2083734093624402352",
+    "sourceId": "SRC-NAT-003",
+    "sourceName": "気象庁防災情報",
+    "accountHandle": "JMA_bousai",
+    "postUrl": "https://x.com/JMA_bousai/status/2083734093624402352",
+    "postedAt": "2026-08-02T01:58:16.000Z",
+    "fetchedAt": "2026-08-02T08:18:57.432Z",
+    "title": "令和8年熊本地震の地震活動は、8月1日21時47分頃に最大震度5弱の地震が発生するなど、依然として活発な状況です。揺れの強かった地域では、7月28日の地震発生か",
+    "summary": "令和8年熊本地震の地震活動は、8月1日21時47分頃に最大震度5弱の地震が発生するなど、依然として活発な状況です。揺れの強かった地域では、7月28日の地震発生から1週間程度、最大震度7程度の地震に注意してください。\n#令和8年熊本地震 ポータルサイトで最新情報の確認を！\nhttps://t.co/CaWQARIStK https://t.co/C7JO81K2kN",
+    "regions": [
+      "全国"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "EMERGENCY",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2083711908990099480",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083711908990099480",
+    "postedAt": "2026-08-02T00:30:07.000Z",
+    "fetchedAt": "2026-08-02T08:18:57.432Z",
+    "title": "【応急給水活動】",
+    "summary": "【応急給水活動】\n８月２日（日）の応急給水を２カ所追加いたします。\n\n時間　９：３０～１９：００\n・麦島コミュニティセンター\n\n時間　１０：００～１９：００\n・宮地コミュニティセンター\n\n【給水場所等のマップ】\n給水場所等の位置関係は以下のリンクから確認できます。\nhttps://t.co/Obkvuky3RA",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM005-2083710011168178672",
+    "sourceId": "SRC-MUN-KM005",
+    "sourceName": "八代市公式X",
+    "accountHandle": "yatsushiro0801",
+    "postUrl": "https://x.com/yatsushiro0801/status/2083710011168178672",
+    "postedAt": "2026-08-02T00:22:34.000Z",
+    "fetchedAt": "2026-08-02T08:18:57.432Z",
+    "title": "【避難所情報　8月2日　06:00現在】",
+    "summary": "【避難所情報　8月2日　06:00現在】\n現在、開設している避難所の一覧を公開します。\n詳しくは、画像を確認ください。 https://t.co/YFYfmVhQii",
+    "regions": [
+      "熊本県八代市"
+    ],
+    "category": "EVACUATION_SHELTER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-NAT-004-2083697745467195825",
+    "sourceId": "SRC-NAT-004",
+    "sourceName": "総務省消防庁",
+    "accountHandle": "FDMA_JAPAN",
+    "postUrl": "https://x.com/FDMA_JAPAN/status/2083697745467195825",
+    "postedAt": "2026-08-01T23:33:50.000Z",
+    "fetchedAt": "2026-08-02T08:18:57.432Z",
+    "title": "【消防庁とりまとめ第29報】令和８年熊本地震による被害及び消防機関等の対応状況について、8月2日（日）8時00分現在の被害状況等を取りまとめました。詳細はこちら",
+    "summary": "【消防庁とりまとめ第29報】令和８年熊本地震による被害及び消防機関等の対応状況について、8月2日（日）8時00分現在の被害状況等を取りまとめました。詳細はこちら→https://t.co/wx5XlVWuEF",
+    "regions": [
+      "全国"
+    ],
+    "category": "EARTHQUAKE_TSUNAMI",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": false,
+    "hasVideo": false
+  },
+  {
+    "postId": "POST-SRC-MUN-KM001-2083674798979465680",
+    "sourceId": "SRC-MUN-KM001",
+    "sourceName": "熊本市公式X",
+    "accountHandle": "kumamotocity_",
+    "postUrl": "https://x.com/kumamotocity_/status/2083674798979465680",
+    "postedAt": "2026-08-01T22:02:39.000Z",
+    "fetchedAt": "2026-08-02T08:18:57.432Z",
+    "title": "【応急給水活動について（8月2日7：00時点）】",
+    "summary": "【応急給水活動について（8月2日7：00時点）】\n8月2日（日）の応急給水活動について、次のとおり実施します。\n\n詳しくは↓\nhttps://t.co/aiYZ2BxUQi https://t.co/H7IN6lOcan",
+    "regions": [
+      "熊本県熊本市"
+    ],
+    "category": "WATER",
+    "priority": "HIGH",
+    "status": "ACTIVE",
+    "hasImage": true,
+    "hasVideo": false
+  },
+  {
     "postId": "POST-SRC-MUN-KM005-2083560539851288731",
     "sourceId": "SRC-MUN-KM005",
     "sourceName": "八代市公式X",
