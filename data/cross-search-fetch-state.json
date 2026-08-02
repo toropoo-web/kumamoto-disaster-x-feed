@@ -1,12 +1,12 @@
 {
-  "lastAttemptAt": "2026-08-01T23:06:45.627Z",
-  "lastSuccessfulFetchAt": "2026-08-01T22:06:57.759Z",
+  "lastAttemptAt": "2026-08-02T00:08:10.358Z",
+  "lastSuccessfulFetchAt": "2026-08-02T00:08:10.358Z",
   "queryCount": 5,
-  "apiPostCount": 0,
-  "acceptedPostCount": 0,
-  "storedPostCount": 3146,
-  "unregisteredAccountPostCount": 3142,
-  "status": "FAILED",
   "scheduledQueryCount": 1,
-  "accessDeniedCount": 1
+  "apiPostCount": 100,
+  "acceptedPostCount": 91,
+  "storedPostCount": 3222,
+  "unregisteredAccountPostCount": 3218,
+  "status": "SUCCESS",
+  "accessDeniedCount": 0
 }
