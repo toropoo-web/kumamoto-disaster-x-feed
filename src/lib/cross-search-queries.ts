@@ -24,7 +24,8 @@ export const CROSS_SEARCH_MUNICIPALITIES = [
   "霧島市",
 ] as const;
 
-export const DISASTER_QUERY_TERMS = [
+/** Pre-optimization fetch terms (2026-08-02 baseline). */
+export const LEGACY_DISASTER_QUERY_TERMS = [
   "熊本地震",
   "令和8年熊本地震",
   "地震",
@@ -38,6 +39,28 @@ export const DISASTER_QUERY_TERMS = [
   "ボランティア",
   "炊き出し",
   "物資",
+] as const;
+
+export const DISASTER_QUERY_TERMS = [
+  "給水",
+  "断水",
+  "避難",
+  "避難所",
+  "炊き出し",
+  "支援物資",
+  "ボランティア",
+  "車中泊",
+  "通行止め",
+  "停電",
+  "土砂",
+  "復旧",
+  "入浴",
+  "シャワー",
+  "無料開放",
+  "医療",
+  "救護",
+  "迷子猫",
+  "迷子犬",
 ] as const;
 
 export const CROSS_SEARCH_QUERY_SUFFIX = "-is:retweet lang:ja";

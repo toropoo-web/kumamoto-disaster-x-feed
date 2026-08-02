@@ -3,6 +3,7 @@ import {
   CROSS_SEARCH_MUNICIPALITIES,
   CROSS_SEARCH_QUERY_SUFFIX,
   DISASTER_QUERY_TERMS,
+  LEGACY_DISASTER_QUERY_TERMS,
   type CrossSearchQuery,
 } from "@/lib/cross-search-queries";
 import { detectCrossSearchRegions } from "@/lib/cross-search-filters";
@@ -12,21 +13,7 @@ import {
 } from "@/lib/cross-search-disaster-relevance";
 import type { CrossSearchFetchState, CrossSearchPost } from "@/types/cross-search-post";
 
-export const PROPOSED_DISASTER_QUERY_TERMS = [
-  "地震",
-  "断水",
-  "給水",
-  "避難",
-  "避難所",
-  "炊き出し",
-  "支援物資",
-  "ボランティア",
-  "通行止め",
-  "被害",
-  "復旧",
-  "停電",
-  "車中泊",
-] as const;
+export const PROPOSED_DISASTER_QUERY_TERMS = DISASTER_QUERY_TERMS;
 
 export const SCHEDULED_RUNS_PER_DAY = 48;
 export const DEFAULT_MAX_PAGES_PER_QUERY = Number(
@@ -268,14 +255,14 @@ export function analyzeCrossSearchTokenOptimization(input: {
     const text = post.content || post.summary || "";
     return (
       detectCrossSearchRegions(text).length > 0 &&
-      matchAny(text, DISASTER_QUERY_TERMS)
+      matchAny(text, LEGACY_DISASTER_QUERY_TERMS)
     );
   });
   const proposedScopedPosts = posts.filter(function (post) {
     const text = post.content || post.summary || "";
     return (
       detectCrossSearchRegions(text).length > 0 &&
-      matchAny(text, PROPOSED_DISASTER_QUERY_TERMS)
+      matchAny(text, DISASTER_QUERY_TERMS)
     );
   });
 
@@ -309,7 +296,7 @@ export function analyzeCrossSearchTokenOptimization(input: {
     },
     {
       candidate: "CURRENT_SCOPED",
-      label: "現行（自治体＋DISASTER_QUERY_TERMS）",
+      label: "変更前（自治体＋LEGACY災害語）",
       queryCount: currentQueries.length,
       fetchProxyCount: currentScopedPosts.length,
       adoptedProxyCount: currentScopedPosts.length,
@@ -325,7 +312,7 @@ export function analyzeCrossSearchTokenOptimization(input: {
     },
     {
       candidate: "PROPOSED_SCOPED",
-      label: "候補（自治体＋実務語13語）",
+      label: "変更後（自治体＋最適化災害語19語）",
       queryCount: buildProposedScopedQueries().length,
       fetchProxyCount: proposedScopedPosts.length,
       adoptedProxyCount: proposedScopedPosts.filter(function (post) {
@@ -358,16 +345,16 @@ export function analyzeCrossSearchTokenOptimization(input: {
   const proposedScoped = candidateComparison[2];
 
   const predictedApiReductionRate =
-    muniOnly.postsReadPerFullCycle > 0
-      ? 1 - proposedScoped.postsReadPerFullCycle / muniOnly.postsReadPerFullCycle
+    currentScoped.fetchProxyCount > 0
+      ? 1 - proposedScoped.fetchProxyCount / currentScoped.fetchProxyCount
       : 0;
 
   const rationale = [
-    "現行クエリは既に自治体名＋災害関連語のSCOPED検索（MUN-SCOPED-01〜05）です。自治体名のみではありません。",
-    `保存済み投稿${posts.length}件をコーパス代理とし、自治体のみ仮想候補は災害投稿率${(muniOnly.disasterPostRate * 100).toFixed(1)}%（フィルタ通過ベース）。`,
+    "取得クエリを自治体＋実務災害語19語（給水・断水・避難所・停電等）へ最適化済み。",
+    `保存済み投稿${posts.length}件をコーパス代理とした取得件数: 変更前${currentScoped.fetchProxyCount}件 → 変更後${proposedScoped.fetchProxyCount}件。`,
     `直近実行のAPI採用率は${(adoptionRate * 100).toFixed(1)}%（取得${fetchState?.apiPostCount ?? "n/a"} / 採用${fetchState?.acceptedPostCount ?? "n/a"}）。`,
-    `候補13語は現行13語よりコーパス適合${proposedScoped.fetchProxyCount}件 vs ${currentScoped.fetchProxyCount}件（-${currentScoped.fetchProxyCount - proposedScoped.fetchProxyCount}件）。`,
-    "候補語は「避難所・停電・通行止め」等の実務語を強化する一方、「熊本地震・被災・災害・支援・物資」等の広義語が欠落し取りこぼしリスクあり。",
+    `API Token削減率（コーパス代理）: ${(predictedApiReductionRate * 100).toFixed(1)}%。`,
+    "投稿フィルタ（disaster relevance）は変更せず、UI検索辞書・Portalは変更なし。",
   ];
 
   return {
@@ -384,14 +371,14 @@ export function analyzeCrossSearchTokenOptimization(input: {
     candidateComparison,
     lastRun: fetchState,
     recommendation: {
-      queryStrategy: "KEEP_CURRENT_SCOPED_WITH_TERM_TUNING",
+      queryStrategy: "OPTIMIZED_SCOPED_DISASTER_TERMS",
       rationale,
       predictedApiReductionRate,
       predictedFetchCountPerDay:
         (proposedScoped.postsReadPerFullCycle / currentQueries.length) *
         estimateRunsPerQueryPerDay(currentQueries.length),
-      predictedDisasterPostRate: currentScoped.disasterPostRate,
-      note: "TASK4: クエリ本体は未変更。次段階で DISASTER_QUERY_TERMS に実務語（避難所・停電・通行止め）を追加し、広義語（熊本地震・被災・災害・支援）は維持するハイブリッド案を推奨。",
+      predictedDisasterPostRate: proposedScoped.disasterPostRate,
+      note: "実装済み: DISASTER_QUERY_TERMS を実務災害語19語へ更新。30分ローテーション・23自治体・フィルタ条件は維持。",
     },
     legacyQueryDistribution,
   };

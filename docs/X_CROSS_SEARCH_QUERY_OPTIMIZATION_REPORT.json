@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-08-02T08:34:30.851Z",
+  "before": {
+    "disasterTerms": [
+      "熊本地震",
+      "令和8年熊本地震",
+      "地震",
+      "被災",
+      "災害",
+      "支援",
+      "給水",
+      "断水",
+      "避難",
+      "復旧",
+      "ボランティア",
+      "炊き出し",
+      "物資"
+    ],
+    "fetchProxyCount": 2827,
+    "adoptedProxyCount": 2827,
+    "adoptionRate": 1
+  },
+  "after": {
+    "disasterTerms": [
+      "給水",
+      "断水",
+      "避難",
+      "避難所",
+      "炊き出し",
+      "支援物資",
+      "ボランティア",
+      "車中泊",
+      "通行止め",
+      "停電",
+      "土砂",
+      "復旧",
+      "入浴",
+      "シャワー",
+      "無料開放",
+      "医療",
+      "救護",
+      "迷子猫",
+      "迷子犬"
+    ],
+    "queries": [
+      {
+        "id": "MUN-SCOPED-01",
+        "query": "(\"熊本市\" OR \"八代市\" OR \"水俣市\" OR \"宇土市\" OR \"上天草市\") (\"給水\" OR \"断水\" OR \"避難\" OR \"避難所\" OR \"炊き出し\" OR \"支援物資\" OR \"ボランティア\" OR \"車中泊\" OR \"通行止め\" OR \"停電\" OR \"土砂\" OR \"復旧\" OR \"入浴\" OR \"シャワー\" OR \"無料開放\" OR \"医療\" OR \"救護\" OR \"迷子猫\" OR \"迷子犬\") -is:retweet lang:ja",
+        "length": 233
+      },
+      {
+        "id": "MUN-SCOPED-02",
+        "query": "(\"宇城市\" OR \"天草市\" OR \"美里町\" OR \"甲佐町\" OR \"芦北町\") (\"給水\" OR \"断水\" OR \"避難\" OR \"避難所\" OR \"炊き出し\" OR \"支援物資\" OR \"ボランティア\" OR \"車中泊\" OR \"通行止め\" OR \"停電\" OR \"土砂\" OR \"復旧\" OR \"入浴\" OR \"シャワー\" OR \"無料開放\" OR \"医療\" OR \"救護\" OR \"迷子猫\" OR \"迷子犬\") -is:retweet lang:ja",
+        "length": 232
+      },
+      {
+        "id": "MUN-SCOPED-03",
+        "query": "(\"津奈木町\" OR \"苓北町\" OR \"益城町\" OR \"御船町\" OR \"嘉島町\") (\"給水\" OR \"断水\" OR \"避難\" OR \"避難所\" OR \"炊き出し\" OR \"支援物資\" OR \"ボランティア\" OR \"車中泊\" OR \"通行止め\" OR \"停電\" OR \"土砂\" OR \"復旧\" OR \"入浴\" OR \"シャワー\" OR \"無料開放\" OR \"医療\" OR \"救護\" OR \"迷子猫\" OR \"迷子犬\") -is:retweet lang:ja",
+        "length": 233
+      },
+      {
+        "id": "MUN-SCOPED-04",
+        "query": "(\"人吉市\" OR \"菊陽町\" OR \"菊池市\" OR \"合志市\" OR \"氷川町\") (\"給水\" OR \"断水\" OR \"避難\" OR \"避難所\" OR \"炊き出し\" OR \"支援物資\" OR \"ボランティア\" OR \"車中泊\" OR \"通行止め\" OR \"停電\" OR \"土砂\" OR \"復旧\" OR \"入浴\" OR \"シャワー\" OR \"無料開放\" OR \"医療\" OR \"救護\" OR \"迷子猫\" OR \"迷子犬\") -is:retweet lang:ja",
+        "length": 232
+      },
+      {
+        "id": "MUN-SCOPED-05",
+        "query": "(\"阿蘇市\" OR \"南阿蘇村\" OR \"霧島市\") (\"給水\" OR \"断水\" OR \"避難\" OR \"避難所\" OR \"炊き出し\" OR \"支援物資\" OR \"ボランティア\" OR \"車中泊\" OR \"通行止め\" OR \"停電\" OR \"土砂\" OR \"復旧\" OR \"入浴\" OR \"シャワー\" OR \"無料開放\" OR \"医療\" OR \"救護\" OR \"迷子猫\" OR \"迷子犬\") -is:retweet lang:ja",
+        "length": 215
+      }
+    ],
+    "fetchProxyCount": 1346,
+    "adoptedProxyCount": 1346,
+    "adoptionRate": 1
+  },
+  "reduction": {
+    "fetchCountDelta": 1481,
+    "fetchReductionRate": 0.5238769013088079,
+    "adoptedCountDelta": 1481,
+    "adoptedReductionRate": 0.5238769013088079,
+    "apiTokenReductionRate": 0.5238769013088079
+  },
+  "keywordCoverage": [
+    {
+      "keyword": "給水",
+      "inQuery": true,
+      "corpusMatchCount": 158,
+      "sampleFound": true
+    },
+    {
+      "keyword": "断水",
+      "inQuery": true,
+      "corpusMatchCount": 314,
+      "sampleFound": true
+    },
+    {
+      "keyword": "避難",
+      "inQuery": true,
+      "corpusMatchCount": 317,
+      "sampleFound": true
+    },
+    {
+      "keyword": "避難所",
+      "inQuery": true,
+      "corpusMatchCount": 224,
+      "sampleFound": true
+    },
+    {
+      "keyword": "炊き出し",
+      "inQuery": true,
+      "corpusMatchCount": 69,
+      "sampleFound": true
+    },
+    {
+      "keyword": "支援物資",
+      "inQuery": true,
+      "corpusMatchCount": 101,
+      "sampleFound": true
+    },
+    {
+      "keyword": "ボランティア",
+      "inQuery": true,
+      "corpusMatchCount": 265,
+      "sampleFound": true
+    },
+    {
+      "keyword": "車中泊",
+      "inQuery": true,
+      "corpusMatchCount": 26,
+      "sampleFound": true
+    },
+    {
+      "keyword": "通行止め",
+      "inQuery": true,
+      "corpusMatchCount": 11,
+      "sampleFound": true
+    },
+    {
+      "keyword": "停電",
+      "inQuery": true,
+      "corpusMatchCount": 63,
+      "sampleFound": true
+    },
+    {
+      "keyword": "土砂",
+      "inQuery": true,
+      "corpusMatchCount": 4,
+      "sampleFound": true
+    },
+    {
+      "keyword": "復旧",
+      "inQuery": true,
+      "corpusMatchCount": 180,
+      "sampleFound": true
+    },
+    {
+      "keyword": "入浴",
+      "inQuery": true,
+      "corpusMatchCount": 127,
+      "sampleFound": true
+    },
+    {
+      "keyword": "シャワー",
+      "inQuery": true,
+      "corpusMatchCount": 54,
+      "sampleFound": true
+    },
+    {
+      "keyword": "無料開放",
+      "inQuery": true,
+      "corpusMatchCount": 34,
+      "sampleFound": true
+    },
+    {
+      "keyword": "医療",
+      "inQuery": true,
+      "corpusMatchCount": 34,
+      "sampleFound": true
+    },
+    {
+      "keyword": "救護",
+      "inQuery": true,
+      "corpusMatchCount": 1,
+      "sampleFound": true
+    },
+    {
+      "keyword": "迷子猫",
+      "inQuery": true,
+      "corpusMatchCount": 19,
+      "sampleFound": true
+    },
+    {
+      "keyword": "迷子犬",
+      "inQuery": true,
+      "corpusMatchCount": 12,
+      "sampleFound": true
+    }
+  ]
+}

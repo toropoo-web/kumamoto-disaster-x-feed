@@ -34,7 +34,7 @@ describe("phase20 cross-search token optimization", function () {
     assert.ok(queries.length >= 5);
     queries.forEach(function (query) {
       assert.match(query.query, /-is:retweet lang:ja/);
-      assert.match(query.query, /地震|被災|災害|支援/);
+      assert.match(query.query, /給水|断水|避難|支援物資|ボランティア/);
     });
   });
 
@@ -54,7 +54,7 @@ describe("phase20 cross-search token optimization", function () {
       });
     });
     muniOnly.forEach(function (query) {
-      assert.doesNotMatch(query.query, /地震|断水|給水|避難/);
+      assert.doesNotMatch(query.query, /給水|断水|避難|支援物資/);
     });
   });
 

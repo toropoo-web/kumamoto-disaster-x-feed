@@ -19,7 +19,9 @@
     "test:cross-search-disaster-relevance": "tsx --test tests/phase19-cross-search-disaster-relevance.test.ts",
     "report:cross-search-activate": "tsx scripts/report-cross-search-activate.ts",
     "report:cross-search-token-optimization": "tsx scripts/report-cross-search-token-optimization.ts",
-    "test:cross-search-token-optimization": "tsx --test tests/phase20-cross-search-token-optimization.test.ts"
+    "report:cross-search-query-optimization": "tsx scripts/report-cross-search-query-optimization.ts",
+    "test:cross-search-token-optimization": "tsx --test tests/phase20-cross-search-token-optimization.test.ts",
+    "test:cross-search-query-optimization": "tsx --test tests/phase21-cross-search-query-optimization.test.ts"
   },
   "dependencies": {
     "next": "^14.2.0",

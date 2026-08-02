@@ -33,7 +33,7 @@ describe("phase18 open cross-search acquisition", function () {
     queries.forEach(function (query) {
       assert.equal(query.queryType, "SCOPED");
       assert.match(query.query, /-is:retweet lang:ja/);
-      assert.match(query.query, /熊本地震|地震|被災|災害|支援/);
+      assert.match(query.query, /給水|断水|避難|支援物資|ボランティア/);
     });
   });
 
