@@ -89,6 +89,15 @@ export const EMPTY_HOME_POSTS_MESSAGE =
 export const EMPTY_IMPORTANT_POSTS_MESSAGE =
   "現在、掲載中の重要情報はありません。";
 
+export type FetchFailureReason =
+  | "X_API_PAYMENT_REQUIRED"
+  | "AUTHENTICATION_ERROR"
+  | "RATE_LIMITED"
+  | "INVALID_RESPONSE"
+  | "ALL_SOURCES_FAILED"
+  | "PERSISTENCE_FAILED"
+  | "PARTIAL_SOURCE_FAILURE";
+
 export type FetchState = {
   lastAttemptAt: string | null;
   lastSuccessfulFetchAt: string | null;
@@ -99,4 +108,9 @@ export type FetchState = {
   acceptedPostCount: number;
   storedPostCount: number;
   status: "SUCCESS" | "PARTIAL" | "FAILED" | "NOT_RUN";
+  lastHttpStatus?: number | null;
+  consecutiveFailures?: number;
+  successfulSources?: string[];
+  failedSources?: string[];
+  failureReason?: FetchFailureReason | null;
 };

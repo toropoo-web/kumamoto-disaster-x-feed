@@ -318,11 +318,12 @@ describe("phase12 fetch workflow safety", () => {
     assert.doesNotMatch(workflow, /\$\{\{\s*secrets\.X_API_BEARER_TOKEN\s*\}\}.*echo/);
   });
 
-  test("fetch workflow skips commit on payment required", () => {
+  test("fetch workflow fails on payment required", () => {
     const workflow = readText(".github/workflows/fetch-x-posts.yml");
-    assert.match(workflow, /FETCH_STATUS=X_API_PAYMENT_REQUIRED/);
-    assert.match(workflow, /COMMIT_SKIPPED=true/);
-    assert.match(workflow, /blocked != 'true'/);
+    assert.doesNotMatch(workflow, /blocked != 'true'/);
+    assert.doesNotMatch(workflow, /Report blocked fetch/);
+    assert.doesNotMatch(workflow, /FETCH_EXIT=-eq 2/);
+    assert.match(workflow, /set -e/);
   });
 
   test("fetch workflow schedule runs every 30 minutes", () => {
@@ -338,10 +339,11 @@ describe("phase12 fetch workflow safety", () => {
     assert.match(workflow, /kumamoto-x-fetch/);
   });
 
-  test("fetch-x script handles payment required exit", () => {
+  test("fetch-x script fails on payment required", () => {
     const script = readText("scripts/fetch-x.ts");
     assert.match(script, /isXApiPaymentRequired/);
     assert.match(script, /FETCH_STATUS=X_API_PAYMENT_REQUIRED/);
-    assert.match(script, /process\.exit\(2\)/);
+    assert.match(script, /process\.exit\(1\)/);
+    assert.doesNotMatch(script, /process\.exit\(2\)/);
   });
 });

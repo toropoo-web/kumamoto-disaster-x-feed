@@ -167,10 +167,15 @@ describe("phase16 fetch failure safety", () => {
 
   test("API failure does not overwrite posts.json", async () => {
     const postsPath = path.join(tmpDir, "data/posts.json");
+    const statePath = path.join(tmpDir, "data/fetch-state.json");
     const before = fs.readFileSync(postsPath, "utf-8");
     const result = await runFetch({ fetcher: new ThrowingFetcher() });
     assert.equal(result.status, "FAILED");
     assert.equal(fs.readFileSync(postsPath, "utf-8"), before);
+    const state = JSON.parse(fs.readFileSync(statePath, "utf-8"));
+    assert.equal(state.status, "FAILED");
+    assert.equal(state.consecutiveFailures, 1);
+    assert.equal(state.lastSuccessfulFetchAt, "2026-07-28T10:00:00.000Z");
     const feedStatus = readFeedStatus();
     assert.equal(feedStatus.status, "ERROR");
     assert.equal(feedStatus.last_success_at, "2026-07-28T10:00:00.000Z");

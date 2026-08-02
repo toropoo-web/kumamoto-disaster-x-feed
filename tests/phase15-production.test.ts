@@ -83,6 +83,25 @@ function assertFetchStateShape(state: FetchState): void {
   assert.ok(state.acceptedPostCount >= 0);
   assert.ok(state.storedPostCount >= 0);
   assert.ok(state.acceptedPostCount <= state.fetchedPostCount);
+  if (state.lastHttpStatus !== undefined) {
+    assert.ok(
+      state.lastHttpStatus === null || typeof state.lastHttpStatus === "number"
+    );
+  }
+  if (state.consecutiveFailures !== undefined) {
+    assert.equal(typeof state.consecutiveFailures, "number");
+  }
+  if (state.successfulSources !== undefined) {
+    assert.ok(Array.isArray(state.successfulSources));
+  }
+  if (state.failedSources !== undefined) {
+    assert.ok(Array.isArray(state.failedSources));
+  }
+  if (state.failureReason !== undefined) {
+    assert.ok(
+      state.failureReason === null || typeof state.failureReason === "string"
+    );
+  }
 }
 
 describe("phase15 production data integrity", { concurrency: false }, () => {

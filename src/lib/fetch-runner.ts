@@ -18,6 +18,7 @@ import {
   mergePosts,
 } from "@/lib/fetch-pipeline";
 import { buildFetchState, createEmptyFetchState } from "@/lib/fetch-state";
+import { buildMonitoringFields } from "@/lib/fetch-monitoring";
 import { removeSeedPlaceholderPosts } from "@/lib/seed-posts";
 import { readJsonFile, writeJsonAtomically } from "@/lib/json-io";
 import { XApiPostFetcher } from "@/lib/fetchers/x-api";
@@ -236,7 +237,18 @@ export async function runFetch(
         );
       }
 
-      console.error(`Fetch failed for ${source.sourceId}: ${code}`);
+      console.error(
+        `Fetch failed for ${source.sourceId}: ${code}` +
+          (error instanceof XApiError && error.status !== undefined
+            ? ` (HTTP ${error.status})`
+            : "") +
+          (error instanceof XApiError && error.failureStage
+            ? ` stage=${error.failureStage}`
+            : "") +
+          (error instanceof XApiError && error.apiErrorTitle
+            ? ` title=${error.apiErrorTitle}`
+            : "")
+      );
 
       sourceSummaries.push({
         sourceId: source.sourceId,
@@ -291,8 +303,15 @@ export async function runFetch(
       totals: { ...totals, accepted: 0, apiPostCount: 0 },
       mergedPosts: existing,
       previousState,
+      monitoring: buildMonitoringFields({
+        summaries: sourceSummaries,
+        status: "FAILED",
+        previousState,
+      }),
     });
     if (!dryRun) {
+      replaceSourceRuntimeStore({ sources: runtimeUpdates });
+      writeJsonAtomically(FETCH_STATE_FILE(), fetchState);
       writeFeedStatus(
         feedStatusFromFetchResult({
           persisted: false,
@@ -325,6 +344,11 @@ export async function runFetch(
     totals,
     mergedPosts: merged,
     previousState,
+    monitoring: buildMonitoringFields({
+      summaries: sourceSummaries,
+      status,
+      previousState,
+    }),
   });
 
   if (dryRun) {

@@ -513,14 +513,21 @@ describe("fetch runner integration", { concurrency: false }, () => {
     assert.ok(usage.acceptedPosts >= 1);
   });
 
-  test("runtime persistence happens only after posts.json write", () => {
+  test("runtime persistence happens only after posts.json write on success path", () => {
     const source = fs.readFileSync(
       path.join(ROOT, "src/lib/fetch-runner.ts"),
       "utf-8"
     );
-    const postsWriteIndex = source.indexOf("writeJsonAtomically(POSTS_FILE(), merged)");
-    const runtimeWriteIndex = source.indexOf("replaceSourceRuntimeStore({ sources: runtimeUpdates })");
-    assert.ok(postsWriteIndex > 0);
+    const successBlock = source.slice(
+      source.indexOf("writeJsonAtomically(POSTS_FILE(), merged)")
+    );
+    const postsWriteIndex = successBlock.indexOf(
+      "writeJsonAtomically(POSTS_FILE(), merged)"
+    );
+    const runtimeWriteIndex = successBlock.indexOf(
+      "replaceSourceRuntimeStore({ sources: runtimeUpdates })"
+    );
+    assert.ok(postsWriteIndex >= 0);
     assert.ok(runtimeWriteIndex > postsWriteIndex);
   });
 });

@@ -18,8 +18,8 @@ jobs:
   fetch:
     runs-on: ubuntu-latest
     outputs:
-      blocked: ${{ steps.fetch.outputs.blocked }}
-      dispatch_portal: ${{ steps.fetch.outputs.blocked != 'true' }}
+      fetch_status: ${{ steps.fetch.outputs.fetch_status }}
+      dispatch_portal: ${{ steps.fetch.outputs.fetch_status == 'success' }}
     steps:
       - name: Log workflow trigger
         run: |
@@ -57,32 +57,20 @@ jobs:
         env:
           X_API_BEARER_TOKEN: ${{ secrets.X_API_BEARER_TOKEN }}
         run: |
-          set +e
+          set -e
           npm run fetch:x
-          FETCH_EXIT=$?
-          echo "fetch_exit=$FETCH_EXIT" >> "$GITHUB_OUTPUT"
-          if [ "$FETCH_EXIT" -eq 2 ]; then
-            echo "FETCH_STATUS=X_API_PAYMENT_REQUIRED"
-            echo "DATA_MODIFIED=false"
-            echo "COMMIT_SKIPPED=true"
-            echo "blocked=true" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-          if [ "$FETCH_EXIT" -ne 0 ]; then
-            exit "$FETCH_EXIT"
-          fi
-          echo "FETCH_STATUS=SUCCESS"
+          echo "fetch_status=success" >> "$GITHUB_OUTPUT"
 
       - name: Build site
-        if: steps.fetch.outputs.blocked != 'true'
+        if: success()
         run: npm run build
 
       - name: Validate production data
-        if: steps.fetch.outputs.blocked != 'true'
+        if: success()
         run: npm run test:production-data
 
       - name: Commit data changes
-        if: steps.fetch.outputs.blocked != 'true'
+        if: success()
         id: commit
         env:
           DATA_FILES: data/posts.json data/fetch-state.json data/source-runtime.json data/api-usage.json data/feed-status.json
@@ -109,14 +97,6 @@ jobs:
           git commit --amend --no-edit
           echo "commit_sha=$COMMIT_SHA" >> "$GITHUB_OUTPUT"
           git push
-
-      - name: Report blocked fetch
-        if: steps.fetch.outputs.blocked == 'true'
-        run: |
-          echo "FETCH_STATUS=X_API_PAYMENT_REQUIRED"
-          echo "DATA_MODIFIED=false"
-          echo "COMMIT_SKIPPED=true"
-          echo "PORTAL_DISPATCH_SKIPPED=true"
 
   dispatch-portal:
     needs: fetch

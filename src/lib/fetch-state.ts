@@ -13,6 +13,11 @@ export function createEmptyFetchState(): FetchState {
     acceptedPostCount: 0,
     storedPostCount: 0,
     status: "NOT_RUN",
+    lastHttpStatus: null,
+    consecutiveFailures: 0,
+    successfulSources: [],
+    failedSources: [],
+    failureReason: null,
   };
 }
 
@@ -25,9 +30,28 @@ export function buildFetchState(params: {
   totals: PostProcessingBreakdown;
   mergedPosts: OfficialPost[];
   previousState: FetchState;
+  monitoring?: Pick<
+    FetchState,
+    | "lastHttpStatus"
+    | "consecutiveFailures"
+    | "successfulSources"
+    | "failedSources"
+    | "failureReason"
+  >;
 }): FetchState {
   const allSourcesFailed =
     params.successfulSourceCount === 0 && params.failedSourceCount > 0;
+  const monitoring = params.monitoring ?? {
+    lastHttpStatus: params.previousState.lastHttpStatus ?? null,
+    consecutiveFailures: allSourcesFailed
+      ? (params.previousState.consecutiveFailures ?? 0) + 1
+      : params.status === "SUCCESS" || params.status === "PARTIAL"
+        ? 0
+        : (params.previousState.consecutiveFailures ?? 0),
+    successfulSources: params.previousState.successfulSources ?? [],
+    failedSources: params.previousState.failedSources ?? [],
+    failureReason: allSourcesFailed ? "ALL_SOURCES_FAILED" : null,
+  };
 
   return {
     lastAttemptAt: params.now,
@@ -41,5 +65,6 @@ export function buildFetchState(params: {
     acceptedPostCount: params.totals.accepted,
     storedPostCount: params.mergedPosts.length,
     status: params.status,
+    ...monitoring,
   };
 }
